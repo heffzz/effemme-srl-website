@@ -1,0 +1,62 @@
+[
+  {
+    "url": "http://localhost:3000",
+    "jsonLdFound": 1,
+    "schemas": [
+      {
+        "index": 0,
+        "type": "LocalBusiness",
+        "valid": false,
+        "errors": [
+          "/email must match format \"email\""
+        ]
+      }
+    ],
+    "timestamp": "2025-09-24T14:46:42.485Z"
+  },
+  {
+    "url": "http://localhost:3000/chi-siamo",
+    "jsonLdFound": 1,
+    "schemas": [
+      {
+        "index": 0,
+        "type": "LocalBusiness",
+        "valid": false,
+        "errors": [
+          "/email must match format \"email\""
+        ]
+      }
+    ],
+    "timestamp": "2025-09-24T14:46:45.183Z"
+  },
+  {
+    "url": "http://localhost:3000/servizi",
+    "jsonLdFound": 1,
+    "schemas": [
+      {
+        "index": 0,
+        "type": "LocalBusiness",
+        "valid": false,
+        "errors": [
+          "/email must match format \"email\""
+        ]
+      }
+    ],
+    "timestamp": "2025-09-24T14:46:46.592Z"
+  },
+  {
+    "url": "http://localhost:3000/contatti",
+    "jsonLdFound": 1,
+    "schemas": [
+      {
+        "index": 0,
+        "type": "LocalBusiness",
+        "valid": false,
+        "errors": [
+          "/email must match format \"email\""
+        ]
+      }
+    ],
+    "timestamp": "2025-09-24T14:46:48.676Z"
+  }
+]

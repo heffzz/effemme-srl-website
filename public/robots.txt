@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://effemmesrl.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /404
+Disallow: /500
+
+# Allow important pages
+Allow: /
+Allow: /chi-siamo
+Allow: /servizi
+Allow: /montaggio-caldaie-immergas-ravenna
+Allow: /pompe-di-calore-daikin-ravenna
+Allow: /riscaldamento-a-pavimento-ravenna
+Allow: /montaggio-climatizzatori-ravenna
+Allow: /piccole-riparazioni-manutenzione-ravenna
+Allow: /contatti
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

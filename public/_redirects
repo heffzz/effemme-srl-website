@@ -1,0 +1,29 @@
+# Redirect www to non-www (canonical)
+https://www.effemmesrl.com/* https://effemmesrl.com/:splat 301!
+
+# Force HTTPS
+http://effemmesrl.com/* https://effemmesrl.com/:splat 301!
+http://www.effemmesrl.com/* https://effemmesrl.com/:splat 301!
+
+# API routes for contact form
+/api/* /.netlify/functions/:splat 200
+
+# Trailing slash redirects
+/chi-siamo/ /chi-siamo 301
+/servizi/ /servizi 301
+/contatti/ /contatti 301
+/montaggio-caldaie-immergas-ravenna/ /montaggio-caldaie-immergas-ravenna 301
+/pompe-di-calore-daikin-ravenna/ /pompe-di-calore-daikin-ravenna 301
+/riscaldamento-a-pavimento-ravenna/ /riscaldamento-a-pavimento-ravenna 301
+/montaggio-climatizzatori-ravenna/ /montaggio-climatizzatori-ravenna 301
+/piccole-riparazioni-manutenzione-ravenna/ /piccole-riparazioni-manutenzione-ravenna 301
+
+# Legacy redirects (if needed)
+/caldaie /montaggio-caldaie-immergas-ravenna 301
+/climatizzatori /montaggio-climatizzatori-ravenna 301
+/pompe-calore /pompe-di-calore-daikin-ravenna 301
+/riscaldamento-pavimento /riscaldamento-a-pavimento-ravenna 301
+/riparazioni /piccole-riparazioni-manutenzione-ravenna 301
+
+# 404 fallback
+/* /404.html 404

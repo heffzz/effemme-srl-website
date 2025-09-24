@@ -1,0 +1,51 @@
+{
+  "name": "effemme-srl-website",
+  "version": "1.0.0",
+  "description": "Sito web ufficiale EFFEMME SRL - Termoidraulica e climatizzazione Ravenna",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "next lint",
+    "lighthouse": "node scripts/lighthouse-test.js",
+    "accessibility": "node scripts/accessibility-test.js",
+    "validate-jsonld": "node scripts/validate-jsonld.js",
+    "test:all": "npm run build && npm run export && npm run lighthouse && npm run accessibility && npm run validate-jsonld"
+  },
+  "dependencies": {
+    "@netlify/plugin-nextjs": "^5.2.0",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@axe-core/puppeteer": "^4.8.3",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "ajv": "^8.12.0",
+    "ajv-formats": "^3.0.1",
+    "autoprefixer": "^10.4.16",
+    "chrome-launcher": "^1.2.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4",
+    "lighthouse": "^11.7.1",
+    "postcss": "^8.4.32",
+    "puppeteer": "^21.6.1",
+    "tailwindcss": "^3.4.0"
+  },
+  "keywords": [
+    "termoidraulica",
+    "caldaie",
+    "climatizzatori",
+    "pompe di calore",
+    "riscaldamento",
+    "ravenna",
+    "immergas",
+    "daikin"
+  ],
+  "author": "EFFEMME SRL",
+  "license": "UNLICENSED"
+}
