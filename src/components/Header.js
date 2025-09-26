@@ -52,7 +52,7 @@ export default function Header() {
                 href={`https://wa.me/${phone?.replace(/[^0-9]/g, '')}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary-600 hover:bg-primary-700 px-3 py-1 rounded text-xs font-medium transition-colors text-white"
+                className="bg-primary-100 hover:bg-primary-200 px-3 py-1 rounded text-xs font-medium transition-colors text-primary-700 border border-primary-300"
                 aria-label="Contattaci su WhatsApp"
               >
                 WhatsApp

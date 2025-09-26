@@ -6,7 +6,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="bg-gray-50 text-secondary-900">
+    <footer className="bg-primary-50 text-secondary-900">
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Informazioni Azienda */}
@@ -129,7 +129,7 @@ export default function Footer() {
                   href={`https://wa.me/${phone?.replace(/[^0-9]/g, '')}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center bg-primary-600 hover:bg-primary-700 px-4 py-2 rounded-lg text-sm font-medium transition-colors text-white"
+                  className="inline-flex items-center bg-primary-100 hover:bg-primary-200 px-4 py-2 rounded-lg text-sm font-medium transition-colors text-primary-700 border border-primary-300"
                   aria-label="Contattaci su WhatsApp"
                 >
                   <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">

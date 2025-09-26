@@ -73,7 +73,7 @@ export default function RiscaldamentoAPavimento() {
                 </Link>
                 <a 
                   href={`tel:${phone}`} 
-                  className="btn-primary bg-primary-600 hover:bg-primary-700 border-2 border-primary-600 text-white"
+                  className="btn-primary"
                 >
                   📞 Chiama Subito
                 </a>
@@ -140,7 +140,7 @@ export default function RiscaldamentoAPavimento() {
                   
                   <a 
                     href={`tel:${phone}`}
-                    className="btn-primary bg-primary-600 hover:bg-primary-700 text-white"
+                    className="btn-primary"
                   >
                     Richiedi Informazioni
                   </a>
@@ -160,7 +160,7 @@ export default function RiscaldamentoAPavimento() {
       </section>
 
       {/* Vantaggi */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-primary-50">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="heading-lg mb-6">Perché Scegliere il Riscaldamento a Pavimento</h2>
@@ -307,7 +307,7 @@ export default function RiscaldamentoAPavimento() {
               <h3 className="text-2xl font-bold text-blue-700 mb-6">Calcola il Tuo Risparmio</h3>
               
               <div className="space-y-4 mb-6">
-                <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
+                <div className="flex justify-between items-center p-3 bg-primary-50 rounded-lg">
                   <span>Casa 120 mq con radiatori:</span>
                   <span className="font-bold">€ 1.200/anno</span>
                 </div>
@@ -326,7 +326,7 @@ export default function RiscaldamentoAPavimento() {
                 <p className="text-secondary-600 mb-4">Risparmio medio sui consumi</p>
                 <a 
                   href={`tel:${phone}`}
-                  className="btn-primary bg-primary-600 hover:bg-primary-700 text-white"
+                  className="btn-primary"
                 >
                   Richiedi Preventivo Personalizzato
                 </a>
@@ -404,7 +404,7 @@ export default function RiscaldamentoAPavimento() {
             >
               📞 Chiama Ora
             </a>
-            <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700 text-white">
+            <Link href="/contatti" className="btn-primary">
               💬 Richiedi Preventivo
             </Link>
           </div>

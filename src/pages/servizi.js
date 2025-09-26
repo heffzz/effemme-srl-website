@@ -1,5 +1,6 @@
 import Layout from '../components/Layout'
 import Link from 'next/link'
+import CalcolatoreIncentivi from '../components/CalcolatoreIncentivi'
 
 export default function Servizi() {
   const phone = process.env.PHONE || '{{PHONE}}'
@@ -39,8 +40,8 @@ export default function Servizi() {
     },
     {
       title: "Piccole Riparazioni e Manutenzione",
-      description: "Interventi rapidi per riparazioni e manutenzione di tutti gli impianti termoidraulici. Assistenza 24/7 per emergenze.",
-      features: ["Pronto intervento", "Manutenzione programmata", "Riparazioni urgenti", "Assistenza 24/7"],
+      description: "Interventi rapidi per riparazioni e manutenzione di tutti gli impianti termoidraulici. Assistenza veloce per emergenze.",
+    features: ["Pronto intervento", "Manutenzione programmata", "Riparazioni urgenti", "Assistenza rapida"],
       href: "/piccole-riparazioni-manutenzione-ravenna",
       icon: "🔧",
       color: "from-purple-50 to-pink-50 border-purple-200"
@@ -79,7 +80,7 @@ export default function Servizi() {
       </section>
 
       {/* Servizi Principali */}
-      <section className="section-padding">
+      <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="heading-lg mb-6">I Nostri Servizi Specializzati</h2>
@@ -123,7 +124,7 @@ export default function Servizi() {
                   </div>
                   
                   {/* Gradiente colorato */}
-                  <div className={`bg-gradient-to-br ${service.color} p-8 lg:p-12 flex items-center justify-center text-gray-800 border`}>
+                  <div className={`bg-gradient-to-br ${service.color} p-8 lg:p-12 flex items-center justify-center text-secondary-800 border`}>
                     <div className="text-center">
                       <div className="text-8xl mb-6 opacity-80">{service.icon}</div>
                       <h4 className="text-2xl font-bold mb-4">{service.title}</h4>
@@ -140,7 +141,7 @@ export default function Servizi() {
       </section>
 
       {/* Servizi Aggiuntivi */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-primary-50">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="heading-lg mb-6">Altri Servizi Disponibili</h2>
@@ -168,7 +169,7 @@ export default function Servizi() {
       </section>
 
       {/* Processo di Lavoro */}
-      <section className="section-padding">
+      <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="heading-lg mb-6">Come Lavoriamo</h2>
@@ -180,7 +181,7 @@ export default function Servizi() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 1
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Consulenza</h3>
@@ -190,7 +191,7 @@ export default function Servizi() {
             </div>
             
             <div className="text-center">
-              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 2
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Preventivo</h3>
@@ -200,7 +201,7 @@ export default function Servizi() {
             </div>
             
             <div className="text-center">
-              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 3
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Installazione</h3>
@@ -210,7 +211,7 @@ export default function Servizi() {
             </div>
             
             <div className="text-center">
-              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 4
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Assistenza</h3>
@@ -266,7 +267,7 @@ export default function Servizi() {
                   href={`tel:${phone}`}
                   className="flex items-center p-4 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors"
                 >
-                  <div className="bg-primary-600 text-white p-3 rounded-full mr-4">
+                  <div className="bg-primary-100 text-primary-700 p-3 rounded-full mr-4">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
@@ -280,7 +281,7 @@ export default function Servizi() {
                   href="/contatti"
                   className="flex items-center p-4 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors"
                 >
-                  <div className="bg-primary-600 text-white p-3 rounded-full mr-4">
+                  <div className="bg-primary-100 text-primary-700 p-3 rounded-full mr-4">
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
@@ -294,6 +295,49 @@ export default function Servizi() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Sezione Incentivi */}
+      <section className="bg-gradient-to-r from-green-500 to-blue-600 text-white section-padding">
+        <div className="container-custom text-center">
+          <h2 className="text-3xl font-bold mb-4">💰 Incentivi Statali 2025</h2>
+          <p className="text-xl mb-8 max-w-3xl mx-auto">
+            Tutti i nostri servizi sono compatibili con gli incentivi statali. 
+            Scopri quanto puoi risparmiare con il nostro calcolatore!
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div className="bg-white/10 backdrop-blur rounded-xl p-6">
+              <div className="text-3xl mb-2">🏠</div>
+              <h3 className="text-lg font-bold mb-2">Ecobonus</h3>
+              <p className="text-sm opacity-90">Fino al 50% di detrazione</p>
+            </div>
+            <div className="bg-white/10 backdrop-blur rounded-xl p-6">
+              <div className="text-3xl mb-2">🔧</div>
+              <h3 className="text-lg font-bold mb-2">Bonus Ristrutturazioni</h3>
+              <p className="text-sm opacity-90">50% per ristrutturazioni</p>
+            </div>
+            <div className="bg-white/10 backdrop-blur rounded-xl p-6">
+              <div className="text-3xl mb-2">💸</div>
+              <h3 className="text-lg font-bold mb-2">Conto Termico 3.0</h3>
+              <p className="text-sm opacity-90">Rimborso diretto GSE</p>
+            </div>
+          </div>
+          
+          <button 
+            onClick={() => document.getElementById('calcolatore-incentivi').scrollIntoView({ behavior: 'smooth' })}
+            className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-8 py-3 rounded-lg font-bold transition-all text-lg"
+          >
+            👇 Calcola i Tuoi Risparmi
+          </button>
+        </div>
+      </section>
+
+      {/* Calcolatore Incentivi */}
+      <section id="calcolatore-incentivi" className="bg-gray-50 section-padding">
+        <div className="container-custom">
+          <CalcolatoreIncentivi />
         </div>
       </section>
 
@@ -314,7 +358,7 @@ export default function Servizi() {
             >
               📞 Chiama Ora
             </a>
-            <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700 text-white">
+            <Link href="/contatti" className="btn-primary">
               💬 Richiedi Preventivo
             </Link>
           </div>

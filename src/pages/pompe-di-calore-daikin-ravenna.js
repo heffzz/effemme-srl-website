@@ -1,5 +1,6 @@
 import Layout from '../components/Layout'
 import Link from 'next/link'
+import CalcolatoreIncentivi from '../components/CalcolatoreIncentivi'
 
 export default function PompeDiCaloreDaikin() {
   const phone = process.env.PHONE || '{{PHONE}}'
@@ -46,7 +47,7 @@ export default function PompeDiCaloreDaikin() {
     },
     {
       title: "Incentivi Fiscali",
-      description: "Accesso a Superbonus, Ecobonus e Conto Termico per massimo risparmio",
+      description: "Accesso a Ecobonus e Conto Termico per massimo risparmio",
       icon: "💰"
     }
   ]
@@ -76,7 +77,7 @@ export default function PompeDiCaloreDaikin() {
                 </Link>
                 <a 
                   href={`tel:${phone}`} 
-                  className="btn-primary bg-primary-600 hover:bg-primary-700 border-2 border-primary-600 text-white"
+                  className="btn-primary"
                 >
                   📞 Chiama Subito
                 </a>
@@ -146,7 +147,7 @@ export default function PompeDiCaloreDaikin() {
                 </ul>
                 <a 
                   href={`tel:${phone}`}
-                  className="w-full btn-primary text-center bg-primary-600 hover:bg-primary-700 text-white"
+                  className="w-full btn-primary text-center"
                 >
                   Richiedi Info
                 </a>
@@ -157,7 +158,7 @@ export default function PompeDiCaloreDaikin() {
       </section>
 
       {/* Vantaggi */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-primary-50">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="heading-lg mb-6">Vantaggi delle Pompe di Calore DAIKIN</h2>
@@ -170,7 +171,7 @@ export default function PompeDiCaloreDaikin() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((benefit, index) => (
               <div key={index} className="text-center">
-                <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
                   {benefit.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-secondary-900">{benefit.title}</h3>
@@ -245,7 +246,7 @@ export default function PompeDiCaloreDaikin() {
       </section>
 
       {/* Installazione */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-primary-50">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="heading-lg mb-6">Processo di Installazione</h2>
@@ -257,9 +258,9 @@ export default function PompeDiCaloreDaikin() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                1
-              </div>
+              <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                  1
+                </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Progettazione</h3>
               <p className="text-secondary-600">
                 Studio termico dell'abitazione e dimensionamento ottimale del sistema DAIKIN.
@@ -267,9 +268,9 @@ export default function PompeDiCaloreDaikin() {
             </div>
             
             <div className="text-center">
-              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                2
-              </div>
+              <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                  2
+                </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Installazione</h3>
               <p className="text-secondary-600">
                 Montaggio unità esterna, collegamento idraulico ed elettrico con impianto esistente.
@@ -277,9 +278,9 @@ export default function PompeDiCaloreDaikin() {
             </div>
             
             <div className="text-center">
-              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                3
-              </div>
+              <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                  3
+                </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Configurazione</h3>
               <p className="text-secondary-600">
                 Programmazione parametri, test di funzionamento e ottimizzazione prestazioni.
@@ -287,9 +288,9 @@ export default function PompeDiCaloreDaikin() {
             </div>
             
             <div className="text-center">
-              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                4
-              </div>
+              <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                  4
+                </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Formazione</h3>
               <p className="text-secondary-600">
                 Istruzioni d'uso, configurazione app mobile e attivazione garanzia estesa.
@@ -304,29 +305,30 @@ export default function PompeDiCaloreDaikin() {
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h2 className="heading-md mb-6">Incentivi e Detrazioni Fiscali</h2>
+              <h2 className="heading-md mb-6">Incentivi e Detrazioni Fiscali 2025</h2>
               <div className="space-y-6">
-                <div className="border-l-4 border-green-500 pl-4">
-                  <h3 className="text-lg font-semibold mb-2">Superbonus 70%</h3>
-                  <p className="text-secondary-600">
-                    Detrazione fiscale del 70% per interventi di efficientamento energetico 
-                    con pompa di calore in sostituzione di caldaia a gas.
-                  </p>
-                </div>
-                
+
                 <div className="border-l-4 border-blue-500 pl-4">
-                  <h3 className="text-lg font-semibold mb-2">Ecobonus 65%</h3>
+                  <h3 className="text-lg font-semibold mb-2">Ecobonus 2025</h3>
                   <p className="text-secondary-600">
-                    Detrazione fiscale del 65% per installazione pompa di calore 
-                    ad alta efficienza energetica.
+                    Detrazione fiscale del <strong>50% per prima casa</strong> e <strong>36% per seconde case</strong> 
+                    per installazione pompa di calore ad alta efficienza energetica.
                   </p>
                 </div>
                 
                 <div className="border-l-4 border-purple-500 pl-4">
-                  <h3 className="text-lg font-semibold mb-2">Conto Termico 2.0</h3>
+                  <h3 className="text-lg font-semibold mb-2">Conto Termico 3.0</h3>
                   <p className="text-secondary-600">
-                    Contributo diretto fino al 65% della spesa sostenuta, 
-                    erogato in 2-5 anni dal GSE.
+                    Contributo diretto fino al <strong>65% della spesa sostenuta</strong>, 
+                    erogato in 2-5 anni dal GSE. Novità 2025: include fotovoltaico con accumulo.
+                  </p>
+                </div>
+                
+                <div className="border-l-4 border-green-500 pl-4">
+                  <h3 className="text-lg font-semibold mb-2">Bonus Ristrutturazione</h3>
+                  <p className="text-secondary-600">
+                    Detrazione del <strong>50% per prima casa</strong> e <strong>36% per seconde case</strong> 
+                    con massimale di €96.000.
                   </p>
                 </div>
               </div>
@@ -354,8 +356,12 @@ export default function PompeDiCaloreDaikin() {
                     <span className="font-bold">€ 12.000</span>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-green-100 rounded-lg">
-                    <span>Con Superbonus 70%:</span>
-                    <span className="font-bold text-green-600">€ 3.600</span>
+                    <span>Con Ecobonus 50% (prima casa):</span>
+                    <span className="font-bold text-green-600">€ 6.000</span>
+                  </div>
+                  <div className="flex justify-between items-center p-3 bg-blue-100 rounded-lg">
+                    <span>Alternativa Conto Termico 3.0 (65%):</span>
+                    <span className="font-bold text-blue-600">€ 4.200</span>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-white rounded-lg">
                     <span>Risparmio annuo energia:</span>
@@ -363,14 +369,14 @@ export default function PompeDiCaloreDaikin() {
                   </div>
                   <div className="flex justify-between items-center p-3 bg-green-100 rounded-lg">
                     <span>Rientro investimento:</span>
-                    <span className="font-bold text-green-600">4.5 anni</span>
+                    <span className="font-bold text-green-600">5-7 anni</span>
                   </div>
                 </div>
                 
                 <div className="mt-6 text-center">
                   <a 
                     href={`tel:${phone}`}
-                    className="btn-primary bg-primary-600 hover:bg-primary-700 text-white"
+                    className="btn-primary"
                   >
                     Calcola il Tuo Preventivo
                   </a>
@@ -381,8 +387,15 @@ export default function PompeDiCaloreDaikin() {
         </div>
       </section>
 
+      {/* Calcolatore Incentivi */}
+      <section className="bg-gray-50 section-padding">
+        <div className="container-custom">
+          <CalcolatoreIncentivi />
+        </div>
+      </section>
+
       {/* FAQ */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-primary-50">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="heading-lg mb-6">Domande Frequenti</h2>
@@ -451,7 +464,7 @@ export default function PompeDiCaloreDaikin() {
             >
               📞 Chiama Ora
             </a>
-            <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700 text-white">
+            <Link href="/contatti" className="btn-primary">
               💬 Richiedi Preventivo
             </Link>
           </div>

@@ -99,7 +99,7 @@ export default function MontaggioClimatizzatori() {
                 </Link>
                 <a 
                   href={`tel:${phone}`} 
-                  className="btn-primary bg-primary-600 hover:bg-primary-700 border-2 border-primary-600 text-white"
+                  className="btn-primary"
                 >
                   📞 Chiama Subito
                 </a>
@@ -131,7 +131,7 @@ export default function MontaggioClimatizzatori() {
       </section>
 
       {/* Tipi di Climatizzatori */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-primary-50">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="heading-lg text-secondary-900 mb-6">
@@ -176,7 +176,7 @@ export default function MontaggioClimatizzatori() {
       </section>
 
       {/* Vantaggi */}
-      <section className="section-padding">
+      <section className="section-padding bg-primary-50">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="heading-lg text-secondary-900 mb-6">
@@ -200,7 +200,7 @@ export default function MontaggioClimatizzatori() {
       </section>
 
       {/* Processo di Installazione */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-primary-50">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="heading-lg text-secondary-900 mb-6">
@@ -214,7 +214,7 @@ export default function MontaggioClimatizzatori() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {installationSteps.map((step, index) => (
               <div key={index} className="text-center">
-                <div className="w-16 h-16 bg-primary-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                <div className="w-16 h-16 bg-primary-100 text-primary-700 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
                   {step.step}
                 </div>
                 <h3 className="text-xl font-bold text-secondary-900 mb-4">{step.title}</h3>
@@ -226,7 +226,7 @@ export default function MontaggioClimatizzatori() {
       </section>
 
       {/* Zona di Servizio */}
-      <section className="section-padding">
+      <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="bg-gradient-to-r from-cyan-50 to-blue-50 rounded-2xl p-12 text-cyan-800 text-center border border-cyan-200">
             <h2 className="heading-lg text-cyan-800 mb-6">
@@ -254,7 +254,7 @@ export default function MontaggioClimatizzatori() {
                 href={`https://wa.me/${phone?.replace(/[^0-9]/g, '')}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-primary bg-primary-600 hover:bg-primary-700 border-2 border-primary-600 text-white"
+                className="btn-primary"
               >
                 💬 WhatsApp
               </a>
@@ -276,11 +276,11 @@ export default function MontaggioClimatizzatori() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href={`tel:${phone}`}
-              className="btn-primary bg-primary-600 hover:bg-primary-700"
+              className="btn-primary"
             >
               📞 {phone}
             </a>
-            <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700">
+            <Link href="/contatti" className="btn-primary">
               💬 Richiedi Preventivo
             </Link>
           </div>

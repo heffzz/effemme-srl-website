@@ -73,7 +73,7 @@ export default function MontaggioCaldeieImmergas() {
                 </Link>
                 <a 
                   href={`tel:${phone}`} 
-                  className="btn-primary bg-primary-600 hover:bg-primary-700 border-2 border-primary-600 text-white"
+                  className="btn-primary"
                 >
                   📞 Chiama Subito
                 </a>
@@ -148,7 +148,7 @@ export default function MontaggioCaldeieImmergas() {
       </section>
 
       {/* Vantaggi */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-primary-50">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="heading-lg mb-6">Vantaggi delle Caldaie IMMERGAS</h2>
@@ -173,7 +173,7 @@ export default function MontaggioCaldeieImmergas() {
       </section>
 
       {/* Processo di Installazione */}
-      <section className="section-padding">
+      <section className="section-padding bg-primary-50">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -281,7 +281,7 @@ export default function MontaggioCaldeieImmergas() {
       </section>
 
       {/* Manutenzione */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-primary-50">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="heading-lg mb-6">Manutenzione Caldaie IMMERGAS</h2>
@@ -305,7 +305,7 @@ export default function MontaggioCaldeieImmergas() {
             </div>
             
             <div className="bg-white rounded-xl p-6 shadow-lg border-2 border-primary-600">
-              <div className="bg-primary-600 text-white px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
+              <div className="bg-primary-100 text-primary-700 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
                 Più Richiesto
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Contratto Manutenzione</h3>
@@ -322,7 +322,7 @@ export default function MontaggioCaldeieImmergas() {
             <div className="bg-white rounded-xl p-6 shadow-lg">
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Pronto Intervento</h3>
               <ul className="space-y-2 text-secondary-600 mb-6">
-                <li>• Disponibile 24/7</li>
+                <li>• Interventi rapidi</li>
                 <li>• Intervento entro 2 ore</li>
                 <li>• Diagnosi gratuita</li>
                 <li>• Ricambi originali</li>
@@ -375,11 +375,12 @@ export default function MontaggioCaldeieImmergas() {
             
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-lg font-semibold mb-3 text-secondary-900">
-                Posso usufruire degli incentivi fiscali?
+                Posso usufruire degli incentivi fiscali 2025?
               </h3>
               <p className="text-secondary-600">
-                Sì, la sostituzione con caldaia a condensazione IMMERGAS permette di accedere al Bonus Casa 50% 
-                o all'Ecobonus 65%. Ti assistiamo in tutte le pratiche burocratiche necessarie.
+                Sì, la sostituzione con caldaia a condensazione IMMERGAS permette di accedere al <strong>Bonus Casa 50% per prima casa</strong> 
+                o <strong>36% per seconde case</strong>. Per sistemi ibridi con pompa di calore è disponibile anche l'<strong>Ecobonus</strong>. 
+                Ti assistiamo in tutte le pratiche burocratiche necessarie.
               </p>
             </div>
           </div>
@@ -403,7 +404,7 @@ export default function MontaggioCaldeieImmergas() {
             >
               📞 Chiama Ora
             </a>
-            <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700 text-white">
+            <Link href="/contatti" className="btn-primary">
               💬 Richiedi Preventivo
             </Link>
           </div>

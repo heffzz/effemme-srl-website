@@ -7,7 +7,7 @@ export default function PiccoleRiparazioniManutenzione() {
   const servicesTypes = [
     {
       category: "Pronto Intervento",
-      description: "Assistenza 24/7 per emergenze termoidrauliche",
+      description: "Assistenza rapida per emergenze termoidrauliche",
       services: [
         "Perdite d'acqua urgenti",
         "Caldaia in blocco",
@@ -16,7 +16,7 @@ export default function PiccoleRiparazioniManutenzione() {
         "Guasti impianto gas"
       ],
       icon: "🚨",
-      availability: "24/7",
+      availability: "Rapido",
       response: "Entro 2 ore"
     },
     {
@@ -93,8 +93,8 @@ export default function PiccoleRiparazioniManutenzione() {
   return (
     <Layout
       title="Piccole Riparazioni e Manutenzione Ravenna | Pronto Intervento - EFFEMME SRL"
-      description="Piccole riparazioni e manutenzione termoidraulica a Ravenna: pronto intervento 24/7, riparazione caldaie, climatizzatori. Assistenza rapida EFFEMME SRL!"
-      keywords="riparazioni termoidrauliche ravenna, pronto intervento caldaie, manutenzione climatizzatori, assistenza 24/7, riparazioni urgenti"
+      description="Piccole riparazioni e manutenzione termoidraulica a Ravenna: pronto intervento rapido, riparazione caldaie, climatizzatori. Assistenza veloce EFFEMME SRL!"
+        keywords="riparazioni termoidrauliche ravenna, pronto intervento caldaie, manutenzione climatizzatori, assistenza rapida, riparazioni urgenti"
       canonical="/piccole-riparazioni-manutenzione-ravenna"
     >
       {/* Hero Section */}
@@ -107,7 +107,7 @@ export default function PiccoleRiparazioniManutenzione() {
               </h1>
               <p className="text-xl text-secondary-700 mb-8 leading-relaxed">
                 EFFEMME SRL offre servizi di pronto intervento, riparazioni e manutenzione per tutti gli impianti termoidraulici a Ravenna. 
-                Assistenza 24/7 per emergenze e interventi programmati per la massima efficienza.
+                Assistenza rapida per emergenze e interventi programmati per la massima efficienza.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
@@ -116,7 +116,7 @@ export default function PiccoleRiparazioniManutenzione() {
                 >
                   🚨 Pronto Intervento
                 </a>
-                <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700 border-2 border-primary-600 text-white">
+                <Link href="/contatti" className="btn-primary">
                   📅 Prenota Manutenzione
                 </Link>
               </div>
@@ -192,7 +192,7 @@ export default function PiccoleRiparazioniManutenzione() {
                 
                 <a 
                   href={`tel:${phone}`}
-                  className="w-full btn-primary text-center bg-primary-600 hover:bg-primary-700 text-white"
+                  className="w-full btn-primary text-center"
                 >
                   Richiedi Intervento
                 </a>
@@ -203,7 +203,7 @@ export default function PiccoleRiparazioniManutenzione() {
       </section>
 
       {/* Emergenze Comuni */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-primary-50">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="heading-lg mb-6">Emergenze Più Comuni</h2>
@@ -246,7 +246,7 @@ export default function PiccoleRiparazioniManutenzione() {
                 
                 <a 
                   href={`tel:${phone}`}
-                  className="w-full btn-primary text-center bg-primary-600 hover:bg-primary-700 text-white"
+                  className="w-full btn-primary text-center"
                 >
                   Chiama per Questo Problema
                 </a>
@@ -257,7 +257,7 @@ export default function PiccoleRiparazioniManutenzione() {
       </section>
 
       {/* Contratti di Manutenzione */}
-      <section className="section-padding">
+      <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="heading-lg mb-6">Contratti di Manutenzione</h2>
@@ -297,7 +297,7 @@ export default function PiccoleRiparazioniManutenzione() {
                   Assistenza telefonica
                 </li>
               </ul>
-              <a href={`tel:${phone}`} className="w-full btn-primary bg-primary-600 hover:bg-primary-700 text-white">
+              <a href={`tel:${phone}`} className="w-full btn-primary">
                 Attiva Contratto
               </a>
             </div>
@@ -334,7 +334,7 @@ export default function PiccoleRiparazioniManutenzione() {
                   Garanzia estesa
                 </li>
               </ul>
-              <a href={`tel:${phone}`} className="w-full btn-primary bg-primary-600 hover:bg-primary-700 text-white">
+              <a href={`tel:${phone}`} className="w-full btn-primary">
                 Attiva Contratto
               </a>
             </div>
@@ -353,7 +353,7 @@ export default function PiccoleRiparazioniManutenzione() {
                   <svg className="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Assistenza 24/7
+                  Assistenza Rapida
                 </li>
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -368,7 +368,7 @@ export default function PiccoleRiparazioniManutenzione() {
                   Tecnico dedicato
                 </li>
               </ul>
-              <a href={`tel:${phone}`} className="w-full btn-primary bg-primary-600 hover:bg-primary-700 text-white">
+              <a href={`tel:${phone}`} className="w-full btn-primary">
                 Attiva Contratto
               </a>
             </div>
@@ -454,7 +454,7 @@ export default function PiccoleRiparazioniManutenzione() {
                 Siete davvero disponibili 24 ore su 24?
               </h3>
               <p className="text-secondary-600">
-                Sì, il nostro servizio di pronto intervento è attivo 24/7 per vere emergenze come perdite d'acqua, 
+                Sì, il nostro servizio di pronto intervento è sempre disponibile per vere emergenze come perdite d'acqua, 
                 caldaia in blocco o problemi di sicurezza. Per interventi non urgenti, operiamo dal lunedì al sabato.
               </p>
             </div>
@@ -499,7 +499,7 @@ export default function PiccoleRiparazioniManutenzione() {
             >
               🚨 Pronto Intervento
             </a>
-            <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700 text-white">
+            <Link href="/contatti" className="btn-primary">
               📅 Prenota Manutenzione
             </Link>
           </div>

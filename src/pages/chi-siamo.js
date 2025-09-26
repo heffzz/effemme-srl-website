@@ -27,7 +27,7 @@ export default function ChiSiamo() {
       </section>
 
       {/* Storia Aziendale */}
-      <section className="section-padding">
+      <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -68,8 +68,8 @@ export default function ChiSiamo() {
                   <div className="text-secondary-700">Comuni Serviti</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary-600 mb-2">24/7</div>
-                  <div className="text-secondary-700">Assistenza</div>
+                  <div className="text-3xl font-bold text-primary-600 mb-2">⚡</div>
+                  <div className="text-secondary-700">Rapidità</div>
                 </div>
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function ChiSiamo() {
       </section>
 
       {/* Valori Aziendali */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-primary-50">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="heading-lg mb-6">I Nostri Valori</h2>
@@ -90,7 +90,7 @@ export default function ChiSiamo() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+              <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
                 🎯
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Professionalità</h3>
@@ -100,17 +100,17 @@ export default function ChiSiamo() {
             </div>
             
             <div className="text-center">
-              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+              <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
                 ⚡
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Rapidità</h3>
               <p className="text-secondary-700">
-                Interventi tempestivi e assistenza 24/7 per emergenze, perché il comfort non può aspettare.
+                Interventi tempestivi per emergenze, perché il comfort non può aspettare.
               </p>
             </div>
             
             <div className="text-center">
-              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+              <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
                 🏆
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Qualità</h3>
@@ -120,7 +120,7 @@ export default function ChiSiamo() {
             </div>
             
             <div className="text-center">
-              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+              <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
                 💚
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Sostenibilità</h3>
@@ -133,7 +133,7 @@ export default function ChiSiamo() {
       </section>
 
       {/* Team e Competenze */}
-      <section className="section-padding">
+      <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="bg-white rounded-2xl shadow-lg p-8">
@@ -259,7 +259,7 @@ export default function ChiSiamo() {
             >
               📞 Chiama Ora
             </a>
-            <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700 text-white">
+            <Link href="/contatti" className="btn-primary">
               💬 Richiedi Informazioni
             </Link>
           </div>
