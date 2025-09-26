@@ -294,7 +294,8 @@ export default function Contatti() {
                       required
                       value={formData.nome}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                      autoComplete="given-name"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 min-h-[44px]"
                     />
                   </div>
                   <div>
@@ -308,7 +309,8 @@ export default function Contatti() {
                       required
                       value={formData.cognome}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                      autoComplete="family-name"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 min-h-[44px]"
                     />
                   </div>
                 </div>
@@ -325,7 +327,9 @@ export default function Contatti() {
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                      autoComplete="email"
+                      inputMode="email"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 min-h-[44px]"
                     />
                   </div>
                   <div>
@@ -339,7 +343,10 @@ export default function Contatti() {
                       required
                       value={formData.telefono}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                      autoComplete="tel"
+                      inputMode="tel"
+                      placeholder="es. 0544 123456"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 min-h-[44px]"
                     />
                   </div>
                 </div>
@@ -353,7 +360,7 @@ export default function Contatti() {
                     name="servizio"
                     value={formData.servizio}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 min-h-[44px]"
                   >
                     <option value="">Seleziona un servizio</option>
                     {servizi.map((servizio, index) => (

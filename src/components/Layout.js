@@ -94,7 +94,12 @@ export default function Layout({
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes, maximum-scale=5" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="theme-color" content="#ffffff" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="EFFEMME SRL" />
         

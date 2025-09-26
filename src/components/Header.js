@@ -70,7 +70,7 @@ export default function Header() {
             <img 
               src="/logo-effemme-original.png" 
               alt="EFFEMME SRL - Impianti termoidraulici Ravenna" 
-              className="h-36 w-auto"
+              className="h-20 sm:h-24 md:h-28 lg:h-36 w-auto"
             />
           </Link>
 
@@ -100,7 +100,7 @@ export default function Header() {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden p-2 rounded-md text-secondary-700 hover:text-primary-600 hover:bg-gray-100"
+            className="md:hidden p-3 rounded-md text-secondary-700 hover:text-primary-600 hover:bg-gray-100 min-h-[44px] min-w-[44px] flex items-center justify-center"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Apri menu di navigazione"
           >
@@ -117,15 +117,15 @@ export default function Header() {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4 border-t border-gray-200">
-            <div className="flex flex-col space-y-3 pt-4">
+            <div className="flex flex-col space-y-1 pt-4">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className={`font-medium py-2 transition-colors ${
+                  className={`font-medium py-3 px-2 rounded-md transition-colors min-h-[44px] flex items-center ${
                     isActive(item.href)
-                      ? 'text-primary-600'
-                      : 'text-secondary-700 hover:text-primary-600'
+                      ? 'text-primary-600 bg-primary-50'
+                      : 'text-secondary-700 hover:text-primary-600 hover:bg-gray-50'
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -134,7 +134,7 @@ export default function Header() {
               ))}
               <a
                 href={`tel:${phone}`}
-                className="btn-primary inline-block text-center mt-4"
+                className="btn-primary inline-block text-center mt-4 min-h-[44px] flex items-center justify-center"
                 aria-label="Chiama ora EFFEMME SRL"
               >
                 Chiama Ora

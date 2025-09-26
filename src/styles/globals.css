@@ -32,26 +32,39 @@
   }
   
   .heading-xl {
-    @apply text-4xl lg:text-5xl xl:text-6xl font-bold text-secondary-700 leading-tight;
+    @apply text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-secondary-700 leading-tight;
   }
   
   .heading-lg {
-    @apply text-3xl lg:text-4xl font-bold text-secondary-700 leading-tight;
+    @apply text-2xl sm:text-3xl lg:text-4xl font-bold text-secondary-700 leading-tight;
   }
   
   .heading-md {
-    @apply text-2xl lg:text-3xl font-semibold text-secondary-700 leading-tight;
+    @apply text-xl sm:text-2xl lg:text-3xl font-semibold text-secondary-700 leading-tight;
   }
   
   .text-body {
-    @apply text-lg text-secondary-700 leading-relaxed;
+    @apply text-base sm:text-lg text-secondary-700 leading-relaxed;
   }
   
   .text-muted {
-    @apply text-base text-secondary-600 leading-relaxed;
+    @apply text-sm sm:text-base text-secondary-600 leading-relaxed;
   }
   
   .text-small {
-    @apply text-sm text-secondary-700 leading-normal;
+    @apply text-xs sm:text-sm text-secondary-700 leading-normal;
+  }
+  
+  /* Mobile-specific optimizations */
+  .mobile-text-readable {
+    @apply text-base leading-relaxed;
+  }
+  
+  .mobile-heading {
+    @apply text-xl sm:text-2xl font-semibold leading-tight;
+  }
+  
+  .mobile-subheading {
+    @apply text-lg sm:text-xl font-medium leading-snug;
   }
 }
