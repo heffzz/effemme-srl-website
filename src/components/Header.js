@@ -66,7 +66,7 @@ export default function Header() {
       <nav className="container-custom py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link href="/" className="flex items-center bg-gradient-to-r from-blue-50 via-white to-red-50 px-6 py-3 rounded-xl shadow-sm hover:shadow-md transition-all duration-300">
+          <Link href="/" className="flex items-center">
             <img 
               src="/logo-effemme-original.png" 
               alt="EFFEMME SRL - Impianti termoidraulici Ravenna" 
