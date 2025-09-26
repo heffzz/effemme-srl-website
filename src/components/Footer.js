@@ -6,7 +6,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="bg-primary-50 text-secondary-900">
+    <footer className="bg-primary-50 text-secondary-700">
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Informazioni Azienda */}
@@ -26,7 +26,7 @@ export default function Footer() {
 
           {/* Servizi */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-secondary-900">I Nostri Servizi</h3>
+            <h3 className="text-lg font-semibold mb-4 text-secondary-700">I Nostri Servizi</h3>
             <ul className="space-y-2 text-secondary-700">
               <li>
                 <Link href="/montaggio-caldaie-immergas-ravenna" className="hover:text-primary-400 transition-colors">
@@ -34,8 +34,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/pompe-di-calore-daikin-ravenna" className="hover:text-primary-400 transition-colors">
-                  Pompe di Calore DAIKIN
+                <Link href="/climatizzazione-e-pompe-di-calore-ravenna" className="hover:text-primary-400 transition-colors">
+                  Climatizzazione e Pompe di Calore
                 </Link>
               </li>
               <li>
@@ -43,22 +43,13 @@ export default function Footer() {
                   Riscaldamento a Pavimento
                 </Link>
               </li>
-              <li>
-                <Link href="/montaggio-climatizzatori-ravenna" className="hover:text-primary-400 transition-colors">
-                  Climatizzatori
-                </Link>
-              </li>
-              <li>
-                <Link href="/piccole-riparazioni-manutenzione-ravenna" className="hover:text-primary-400 transition-colors">
-                  Riparazioni e Manutenzione
-                </Link>
-              </li>
+
             </ul>
           </div>
 
           {/* Link Utili */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-secondary-900">Link Utili</h3>
+            <h3 className="text-lg font-semibold mb-4 text-secondary-700">Link Utili</h3>
             <ul className="space-y-2 text-secondary-700">
               <li>
                 <Link href="/" className="hover:text-primary-400 transition-colors">
@@ -95,7 +86,7 @@ export default function Footer() {
 
           {/* Contatti */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-secondary-900">Contatti</h3>
+            <h3 className="text-lg font-semibold mb-4 text-secondary-700">Contatti</h3>
             <div className="space-y-3">
               <a 
                 href={`tel:${phone}`} 

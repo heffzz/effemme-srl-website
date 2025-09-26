@@ -32,15 +32,15 @@
   }
   
   .heading-xl {
-    @apply text-4xl lg:text-5xl xl:text-6xl font-bold text-secondary-900 leading-tight;
+    @apply text-4xl lg:text-5xl xl:text-6xl font-bold text-secondary-700 leading-tight;
   }
   
   .heading-lg {
-    @apply text-3xl lg:text-4xl font-bold text-secondary-900 leading-tight;
+    @apply text-3xl lg:text-4xl font-bold text-secondary-700 leading-tight;
   }
   
   .heading-md {
-    @apply text-2xl lg:text-3xl font-semibold text-secondary-800 leading-tight;
+    @apply text-2xl lg:text-3xl font-semibold text-secondary-700 leading-tight;
   }
   
   .text-body {

@@ -66,10 +66,12 @@ export default function Header() {
       <nav className="container-custom py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
-            <div className="text-2xl font-bold text-primary-700">
-              EFFEMME <span className="text-secondary-700">SRL</span>
-            </div>
+          <Link href="/" className="flex items-center bg-gradient-to-r from-blue-50 via-white to-red-50 px-6 py-3 rounded-xl shadow-sm hover:shadow-md transition-all duration-300">
+            <img 
+              src="/logo-effemme.svg" 
+              alt="EFFEMME SRL - Impianti termoidraulici Ravenna" 
+              className="h-36 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -81,7 +83,7 @@ export default function Header() {
                 className={`font-medium transition-colors ${
                   isActive(item.href)
                     ? 'text-primary-600 border-b-2 border-primary-600'
-                    : 'text-secondary-800 hover:text-primary-600'
+                    : 'text-secondary-700 hover:text-primary-600'
                 }`}
               >
                 {item.name}
@@ -98,7 +100,7 @@ export default function Header() {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden p-2 rounded-md text-secondary-800 hover:text-primary-600 hover:bg-gray-100"
+            className="md:hidden p-2 rounded-md text-secondary-700 hover:text-primary-600 hover:bg-gray-100"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Apri menu di navigazione"
           >
@@ -123,7 +125,7 @@ export default function Header() {
                   className={`font-medium py-2 transition-colors ${
                     isActive(item.href)
                       ? 'text-primary-600'
-                      : 'text-secondary-800 hover:text-primary-600'
+                      : 'text-secondary-700 hover:text-primary-600'
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >

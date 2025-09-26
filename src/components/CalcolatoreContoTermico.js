@@ -136,7 +136,7 @@ const CalcolatoreContoTermico = () => {
     <div className="bg-white rounded-xl shadow-lg p-6 max-w-4xl mx-auto">
       <div className="flex items-center mb-6">
         <Calculator className="w-8 h-8 text-green-600 mr-3" />
-        <h2 className="text-2xl font-bold text-secondary-900">
+        <h2 className="text-2xl font-bold text-secondary-700">
           Calcolatore Conto Termico 3.0
         </h2>
       </div>

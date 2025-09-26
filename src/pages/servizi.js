@@ -15,12 +15,12 @@ export default function Servizi() {
       color: "from-red-50 to-orange-50 border-red-200"
     },
     {
-      title: "Pompe di Calore DAIKIN",
-      description: "Sistemi di riscaldamento e raffrescamento eco-sostenibili DAIKIN. Tecnologia inverter per massima efficienza energetica.",
-      features: ["Pompe di calore aria-acqua", "Sistemi ibridi", "Controllo smart", "Incentivi fiscali"],
-      href: "/pompe-di-calore-daikin-ravenna",
-      icon: "♻️",
-      color: "from-green-50 to-emerald-50 border-green-200"
+      title: "Climatizzazione e Pompe di Calore",
+      description: "Soluzioni complete per climatizzazione: climatizzatori, condizionatori e pompe di calore DAIKIN. Comfort 365 giorni l'anno con massima efficienza energetica.",
+      features: ["Climatizzatori e condizionatori", "Pompe di calore DAIKIN", "Sistemi inverter", "Controllo smart", "Incentivi fiscali"],
+      href: "/climatizzazione-e-pompe-di-calore-ravenna",
+      icon: "🌡️",
+      color: "from-cyan-50 to-blue-50 border-cyan-200"
     },
     {
       title: "Riscaldamento a Pavimento",
@@ -29,22 +29,6 @@ export default function Servizi() {
       href: "/riscaldamento-a-pavimento-ravenna",
       icon: "🏠",
       color: "from-blue-50 to-cyan-50 border-blue-200"
-    },
-    {
-      title: "Montaggio Climatizzatori",
-      description: "Installazione climatizzatori per il massimo comfort in ogni stagione. Sistemi mono e multi-split di ultima generazione.",
-      features: ["Climatizzatori inverter", "Sistemi multi-split", "Controllo Wi-Fi", "Purificazione aria"],
-      href: "/montaggio-climatizzatori-ravenna",
-      icon: "❄️",
-      color: "from-cyan-50 to-blue-50 border-cyan-200"
-    },
-    {
-      title: "Piccole Riparazioni e Manutenzione",
-      description: "Interventi rapidi per riparazioni e manutenzione di tutti gli impianti termoidraulici. Assistenza veloce per emergenze.",
-    features: ["Pronto intervento", "Manutenzione programmata", "Riparazioni urgenti", "Assistenza rapida"],
-      href: "/piccole-riparazioni-manutenzione-ravenna",
-      icon: "🔧",
-      color: "from-purple-50 to-pink-50 border-purple-200"
     }
   ]
 
@@ -65,10 +49,10 @@ export default function Servizi() {
       canonical="/servizi"
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-900 section-padding">
+      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-700 section-padding">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="heading-xl text-secondary-900 mb-6">
+            <h1 className="heading-xl text-secondary-700 mb-6">
               I Nostri Servizi Termoidraulici
             </h1>
             <p className="text-xl text-secondary-700 leading-relaxed">
@@ -80,7 +64,7 @@ export default function Servizi() {
       </section>
 
       {/* Servizi Principali */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="heading-lg mb-6">I Nostri Servizi Specializzati</h2>
@@ -160,7 +144,7 @@ export default function Servizi() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="font-medium text-secondary-900">{service}</span>
+                  <span className="font-medium text-secondary-700">{service}</span>
                 </div>
               </div>
             ))}
@@ -184,7 +168,7 @@ export default function Servizi() {
               <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 1
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-secondary-900">Consulenza</h3>
+              <h3 className="text-xl font-semibold mb-4 text-secondary-700">Consulenza</h3>
               <p className="text-secondary-700">
                 Sopralluogo gratuito e analisi delle tue esigenze per trovare la soluzione ottimale.
               </p>
@@ -194,7 +178,7 @@ export default function Servizi() {
               <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 2
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-secondary-900">Preventivo</h3>
+              <h3 className="text-xl font-semibold mb-4 text-secondary-700">Preventivo</h3>
               <p className="text-secondary-700">
                 Preventivo dettagliato e trasparente, senza costi nascosti o sorprese.
               </p>
@@ -204,7 +188,7 @@ export default function Servizi() {
               <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 3
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-secondary-900">Installazione</h3>
+              <h3 className="text-xl font-semibold mb-4 text-secondary-700">Installazione</h3>
               <p className="text-secondary-700">
                 Installazione professionale con materiali di qualità e nel rispetto dei tempi concordati.
               </p>
@@ -214,7 +198,7 @@ export default function Servizi() {
               <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 4
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-secondary-900">Assistenza</h3>
+              <h3 className="text-xl font-semibold mb-4 text-secondary-700">Assistenza</h3>
               <p className="text-secondary-700">
                 Garanzia su tutti i lavori e assistenza post-vendita per la massima tranquillità.
               </p>
@@ -248,7 +232,7 @@ export default function Servizi() {
                 <div>• E tutta la provincia</div>
               </div>
               <div className="bg-white rounded-lg p-6 shadow-md">
-                <h3 className="font-semibold text-secondary-900 mb-2">Tempi di Intervento</h3>
+                <h3 className="font-semibold text-secondary-700 mb-2">Tempi di Intervento</h3>
                 <div className="space-y-2 text-sm text-secondary-700">
                   <div>• Emergenze: entro 2 ore</div>
                   <div>• Interventi programmati: entro 24-48 ore</div>
@@ -273,7 +257,7 @@ export default function Servizi() {
                     </svg>
                   </div>
                   <div>
-                    <div className="font-semibold text-secondary-900">Chiamaci Ora</div>
+                    <div className="font-semibold text-secondary-700">Chiamaci Ora</div>
                     <div className="text-primary-600">{phone}</div>
                   </div>
                 </a>
@@ -288,7 +272,7 @@ export default function Servizi() {
                     </svg>
                   </div>
                   <div>
-                    <div className="font-semibold text-secondary-900">Invia Richiesta</div>
+                    <div className="font-semibold text-secondary-700">Invia Richiesta</div>
                     <div className="text-primary-600">Compila il form online</div>
                   </div>
                 </Link>
@@ -327,7 +311,7 @@ export default function Servizi() {
           
           <button 
             onClick={() => document.getElementById('calcolatore-incentivi').scrollIntoView({ behavior: 'smooth' })}
-            className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-8 py-3 rounded-lg font-bold transition-all text-lg"
+            className="bg-yellow-400 hover:bg-yellow-500 text-gray-700 px-8 py-3 rounded-lg font-bold transition-all text-lg"
           >
             👇 Calcola i Tuoi Risparmi
           </button>
@@ -342,9 +326,9 @@ export default function Servizi() {
       </section>
 
       {/* CTA */}
-      <section className="bg-primary-50 text-secondary-900 section-padding">
+      <section className="bg-primary-50 text-secondary-700 section-padding">
         <div className="container-custom text-center">
-          <h2 className="heading-lg text-secondary-900 mb-6">
+          <h2 className="heading-lg text-secondary-700 mb-6">
             Hai Bisogno di Uno dei Nostri Servizi?
           </h2>
           <p className="text-xl text-secondary-700 mb-8 max-w-2xl mx-auto">

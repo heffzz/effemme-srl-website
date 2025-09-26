@@ -132,7 +132,7 @@ const CalcolatoreIncentivi = () => {
       <div className="text-center mb-8">
         <div className="flex items-center justify-center mb-4">
           <Calculator className="h-8 w-8 text-blue-600 mr-3" />
-          <h2 className="text-3xl font-bold text-gray-900">
+          <h2 className="text-3xl font-bold text-gray-700">
             Calcolatore Incentivi 2025
           </h2>
         </div>
@@ -145,9 +145,9 @@ const CalcolatoreIncentivi = () => {
       {/* Form */}
       <div className="grid md:grid-cols-2 gap-8">
         <div className="space-y-6">
-          <h3 className="text-xl font-semibold text-gray-900 flex items-center">
-            <Home className="h-5 w-5 mr-2 text-blue-600" />
-            Dati del tuo intervento
+          <h3 className="text-xl font-semibold text-gray-700 flex items-center">
+            <Home className="h-6 w-6 mr-2 text-blue-600" />
+            Dati della tua abitazione
           </h3>
 
           {/* Costo Intervento */}
@@ -243,7 +243,7 @@ const CalcolatoreIncentivi = () => {
 
         {/* Risultati */}
         <div className="space-y-6">
-          <h3 className="text-xl font-semibold text-gray-900 flex items-center">
+          <h3 className="text-xl font-semibold text-gray-700 flex items-center">
             <Zap className="h-5 w-5 mr-2 text-green-600" />
             I tuoi risparmi
           </h3>
@@ -347,7 +347,7 @@ const CalcolatoreIncentivi = () => {
 
               {/* Confronto */}
               <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold text-gray-900 mb-3">Confronto incentivi</h4>
+                <h4 className="font-semibold text-gray-700 mb-3">Confronto incentivi</h4>
                 <div className="text-sm space-y-2">
                   <div className="flex justify-between">
                     <span>Costo originale:</span>

@@ -56,11 +56,11 @@ export default function RiscaldamentoAPavimento() {
       canonical="/riscaldamento-a-pavimento-ravenna"
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-900 section-padding">
+      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-700 section-padding">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="heading-xl text-secondary-900 mb-6">
+              <h1 className="heading-xl text-secondary-700 mb-6">
                 Riscaldamento a Pavimento a Ravenna
               </h1>
               <p className="text-xl text-secondary-700 mb-8 leading-relaxed">
@@ -79,8 +79,8 @@ export default function RiscaldamentoAPavimento() {
                 </a>
               </div>
             </div>
-            <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 border border-primary-200 shadow-lg">
-              <h2 className="text-2xl font-bold mb-6 text-secondary-900">Vantaggi del Riscaldamento a Pavimento</h2>
+            <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 border border-orange-200 shadow-lg">
+              <h2 className="text-2xl font-bold mb-6 text-secondary-700">Vantaggi del Riscaldamento a Pavimento</h2>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <span className="text-2xl mr-3">🌡️</span>
@@ -125,7 +125,7 @@ export default function RiscaldamentoAPavimento() {
                   <div className="grid grid-cols-2 gap-4 mb-6">
                     {sistema.features.map((feature, idx) => (
                       <div key={idx} className="flex items-center">
-                        <svg className="w-5 h-5 text-blue-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <svg className="w-5 h-5 text-primary-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                         <span className="text-secondary-700">{feature}</span>
@@ -133,9 +133,9 @@ export default function RiscaldamentoAPavimento() {
                     ))}
                   </div>
                   
-                  <div className="bg-blue-50 rounded-lg p-4 mb-6">
-                    <h4 className="font-semibold text-blue-700 mb-2">Applicazioni Ideali</h4>
-                    <p className="text-blue-600">{sistema.applications}</p>
+                  <div className="bg-primary-50 rounded-lg p-4 mb-6">
+                    <h4 className="font-semibold text-primary-700 mb-2">Applicazioni Ideali</h4>
+                    <p className="text-primary-600">{sistema.applications}</p>
                   </div>
                   
                   <a 
@@ -146,7 +146,7 @@ export default function RiscaldamentoAPavimento() {
                   </a>
                 </div>
                 
-                <div className={`bg-gradient-to-br ${index === 0 ? 'from-blue-50 to-cyan-50 border-blue-200' : index === 1 ? 'from-cyan-50 to-teal-50 border-cyan-200' : 'from-teal-50 to-blue-50 border-teal-200'} rounded-2xl p-8 text-blue-800 border ${index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}`}>
+                <div className={`bg-gradient-to-br ${index === 0 ? 'from-primary-50 to-primary-100 border-primary-200' : index === 1 ? 'from-primary-50 to-primary-100 border-primary-200' : 'from-primary-50 to-primary-100 border-primary-200'} rounded-2xl p-8 text-primary-800 border ${index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}`}>
                   <div className="text-center">
                     <div className="text-6xl mb-4">🏠</div>
                     <h4 className="text-xl font-bold mb-4">{sistema.name}</h4>
@@ -173,10 +173,10 @@ export default function RiscaldamentoAPavimento() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((benefit, index) => (
               <div key={index} className="text-center">
-                <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                <div className="bg-primary-100 text-primary-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl border-2 border-primary-500">
                   {benefit.icon}
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-secondary-900">{benefit.title}</h3>
+                <h3 className="text-xl font-semibold mb-4 text-secondary-700">{benefit.title}</h3>
                 <p className="text-secondary-700">{benefit.description}</p>
               </div>
             ))}
@@ -197,51 +197,51 @@ export default function RiscaldamentoAPavimento() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             <div className="text-center">
-              <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="bg-primary-100 text-primary-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold border-2 border-primary-500">
                 1
               </div>
-              <h3 className="text-lg font-semibold mb-3 text-secondary-900">Progettazione</h3>
-              <p className="text-secondary-600 text-sm">
+              <h3 className="text-lg font-semibold mb-3 text-secondary-700">Progettazione</h3>
+              <p className="text-secondary-700 text-sm">
                 Calcolo termico e progettazione del sistema radiante su misura per la tua casa.
               </p>
             </div>
             
             <div className="text-center">
-              <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="bg-primary-100 text-primary-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold border-2 border-primary-500">
                 2
               </div>
-              <h3 className="text-lg font-semibold mb-3 text-secondary-900">Preparazione</h3>
-              <p className="text-secondary-600 text-sm">
+              <h3 className="text-lg font-semibold mb-3 text-secondary-700">Preparazione</h3>
+              <p className="text-secondary-700 text-sm">
                 Preparazione del massetto e posa dell'isolamento termico perimetrale.
               </p>
             </div>
             
             <div className="text-center">
-              <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="bg-primary-100 text-primary-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold border-2 border-primary-500">
                 3
               </div>
-              <h3 className="text-lg font-semibold mb-3 text-secondary-900">Posa Tubazioni</h3>
-              <p className="text-secondary-600 text-sm">
+              <h3 className="text-lg font-semibold mb-3 text-secondary-700">Posa Tubazioni</h3>
+              <p className="text-secondary-700 text-sm">
                 Installazione delle tubazioni secondo il progetto con passo di posa ottimale.
               </p>
             </div>
             
             <div className="text-center">
-              <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="bg-primary-100 text-primary-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold border-2 border-primary-500">
                 4
               </div>
-              <h3 className="text-lg font-semibold mb-3 text-secondary-900">Collaudo</h3>
-              <p className="text-secondary-600 text-sm">
+              <h3 className="text-lg font-semibold mb-3 text-secondary-700">Collaudo</h3>
+              <p className="text-secondary-700 text-sm">
                 Test di tenuta idraulica e verifica del corretto funzionamento dell'impianto.
               </p>
             </div>
             
             <div className="text-center">
-              <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="bg-primary-100 text-primary-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold border-2 border-primary-500">
                 5
               </div>
-              <h3 className="text-lg font-semibold mb-3 text-secondary-900">Finitura</h3>
-              <p className="text-secondary-600 text-sm">
+              <h3 className="text-lg font-semibold mb-3 text-secondary-700">Finitura</h3>
+              <p className="text-secondary-700 text-sm">
                 Getto del massetto e posa della pavimentazione finale scelta dal cliente.
               </p>
             </div>
@@ -250,7 +250,7 @@ export default function RiscaldamentoAPavimento() {
       </section>
 
       {/* Compatibilità */}
-      <section className="section-padding bg-blue-50">
+      <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -262,68 +262,68 @@ export default function RiscaldamentoAPavimento() {
               
               <div className="space-y-4">
                 <div className="flex items-center p-4 bg-white rounded-lg shadow-sm">
-                  <div className="bg-blue-100 text-blue-600 p-2 rounded-lg mr-4">
+                  <div className="bg-primary-100 text-primary-600 p-2 rounded-lg mr-4">
                     🔥
                   </div>
                   <div>
                     <h3 className="font-semibold">Caldaie a Condensazione</h3>
-                    <p className="text-sm text-secondary-600">Perfetta integrazione con caldaie IMMERGAS</p>
+                    <p className="text-sm text-secondary-700">Perfetta integrazione con caldaie IMMERGAS</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center p-4 bg-white rounded-lg shadow-sm">
-                  <div className="bg-blue-100 text-blue-600 p-2 rounded-lg mr-4">
+                  <div className="bg-primary-100 text-primary-600 p-2 rounded-lg mr-4">
                     ♻️
                   </div>
                   <div>
                     <h3 className="font-semibold">Pompe di Calore</h3>
-                    <p className="text-sm text-secondary-600">Ideale con pompe di calore DAIKIN</p>
+                    <p className="text-sm text-secondary-700">Ideale con pompe di calore DAIKIN</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center p-4 bg-white rounded-lg shadow-sm">
-                  <div className="bg-blue-100 text-blue-600 p-2 rounded-lg mr-4">
+                  <div className="bg-primary-100 text-primary-600 p-2 rounded-lg mr-4">
                     ☀️
                   </div>
                   <div>
                     <h3 className="font-semibold">Solare Termico</h3>
-                    <p className="text-sm text-secondary-600">Integrazione con pannelli solari termici</p>
+                    <p className="text-sm text-secondary-700">Integrazione con pannelli solari termici</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center p-4 bg-white rounded-lg shadow-sm">
-                  <div className="bg-blue-100 text-blue-600 p-2 rounded-lg mr-4">
+                  <div className="bg-primary-100 text-primary-600 p-2 rounded-lg mr-4">
                     🌿
                   </div>
                   <div>
                     <h3 className="font-semibold">Biomasse</h3>
-                    <p className="text-sm text-secondary-600">Compatibile con caldaie a pellet e legna</p>
+                    <p className="text-sm text-secondary-700">Compatibile con caldaie a pellet e legna</p>
                   </div>
                 </div>
               </div>
             </div>
             
             <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <h3 className="text-2xl font-bold text-blue-700 mb-6">Calcola il Tuo Risparmio</h3>
+              <h3 className="text-2xl font-bold text-primary-700 mb-6">Calcola il Tuo Risparmio</h3>
               
               <div className="space-y-4 mb-6">
                 <div className="flex justify-between items-center p-3 bg-primary-50 rounded-lg">
                   <span>Casa 120 mq con radiatori:</span>
                   <span className="font-bold">€ 1.200/anno</span>
                 </div>
-                <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
+                <div className="flex justify-between items-center p-3 bg-primary-50 rounded-lg">
                   <span>Stessa casa con riscaldamento a pavimento:</span>
-                  <span className="font-bold text-blue-600">€ 1.020/anno</span>
+                  <span className="font-bold text-primary-600">€ 1.020/anno</span>
                 </div>
-                <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
-                  <span className="text-green-700 font-semibold">Risparmio annuo:</span>
-                  <span className="font-bold text-green-600">€ 180</span>
+                <div className="flex justify-between items-center p-3 bg-primary-50 rounded-lg">
+                  <span className="text-primary-700 font-semibold">Risparmio annuo:</span>
+                  <span className="font-bold text-primary-600">€ 180</span>
                 </div>
               </div>
               
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">15%</div>
-                <p className="text-secondary-600 mb-4">Risparmio medio sui consumi</p>
+                <div className="text-3xl font-bold text-primary-600 mb-2">15%</div>
+                <p className="text-secondary-700 mb-4">Risparmio medio sui consumi</p>
                 <a 
                   href={`tel:${phone}`}
                   className="btn-primary"
@@ -345,40 +345,40 @@ export default function RiscaldamentoAPavimento() {
           
           <div className="max-w-4xl mx-auto space-y-6">
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-lg font-semibold mb-3 text-secondary-900">
+              <h3 className="text-lg font-semibold mb-3 text-secondary-700">
                 Quanto costa installare il riscaldamento a pavimento a Ravenna?
               </h3>
-              <p className="text-secondary-600">
+              <p className="text-secondary-700">
                 Il costo varia da €40 a €80 al mq in base al tipo di sistema e alla complessità dell'installazione. 
                 Per una casa di 100 mq, il costo medio è di €5.000-7.000. Contattaci per un preventivo dettagliato gratuito.
               </p>
             </div>
             
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-lg font-semibold mb-3 text-secondary-900">
+              <h3 className="text-lg font-semibold mb-3 text-secondary-700">
                 Si può installare in una casa già esistente?
               </h3>
-              <p className="text-secondary-600">
+              <p className="text-secondary-700">
                 Sì, è possibile installare il riscaldamento a pavimento anche in ristrutturazioni. 
                 Valutiamo l'altezza disponibile e proponiamo sistemi a basso spessore quando necessario.
               </p>
             </div>
             
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-lg font-semibold mb-3 text-secondary-900">
+              <h3 className="text-lg font-semibold mb-3 text-secondary-700">
                 Che tipo di pavimentazione posso usare?
               </h3>
-              <p className="text-secondary-600">
+              <p className="text-secondary-700">
                 Il riscaldamento a pavimento è compatibile con ceramica, gres, parquet, laminato e resina. 
                 Ogni materiale ha caratteristiche specifiche che valutiamo in fase di progettazione.
               </p>
             </div>
             
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-lg font-semibold mb-3 text-secondary-900">
+              <h3 className="text-lg font-semibold mb-3 text-secondary-700">
                 Quanto tempo ci vuole per riscaldare la casa?
               </h3>
-              <p className="text-secondary-600">
+              <p className="text-secondary-700">
                 Il riscaldamento a pavimento ha tempi di risposta più lenti dei radiatori (2-3 ore), 
                 ma mantiene la temperatura costante più a lungo, garantendo maggior comfort e risparmio energetico.
               </p>
@@ -388,9 +388,9 @@ export default function RiscaldamentoAPavimento() {
       </section>
 
       {/* CTA */}
-      <section className="bg-primary-50 text-secondary-900 section-padding">
+      <section className="bg-primary-50 text-secondary-700 section-padding">
         <div className="container-custom text-center">
-          <h2 className="heading-lg text-secondary-900 mb-6">
+          <h2 className="heading-lg text-secondary-700 mb-6">
             Pronto per il Massimo Comfort?
           </h2>
           <p className="text-xl text-secondary-700 mb-8 max-w-2xl mx-auto">

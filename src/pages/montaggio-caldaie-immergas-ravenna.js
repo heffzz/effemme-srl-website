@@ -56,11 +56,11 @@ export default function MontaggioCaldeieImmergas() {
       canonical="/montaggio-caldaie-immergas-ravenna"
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-900 section-padding">
+      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-700 section-padding">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="heading-xl text-secondary-900 mb-6">
+              <h1 className="heading-xl text-secondary-700 mb-6">
                 Montaggio Caldaie IMMERGAS a Ravenna
               </h1>
               <p className="text-xl text-secondary-700 mb-8 leading-relaxed">
@@ -79,24 +79,24 @@ export default function MontaggioCaldeieImmergas() {
                 </a>
               </div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-              <h2 className="text-2xl font-bold mb-6">Perché Scegliere IMMERGAS?</h2>
+            <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 border border-blue-200 shadow-lg">
+              <h2 className="text-2xl font-bold mb-6 text-secondary-700">Perché Scegliere IMMERGAS?</h2>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <span className="text-2xl mr-3">🏆</span>
-                  <span>Leader italiano nel settore caldaie</span>
+                  <span className="text-secondary-700">Leader italiano nel settore caldaie</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-2xl mr-3">⚡</span>
-                  <span>Tecnologia a condensazione avanzata</span>
+                  <span className="text-secondary-700">Tecnologia a condensazione avanzata</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-2xl mr-3">🔧</span>
-                  <span>Assistenza tecnica specializzata</span>
+                  <span className="text-secondary-700">Assistenza tecnica specializzata</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-2xl mr-3">💚</span>
-                  <span>Rispetto dell'ambiente</span>
+                  <span className="text-secondary-700">Rispetto dell'ambiente</span>
                 </li>
               </ul>
             </div>
@@ -119,7 +119,7 @@ export default function MontaggioCaldeieImmergas() {
             {caldaieModels.map((caldaia, index) => (
               <div key={index} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow p-8">
                 <div className="text-4xl mb-4">🔥</div>
-                <h3 className="text-xl font-bold mb-2 text-secondary-900">{caldaia.name}</h3>
+                <h3 className="text-xl font-bold mb-2 text-secondary-700">{caldaia.name}</h3>
                 <p className="text-primary-600 font-medium mb-4">{caldaia.type}</p>
                 <div className="mb-6">
                   <span className="text-sm font-medium text-secondary-700">Potenza: </span>
@@ -161,10 +161,10 @@ export default function MontaggioCaldeieImmergas() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((benefit, index) => (
               <div key={index} className="text-center">
-                <div className="bg-red-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
                   {benefit.icon}
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-secondary-900">{benefit.title}</h3>
+                <h3 className="text-xl font-semibold mb-4 text-secondary-700">{benefit.title}</h3>
                 <p className="text-secondary-700">{benefit.description}</p>
               </div>
             ))}
@@ -173,14 +173,14 @@ export default function MontaggioCaldeieImmergas() {
       </section>
 
       {/* Processo di Installazione */}
-      <section className="section-padding bg-primary-50">
+      <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="heading-lg mb-6">Il Nostro Processo di Installazione</h2>
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="bg-red-100 text-red-600 p-2 rounded-lg mr-4 mt-1">
+                  <div className="bg-blue-100 text-blue-600 p-2 rounded-lg mr-4 mt-1">
                     <span className="font-bold">1</span>
                   </div>
                   <div>
@@ -192,7 +192,7 @@ export default function MontaggioCaldeieImmergas() {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="bg-red-100 text-red-600 p-2 rounded-lg mr-4 mt-1">
+                  <div className="bg-blue-100 text-blue-600 p-2 rounded-lg mr-4 mt-1">
                     <span className="font-bold">2</span>
                   </div>
                   <div>
@@ -204,7 +204,7 @@ export default function MontaggioCaldeieImmergas() {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="bg-red-100 text-red-600 p-2 rounded-lg mr-4 mt-1">
+                  <div className="bg-blue-100 text-blue-600 p-2 rounded-lg mr-4 mt-1">
                     <span className="font-bold">3</span>
                   </div>
                   <div>
@@ -216,7 +216,7 @@ export default function MontaggioCaldeieImmergas() {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="bg-red-100 text-red-600 p-2 rounded-lg mr-4 mt-1">
+                  <div className="bg-blue-100 text-blue-600 p-2 rounded-lg mr-4 mt-1">
                     <span className="font-bold">4</span>
                   </div>
                   <div>
@@ -229,8 +229,8 @@ export default function MontaggioCaldeieImmergas() {
               </div>
             </div>
             
-            <div className="bg-red-50 rounded-2xl p-8">
-              <h3 className="text-2xl font-bold text-red-700 mb-6">Servizi Inclusi</h3>
+            <div className="bg-blue-50 rounded-2xl p-8 border border-blue-200">
+              <h3 className="text-2xl font-bold text-blue-700 mb-6">Servizi Inclusi</h3>
               <ul className="space-y-3">
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
@@ -281,7 +281,7 @@ export default function MontaggioCaldeieImmergas() {
       </section>
 
       {/* Manutenzione */}
-      <section className="section-padding bg-primary-50">
+      <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="heading-lg mb-6">Manutenzione Caldaie IMMERGAS</h2>
@@ -293,7 +293,7 @@ export default function MontaggioCaldeieImmergas() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-xl p-6 shadow-lg">
-              <h3 className="text-xl font-semibold mb-4 text-secondary-900">Controllo Annuale</h3>
+              <h3 className="text-xl font-semibold mb-4 text-secondary-700">Controllo Annuale</h3>
               <ul className="space-y-2 text-secondary-600 mb-6">
                 <li>• Verifica combustione</li>
                 <li>• Pulizia scambiatore</li>
@@ -308,7 +308,7 @@ export default function MontaggioCaldeieImmergas() {
               <div className="bg-primary-100 text-primary-700 px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">
                 Più Richiesto
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-secondary-900">Contratto Manutenzione</h3>
+              <h3 className="text-xl font-semibold mb-4 text-secondary-700">Contratto Manutenzione</h3>
               <ul className="space-y-2 text-secondary-600 mb-6">
                 <li>• 2 controlli annuali</li>
                 <li>• Pronto intervento prioritario</li>
@@ -320,7 +320,7 @@ export default function MontaggioCaldeieImmergas() {
             </div>
             
             <div className="bg-white rounded-xl p-6 shadow-lg">
-              <h3 className="text-xl font-semibold mb-4 text-secondary-900">Pronto Intervento</h3>
+              <h3 className="text-xl font-semibold mb-4 text-secondary-700">Pronto Intervento</h3>
               <ul className="space-y-2 text-secondary-600 mb-6">
                 <li>• Interventi rapidi</li>
                 <li>• Intervento entro 2 ore</li>
@@ -343,7 +343,7 @@ export default function MontaggioCaldeieImmergas() {
           
           <div className="max-w-4xl mx-auto space-y-6">
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-lg font-semibold mb-3 text-secondary-900">
+              <h3 className="text-lg font-semibold mb-3 text-secondary-700">
                 Quanto costa sostituire una caldaia a Ravenna?
               </h3>
               <p className="text-secondary-600">
@@ -354,7 +354,7 @@ export default function MontaggioCaldeieImmergas() {
             </div>
             
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-lg font-semibold mb-3 text-secondary-900">
+              <h3 className="text-lg font-semibold mb-3 text-secondary-700">
                 Quanto tempo richiede l'installazione?
               </h3>
               <p className="text-secondary-600">
@@ -364,7 +364,7 @@ export default function MontaggioCaldeieImmergas() {
             </div>
             
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-lg font-semibold mb-3 text-secondary-900">
+              <h3 className="text-lg font-semibold mb-3 text-secondary-700">
                 Che garanzia offre IMMERGAS?
               </h3>
               <p className="text-secondary-600">
@@ -374,7 +374,7 @@ export default function MontaggioCaldeieImmergas() {
             </div>
             
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-lg font-semibold mb-3 text-secondary-900">
+              <h3 className="text-lg font-semibold mb-3 text-secondary-700">
                 Posso usufruire degli incentivi fiscali 2025?
               </h3>
               <p className="text-secondary-600">
@@ -388,9 +388,9 @@ export default function MontaggioCaldeieImmergas() {
       </section>
 
       {/* CTA */}
-      <section className="bg-primary-50 text-secondary-900 section-padding">
+      <section className="bg-primary-50 text-secondary-700 section-padding">
         <div className="container-custom text-center">
-          <h2 className="heading-lg text-secondary-900 mb-6">
+          <h2 className="heading-lg text-secondary-700 mb-6">
             Pronto per una Nuova Caldaia IMMERGAS?
           </h2>
           <p className="text-xl text-secondary-700 mb-8 max-w-2xl mx-auto">

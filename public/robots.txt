@@ -16,10 +16,9 @@ Allow: /
 Allow: /chi-siamo
 Allow: /servizi
 Allow: /montaggio-caldaie-immergas-ravenna
-Allow: /pompe-di-calore-daikin-ravenna
+Allow: /climatizzazione-e-pompe-di-calore-ravenna
 Allow: /riscaldamento-a-pavimento-ravenna
-Allow: /montaggio-climatizzatori-ravenna
-Allow: /piccole-riparazioni-manutenzione-ravenna
+
 Allow: /contatti
 
 # Crawl-delay for respectful crawling

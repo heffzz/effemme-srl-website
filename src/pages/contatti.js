@@ -66,9 +66,8 @@ export default function Contatti() {
 
   const servizi = [
     'Montaggio Caldaie IMMERGAS',
-    'Pompe di Calore DAIKIN',
+    'Climatizzazione e Pompe di Calore',
     'Riscaldamento a Pavimento',
-    'Montaggio Climatizzatori',
     'Riparazioni e Manutenzione',
     'Pronto Intervento',
     'Altro'
@@ -91,10 +90,10 @@ export default function Contatti() {
       canonical="/contatti"
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-900 section-padding">
+      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-700 section-padding">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="heading-xl text-secondary-900 mb-6">
+            <h1 className="heading-xl text-secondary-700 mb-6">
               Contatta EFFEMME SRL
             </h1>
             <p className="text-xl text-secondary-700 leading-relaxed">
@@ -106,9 +105,9 @@ export default function Contatti() {
       </section>
 
       {/* Informazioni di Contatto */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-center mb-12 text-secondary-900">Come Contattarci</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-secondary-700">Come Contattarci</h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
             <div className="text-center">
               <div className="bg-primary-100 text-primary-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -116,7 +115,7 @@ export default function Contatti() {
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-secondary-900">Telefono</h3>
+              <h3 className="text-xl font-semibold mb-2 text-secondary-700">Telefono</h3>
               <a 
                 href={`tel:${phone}`}
                 className="text-primary-600 font-medium text-lg hover:text-primary-700 transition-colors"
@@ -137,7 +136,7 @@ export default function Contatti() {
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-secondary-900">Email</h3>
+              <h3 className="text-xl font-semibold mb-2 text-secondary-700">Email</h3>
               <a 
                 href={`mailto:${email}`}
                 className="text-primary-600 font-medium hover:text-primary-700 transition-colors"
@@ -157,7 +156,7 @@ export default function Contatti() {
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-secondary-900">Sede</h3>
+              <h3 className="text-xl font-semibold mb-2 text-secondary-700">Sede</h3>
               <address className="text-secondary-700 not-italic">
                 VIA DEL FABBRO, 44 - FRAZ. GAMBELLARA<br />
                 48124 RAVENNA (RA)<br />
@@ -183,7 +182,7 @@ export default function Contatti() {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-semibold text-secondary-900">Chiama Ora</div>
+                  <div className="font-semibold text-secondary-700">Chiama Ora</div>
                   <div className="text-primary-600 text-sm">Risposta immediata</div>
                 </div>
               </a>
@@ -200,7 +199,7 @@ export default function Contatti() {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-semibold text-secondary-900">WhatsApp</div>
+                  <div className="font-semibold text-secondary-700">WhatsApp</div>
                   <div className="text-primary-600 text-sm">Messaggio veloce</div>
                 </div>
               </a>
@@ -216,7 +215,7 @@ export default function Contatti() {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-semibold text-secondary-900">Invia Email</div>
+                  <div className="font-semibold text-secondary-700">Invia Email</div>
                   <div className="text-primary-600 text-sm">Preventivo dettagliato</div>
                 </div>
               </a>
@@ -244,7 +243,7 @@ export default function Contatti() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-secondary-900 mb-1">Sopralluogo Gratuito</h3>
+                    <h3 className="font-semibold text-secondary-700 mb-1">Sopralluogo Gratuito</h3>
                     <p className="text-secondary-700 text-sm">
                       Veniamo a casa tua per valutare le tue esigenze senza alcun costo
                     </p>
@@ -258,7 +257,7 @@ export default function Contatti() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-secondary-900 mb-1">Preventivo Dettagliato</h3>
+                    <h3 className="font-semibold text-secondary-700 mb-1">Preventivo Dettagliato</h3>
                     <p className="text-secondary-700 text-sm">
                       Ricevi un preventivo completo e trasparente, senza sorprese
                     </p>
@@ -272,7 +271,7 @@ export default function Contatti() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-secondary-900 mb-1">Consulenza Professionale</h3>
+                    <h3 className="font-semibold text-secondary-700 mb-1">Consulenza Professionale</h3>
                     <p className="text-secondary-700 text-sm">
                       Ti consigliamo la soluzione migliore per le tue esigenze e budget
                     </p>
@@ -522,7 +521,7 @@ export default function Contatti() {
       </section>
 
       {/* CTA Finale */}
-      <section className="bg-primary-50 text-secondary-900 section-padding">
+      <section className="bg-primary-50 text-secondary-700 section-padding">
         <div className="container-custom text-center">
           <h2 className="heading-lg text-secondary-900 mb-6">
             Non Aspettare, Contattaci Subito!

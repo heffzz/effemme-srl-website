@@ -67,29 +67,29 @@ export default function ContoTermico() {
       </section>
 
       {/* Informazioni Conto Termico */}
-      <section className="bg-white section-padding">
+      <section className="bg-gray-50 section-padding">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12 text-secondary-900">
+            <h2 className="text-3xl font-bold text-center mb-12 text-secondary-700">
               Come Funziona il Conto Termico 3.0
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <div className="text-center p-6 bg-green-50 rounded-xl">
                 <div className="text-4xl mb-4">🏠</div>
-                <h3 className="text-xl font-bold mb-3 text-secondary-900">Pompe di Calore</h3>
+                <h3 className="text-xl font-bold text-secondary-700 mb-3">Pompe di Calore</h3>
                 <p className="text-secondary-700">Fino al 65% di rimborso per pompe di calore aria-acqua e geotermiche</p>
               </div>
               
               <div className="text-center p-6 bg-blue-50 rounded-xl">
                 <div className="text-4xl mb-4">🔥</div>
-                <h3 className="text-xl font-bold mb-3 text-secondary-900">Biomasse</h3>
+                <h3 className="text-xl font-bold text-secondary-700 mb-3">Biomasse</h3>
                 <p className="text-secondary-700">Incentivi per caldaie, stufe e termocamini a biomassa</p>
               </div>
               
               <div className="text-center p-6 bg-yellow-50 rounded-xl">
                 <div className="text-4xl mb-4">☀️</div>
-                <h3 className="text-xl font-bold mb-3 text-secondary-900">Solare Termico</h3>
+                <h3 className="text-xl font-bold text-secondary-700 mb-3">Solare Termico</h3>
                 <p className="text-secondary-700">Contributi per impianti solari termici per acqua calda</p>
               </div>
             </div>
@@ -103,32 +103,32 @@ export default function ContoTermico() {
       {/* Vantaggi */}
       <section className="bg-gray-50 section-padding">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-center mb-12 text-secondary-900">
+          <h2 className="text-3xl font-bold text-center mb-12 text-secondary-700">
             Perché Scegliere il Conto Termico 3.0
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="text-3xl mb-4">💰</div>
-              <h3 className="font-bold mb-2 text-secondary-900">Rimborso Diretto</h3>
+              <h3 className="font-bold mb-2 text-secondary-700">Rimborso Diretto</h3>
               <p className="text-secondary-700 text-sm">Il GSE ti rimborsa direttamente, senza aspettare le detrazioni fiscali</p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="text-3xl mb-4">⚡</div>
-              <h3 className="font-bold mb-2 text-secondary-900">Tempi Rapidi</h3>
+              <h3 className="font-bold mb-2 text-secondary-700">Tempi Rapidi</h3>
               <p className="text-secondary-700 text-sm">Rimborso in 2-4 mesi dall'approvazione della domanda</p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="text-3xl mb-4">📋</div>
-              <h3 className="font-bold mb-2 text-secondary-900">Senza ISEE</h3>
+              <h3 className="font-bold mb-2 text-secondary-700">Senza ISEE</h3>
               <p className="text-secondary-700 text-sm">Non serve l'ISEE, disponibile per tutti i tipi di immobili</p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="text-3xl mb-4">🏢</div>
-              <h3 className="font-bold mb-2 text-secondary-900">Anche Aziende</h3>
+              <h3 className="font-bold mb-2 text-secondary-700">Anche Aziende</h3>
               <p className="text-secondary-700 text-sm">Disponibile anche per imprese e condomini</p>
             </div>
           </div>
@@ -138,9 +138,9 @@ export default function ContoTermico() {
       {/* Assistenza */}
       <section className="bg-primary-600 text-white section-padding">
         <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold mb-6">
+          <h1 className="heading-lg text-secondary-700 mb-6">
             Ti Aiutiamo con la Domanda
-          </h2>
+          </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Il nostro team esperto ti assiste in tutto il processo: dalla scelta dell'impianto 
             alla presentazione della domanda GSE.
@@ -155,7 +155,7 @@ export default function ContoTermico() {
             </a>
             <a 
               href={`tel:${phone}`}
-              className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-8 py-3 rounded-lg font-bold transition-all"
+              className="bg-yellow-400 hover:bg-yellow-500 text-gray-700 px-8 py-3 rounded-lg font-bold transition-all"
             >
               📞 Chiamaci Ora
             </a>

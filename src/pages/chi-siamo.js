@@ -12,10 +12,10 @@ export default function ChiSiamo() {
       canonical="/chi-siamo"
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-900 section-padding">
+      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-700 section-padding">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="heading-xl text-secondary-900 mb-6">
+            <h1 className="heading-xl text-secondary-700 mb-6">
               Chi Siamo
             </h1>
             <p className="text-xl text-secondary-700 leading-relaxed">
@@ -27,7 +27,7 @@ export default function ChiSiamo() {
       </section>
 
       {/* Storia Aziendale */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -93,7 +93,7 @@ export default function ChiSiamo() {
               <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
                 🎯
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-secondary-900">Professionalità</h3>
+              <h3 className="text-xl font-semibold mb-4 text-secondary-700">Professionalità</h3>
               <p className="text-secondary-700">
                 Tecnici qualificati e formazione continua per garantire interventi sempre all'altezza delle aspettative.
               </p>
@@ -103,7 +103,7 @@ export default function ChiSiamo() {
               <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
                 ⚡
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-secondary-900">Rapidità</h3>
+              <h3 className="text-xl font-semibold mb-4 text-secondary-700">Rapidità</h3>
               <p className="text-secondary-700">
                 Interventi tempestivi per emergenze, perché il comfort non può aspettare.
               </p>
@@ -113,7 +113,7 @@ export default function ChiSiamo() {
               <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
                 🏆
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-secondary-900">Qualità</h3>
+              <h3 className="text-xl font-semibold mb-4 text-secondary-700">Qualità</h3>
               <p className="text-secondary-700">
                 Utilizziamo solo materiali e componenti di prima qualità, con garanzia su tutti i nostri lavori.
               </p>
@@ -123,7 +123,7 @@ export default function ChiSiamo() {
               <div className="bg-primary-100 text-primary-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
                 💚
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-secondary-900">Sostenibilità</h3>
+              <h3 className="text-xl font-semibold mb-4 text-secondary-700">Sostenibilità</h3>
               <p className="text-secondary-700">
                 Promuoviamo soluzioni eco-sostenibili per ridurre l'impatto ambientale e i costi energetici.
               </p>
@@ -243,9 +243,9 @@ export default function ChiSiamo() {
       </section>
 
       {/* CTA */}
-      <section className="bg-primary-50 text-secondary-900 section-padding">
+      <section className="bg-primary-50 text-secondary-500 section-padding">
         <div className="container-custom text-center">
-          <h2 className="heading-lg text-secondary-900 mb-6">
+          <h2 className="heading-lg text-secondary-700 mb-6">
             Vuoi Conoscere Meglio i Nostri Servizi?
           </h2>
           <p className="text-xl text-secondary-700 mb-8 max-w-2xl mx-auto">
