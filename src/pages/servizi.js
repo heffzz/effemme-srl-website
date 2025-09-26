@@ -11,7 +11,7 @@ export default function Servizi() {
       features: ["Caldaie a condensazione", "Caldaie murali e a basamento", "Sistemi ibridi", "Manutenzione programmata"],
       href: "/montaggio-caldaie-immergas-ravenna",
       icon: "🔥",
-      color: "from-red-500 to-orange-500"
+      color: "from-red-50 to-orange-50 border-red-200"
     },
     {
       title: "Pompe di Calore DAIKIN",
@@ -19,7 +19,7 @@ export default function Servizi() {
       features: ["Pompe di calore aria-acqua", "Sistemi ibridi", "Controllo smart", "Incentivi fiscali"],
       href: "/pompe-di-calore-daikin-ravenna",
       icon: "♻️",
-      color: "from-green-500 to-emerald-500"
+      color: "from-green-50 to-emerald-50 border-green-200"
     },
     {
       title: "Riscaldamento a Pavimento",
@@ -27,7 +27,7 @@ export default function Servizi() {
       features: ["Sistemi radianti", "Controllo zona per zona", "Compatibile con ogni caldaia", "Massimo comfort"],
       href: "/riscaldamento-a-pavimento-ravenna",
       icon: "🏠",
-      color: "from-blue-500 to-cyan-500"
+      color: "from-blue-50 to-cyan-50 border-blue-200"
     },
     {
       title: "Montaggio Climatizzatori",
@@ -35,7 +35,7 @@ export default function Servizi() {
       features: ["Climatizzatori inverter", "Sistemi multi-split", "Controllo Wi-Fi", "Purificazione aria"],
       href: "/montaggio-climatizzatori-ravenna",
       icon: "❄️",
-      color: "from-cyan-500 to-blue-500"
+      color: "from-cyan-50 to-blue-50 border-cyan-200"
     },
     {
       title: "Piccole Riparazioni e Manutenzione",
@@ -43,7 +43,7 @@ export default function Servizi() {
       features: ["Pronto intervento", "Manutenzione programmata", "Riparazioni urgenti", "Assistenza 24/7"],
       href: "/piccole-riparazioni-manutenzione-ravenna",
       icon: "🔧",
-      color: "from-purple-500 to-pink-500"
+      color: "from-purple-50 to-pink-50 border-purple-200"
     }
   ]
 
@@ -123,7 +123,7 @@ export default function Servizi() {
                   </div>
                   
                   {/* Gradiente colorato */}
-                  <div className={`bg-gradient-to-br ${service.color} p-8 lg:p-12 flex items-center justify-center text-white`}>
+                  <div className={`bg-gradient-to-br ${service.color} p-8 lg:p-12 flex items-center justify-center text-gray-800 border`}>
                     <div className="text-center">
                       <div className="text-8xl mb-6 opacity-80">{service.icon}</div>
                       <h4 className="text-2xl font-bold mb-4">{service.title}</h4>

@@ -20,13 +20,13 @@ export default function Header() {
   return (
     <header className="bg-white shadow-lg sticky top-0 z-50">
       {/* Top bar con contatti */}
-      <div className="bg-primary-700 text-white py-2">
+      <div className="bg-primary-50 text-primary-700 py-2">
         <div className="container-custom">
           <div className="flex flex-col sm:flex-row justify-between items-center text-sm">
             <div className="flex items-center space-x-4">
               <a 
                 href={`tel:${phone}`} 
-                className="flex items-center hover:text-primary-200 transition-colors"
+                className="flex items-center hover:text-primary-600 transition-colors"
                 aria-label="Chiama EFFEMME SRL"
               >
                 <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
@@ -36,7 +36,7 @@ export default function Header() {
               </a>
               <a 
                 href={`mailto:${email}`} 
-                className="flex items-center hover:text-primary-200 transition-colors"
+                className="flex items-center hover:text-primary-600 transition-colors"
                 aria-label="Invia email a EFFEMME SRL"
               >
                 <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">

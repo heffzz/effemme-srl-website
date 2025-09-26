@@ -146,7 +146,7 @@ export default function RiscaldamentoAPavimento() {
                   </a>
                 </div>
                 
-                <div className={`bg-gradient-to-br ${index === 0 ? 'from-blue-500 to-cyan-500' : index === 1 ? 'from-cyan-500 to-teal-500' : 'from-teal-500 to-blue-500'} rounded-2xl p-8 text-white ${index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}`}>
+                <div className={`bg-gradient-to-br ${index === 0 ? 'from-blue-50 to-cyan-50 border-blue-200' : index === 1 ? 'from-cyan-50 to-teal-50 border-cyan-200' : 'from-teal-50 to-blue-50 border-teal-200'} rounded-2xl p-8 text-blue-800 border ${index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}`}>
                   <div className="text-center">
                     <div className="text-6xl mb-4">🏠</div>
                     <h4 className="text-xl font-bold mb-4">{sistema.name}</h4>

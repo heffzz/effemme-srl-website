@@ -59,19 +59,19 @@ export default function PompeDiCaloreDaikin() {
       canonical="/pompe-di-calore-daikin-ravenna"
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-green-600 to-emerald-600 text-white section-padding">
+      <section className="bg-gradient-to-br from-green-50 to-emerald-50 text-green-800 section-padding">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="heading-xl text-white mb-6">
+              <h1 className="heading-xl text-green-800 mb-6">
                 Pompe di Calore DAIKIN a Ravenna
               </h1>
-              <p className="text-xl text-green-100 mb-8 leading-relaxed">
+              <p className="text-xl text-green-700 mb-8 leading-relaxed">
                 EFFEMME SRL è partner certificato DAIKIN per l'installazione di pompe di calore ad alta efficienza. 
                 Riscaldamento e raffrescamento eco-sostenibile per la tua casa a Ravenna con tecnologia giapponese di qualità superiore.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/contatti" className="btn-secondary bg-white text-green-600 hover:bg-gray-50">
+                <Link href="/contatti" className="btn-secondary bg-green-600 text-white hover:bg-green-700">
                   Richiedi Preventivo Gratuito
                 </Link>
                 <a 

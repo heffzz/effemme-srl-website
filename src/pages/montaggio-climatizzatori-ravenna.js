@@ -94,7 +94,7 @@ export default function MontaggioClimatizzatori() {
                 Mono-split, multi-split e sistemi canalizzati con tecnologia inverter per massimo comfort e risparmio energetico.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/contatti" className="btn-secondary bg-white text-primary-600 hover:bg-gray-50 border border-primary-600">
+                <Link href="/contatti" className="btn-secondary bg-cyan-600 text-white hover:bg-cyan-700">
                   Richiedi Preventivo Gratuito
                 </Link>
                 <a 
@@ -228,15 +228,15 @@ export default function MontaggioClimatizzatori() {
       {/* Zona di Servizio */}
       <section className="section-padding">
         <div className="container-custom">
-          <div className="bg-gradient-to-r from-cyan-600 to-blue-600 rounded-2xl p-12 text-white text-center">
-            <h2 className="heading-lg text-white mb-6">
+          <div className="bg-gradient-to-r from-cyan-50 to-blue-50 rounded-2xl p-12 text-cyan-800 text-center border border-cyan-200">
+            <h2 className="heading-lg text-cyan-800 mb-6">
               Installiamo Climatizzatori in Tutta la Provincia di Ravenna
             </h2>
-            <p className="text-xl text-cyan-100 mb-8 max-w-4xl mx-auto">
+            <p className="text-xl text-cyan-700 mb-8 max-w-4xl mx-auto">
               EFFEMME SRL opera a Ravenna e in tutti i comuni della provincia. Interventi rapidi, 
               sopralluoghi gratuiti e assistenza tecnica specializzata per climatizzatori di ogni marca e modello.
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm text-cyan-100 mb-8">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm text-cyan-700 mb-8">
               <div>• Ravenna</div>
               <div>• Faenza</div>
               <div>• Lugo</div>
