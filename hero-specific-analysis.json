@@ -1,0 +1,74 @@
+{
+  "timestamp": "2025-09-25T15:20:44.123Z",
+  "summary": {
+    "total": 5,
+    "currentIssues": 1,
+    "recommendations": [
+      "Sostituire text-primary-200 con text-primary-100",
+      "Considerare text-white per massimo contrasto",
+      "Evitare testi chiari su parti scure del gradiente"
+    ]
+  },
+  "tests": [
+    {
+      "name": "Hero - Titolo principale",
+      "background": "primary-600",
+      "backgroundHex": "#2563eb",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": "5.17",
+      "level": "AA",
+      "status": "BUONO",
+      "context": "H1 su gradiente (lato chiaro)",
+      "current": true
+    },
+    {
+      "name": "Hero - Sottotitolo",
+      "background": "primary-600",
+      "backgroundHex": "#2563eb",
+      "text": "primary-100",
+      "textHex": "#dbeafe",
+      "ratio": "4.24",
+      "level": "A",
+      "status": "INSUFFICIENTE",
+      "context": "Sottotitolo su gradiente (lato chiaro)",
+      "current": true
+    },
+    {
+      "name": "Hero - Testo piccolo ATTUALE",
+      "background": "primary-800",
+      "backgroundHex": "#1e40af",
+      "text": "primary-200",
+      "textHex": "#bfdbfe",
+      "ratio": "6.14",
+      "level": "AA",
+      "status": "BUONO",
+      "context": "Testo piccolo su gradiente (lato scuro) - PROBLEMA!",
+      "current": true
+    },
+    {
+      "name": "Hero - Testo piccolo MIGLIORATO",
+      "background": "primary-800",
+      "backgroundHex": "#1e40af",
+      "text": "primary-100",
+      "textHex": "#dbeafe",
+      "ratio": "7.15",
+      "level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Proposta: primary-100 invece di primary-200",
+      "current": false
+    },
+    {
+      "name": "Hero - Testo piccolo OTTIMALE",
+      "background": "primary-800",
+      "backgroundHex": "#1e40af",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": "8.72",
+      "level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Proposta ottimale: white per massimo contrasto",
+      "current": false
+    }
+  ]
+}

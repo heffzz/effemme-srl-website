@@ -1,0 +1,89 @@
+{
+  "summary": {
+    "total": 7,
+    "passed": 7,
+    "warnings": 0,
+    "critical": 0,
+    "testType": "Hero Sections e Sfondi Colorati"
+  },
+  "results": [
+    {
+      "name": "Hero - Testo principale su gradient primary",
+      "background": "primary-600",
+      "backgroundHex": "#2563eb",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": 5.17,
+      "level": "AA",
+      "status": "BUONO",
+      "context": "H1 su hero gradient"
+    },
+    {
+      "name": "Hero - Testo secondario su gradient primary",
+      "background": "primary-800",
+      "backgroundHex": "#1e40af",
+      "text": "primary-100",
+      "textHex": "#dbeafe",
+      "ratio": 7.15,
+      "level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Sottotitolo su hero gradient"
+    },
+    {
+      "name": "Sezione primary-50 - Heading",
+      "background": "primary-100",
+      "backgroundHex": "#dbeafe",
+      "text": "primary-700",
+      "textHex": "#1d4ed8",
+      "ratio": 5.49,
+      "level": "AA",
+      "status": "BUONO",
+      "context": "Titoli su sfondo chiaro primary"
+    },
+    {
+      "name": "Sezione gray-50 - Heading",
+      "background": "gray-50",
+      "backgroundHex": "#f9fafb",
+      "text": "secondary-900",
+      "textHex": "#0f172a",
+      "ratio": 17.08,
+      "level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Titoli su sfondo grigio chiaro"
+    },
+    {
+      "name": "Sezione gray-50 - Body text",
+      "background": "gray-50",
+      "backgroundHex": "#f9fafb",
+      "text": "secondary-700",
+      "textHex": "#1f2937",
+      "ratio": 14.05,
+      "level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Testo corpo su sfondo grigio"
+    },
+    {
+      "name": "Footer - Testo principale",
+      "background": "secondary-900",
+      "backgroundHex": "#0f172a",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": 17.85,
+      "level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Testo footer"
+    },
+    {
+      "name": "Footer - Link hover",
+      "background": "secondary-800",
+      "backgroundHex": "#111827",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": 17.74,
+      "level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Link footer hover"
+    }
+  ],
+  "timestamp": "2025-09-25T15:14:11.502Z"
+}

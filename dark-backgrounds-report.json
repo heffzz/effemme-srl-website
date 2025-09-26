@@ -1,0 +1,95 @@
+{
+  "timestamp": "2025-09-25T15:17:22.473Z",
+  "summary": {
+    "total": 7,
+    "passed": 7,
+    "minor": 0,
+    "critical": 0,
+    "successRate": "100%"
+  },
+  "tests": [
+    {
+      "name": "Footer - Testo principale",
+      "background": "secondary-900",
+      "backgroundHex": "#0f172a",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": "17.85",
+      "level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Testo principale footer"
+    },
+    {
+      "name": "Footer - Testo secondario (ATTUALE)",
+      "background": "secondary-900",
+      "backgroundHex": "#0f172a",
+      "text": "gray-400",
+      "textHex": "#9ca3af",
+      "ratio": "7.03",
+      "level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Testo secondario footer - PROBLEMA IDENTIFICATO"
+    },
+    {
+      "name": "Footer - Testo secondario (MIGLIORATO)",
+      "background": "secondary-900",
+      "backgroundHex": "#0f172a",
+      "text": "gray-300",
+      "textHex": "#d1d5db",
+      "ratio": "12.12",
+      "level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Proposta miglioramento: gray-300"
+    },
+    {
+      "name": "Footer - Testo secondario (OTTIMALE)",
+      "background": "secondary-900",
+      "backgroundHex": "#0f172a",
+      "text": "gray-200",
+      "textHex": "#e5e7eb",
+      "ratio": "14.42",
+      "level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Proposta ottimale: gray-200"
+    },
+    {
+      "name": "Sezione scura - Testo principale",
+      "background": "secondary-900",
+      "backgroundHex": "#0f172a",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": "17.85",
+      "level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Sezioni con bg-secondary-900"
+    },
+    {
+      "name": "Sezione scura - Testo secondario (ATTUALE)",
+      "background": "secondary-900",
+      "backgroundHex": "#0f172a",
+      "text": "slate-400",
+      "textHex": "#94a3b8",
+      "ratio": "6.96",
+      "level": "AA",
+      "status": "BUONO",
+      "context": "Se presente slate-400 su sfondo scuro"
+    },
+    {
+      "name": "Sezione scura - Testo secondario (MIGLIORATO)",
+      "background": "secondary-900",
+      "backgroundHex": "#0f172a",
+      "text": "slate-300",
+      "textHex": "#cbd5e1",
+      "ratio": "12.02",
+      "level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Proposta miglioramento: slate-300"
+    }
+  ],
+  "recommendations": [
+    "Sostituire text-gray-400 con text-gray-300 nel footer",
+    "Usare text-gray-200 per testo importante su sfondi scuri",
+    "Evitare text-gray-500 e colori più scuri su bg-secondary-900",
+    "Testare su dispositivi con luminosità ridotta"
+  ]
+}

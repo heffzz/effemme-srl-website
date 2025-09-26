@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-09-25T15:42:08.017Z",
+  "darkBackgroundsFound": 0,
+  "status": "SUCCESS",
+  "scannedPatterns": [
+    "bg-secondary-900",
+    "bg-black",
+    "bg-gray-900",
+    "bg-slate-900",
+    "bg-zinc-900",
+    "bg-neutral-900"
+  ],
+  "excludedFiles": [
+    "test-dark-backgrounds.js",
+    "test-no-dark-backgrounds.js",
+    "test-final-contrast.js",
+    "test-readability-final.js",
+    "dark-backgrounds-report.json",
+    "ACCESSIBILITY_IMPROVEMENTS_REPORT.md",
+    "hero-contrast-report.json",
+    "hero-final-report.json"
+  ],
+  "results": []
+}

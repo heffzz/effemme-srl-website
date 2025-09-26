@@ -56,31 +56,31 @@ export default function RiscaldamentoAPavimento() {
       canonical="/riscaldamento-a-pavimento-ravenna"
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 to-cyan-600 text-white section-padding">
+      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-900 section-padding">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="heading-xl text-white mb-6">
+              <h1 className="heading-xl text-secondary-900 mb-6">
                 Riscaldamento a Pavimento a Ravenna
               </h1>
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed">
+              <p className="text-xl text-secondary-700 mb-8 leading-relaxed">
                 EFFEMME SRL progetta e installa sistemi di riscaldamento a pavimento radiante a Ravenna. 
                 Comfort ottimale, risparmio energetico e massima libertà nell'arredamento della tua casa.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/contatti" className="btn-secondary bg-white text-blue-600 hover:bg-gray-50">
+                <Link href="/contatti" className="btn-secondary bg-white text-primary-600 hover:bg-gray-50 border border-primary-600">
                   Richiedi Preventivo Gratuito
                 </Link>
                 <a 
                   href={`tel:${phone}`} 
-                  className="btn-primary bg-blue-500 hover:bg-blue-400 border-2 border-blue-500"
+                  className="btn-primary bg-primary-600 hover:bg-primary-700 border-2 border-primary-600 text-white"
                 >
                   📞 Chiama Subito
                 </a>
               </div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-              <h2 className="text-2xl font-bold mb-6">Vantaggi del Riscaldamento a Pavimento</h2>
+            <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 border border-primary-200 shadow-lg">
+              <h2 className="text-2xl font-bold mb-6 text-secondary-900">Vantaggi del Riscaldamento a Pavimento</h2>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <span className="text-2xl mr-3">🌡️</span>
@@ -140,7 +140,7 @@ export default function RiscaldamentoAPavimento() {
                   
                   <a 
                     href={`tel:${phone}`}
-                    className="btn-primary bg-blue-600 hover:bg-blue-700"
+                    className="btn-primary bg-primary-600 hover:bg-primary-700 text-white"
                   >
                     Richiedi Informazioni
                   </a>
@@ -177,7 +177,7 @@ export default function RiscaldamentoAPavimento() {
                   {benefit.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-secondary-900">{benefit.title}</h3>
-                <p className="text-secondary-600">{benefit.description}</p>
+                <p className="text-secondary-700">{benefit.description}</p>
               </div>
             ))}
           </div>
@@ -326,7 +326,7 @@ export default function RiscaldamentoAPavimento() {
                 <p className="text-secondary-600 mb-4">Risparmio medio sui consumi</p>
                 <a 
                   href={`tel:${phone}`}
-                  className="btn-primary bg-blue-600 hover:bg-blue-700"
+                  className="btn-primary bg-primary-600 hover:bg-primary-700 text-white"
                 >
                   Richiedi Preventivo Personalizzato
                 </a>
@@ -388,23 +388,23 @@ export default function RiscaldamentoAPavimento() {
       </section>
 
       {/* CTA */}
-      <section className="bg-blue-700 text-white section-padding">
+      <section className="bg-primary-50 text-secondary-900 section-padding">
         <div className="container-custom text-center">
-          <h2 className="heading-lg text-white mb-6">
+          <h2 className="heading-lg text-secondary-900 mb-6">
             Pronto per il Massimo Comfort?
           </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-secondary-700 mb-8 max-w-2xl mx-auto">
             Contatta EFFEMME SRL per una consulenza gratuita sul riscaldamento a pavimento. 
             Progettazione personalizzata e installazione professionale a Ravenna!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href={`tel:${phone}`}
-              className="btn-secondary bg-white text-blue-600 hover:bg-gray-50"
+              className="btn-secondary bg-white text-primary-600 hover:bg-gray-50 border border-primary-600"
             >
               📞 Chiama Ora
             </a>
-            <Link href="/contatti" className="btn-primary bg-blue-500 hover:bg-blue-400">
+            <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700 text-white">
               💬 Richiedi Preventivo
             </Link>
           </div>

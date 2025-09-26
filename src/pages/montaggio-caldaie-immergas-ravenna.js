@@ -56,24 +56,24 @@ export default function MontaggioCaldeieImmergas() {
       canonical="/montaggio-caldaie-immergas-ravenna"
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-red-600 to-orange-600 text-white section-padding">
+      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-900 section-padding">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="heading-xl text-white mb-6">
+              <h1 className="heading-xl text-secondary-900 mb-6">
                 Montaggio Caldaie IMMERGAS a Ravenna
               </h1>
-              <p className="text-xl text-red-100 mb-8 leading-relaxed">
+              <p className="text-xl text-secondary-700 mb-8 leading-relaxed">
                 EFFEMME SRL è partner ufficiale IMMERGAS per l'installazione di caldaie a condensazione 
                 ad alta efficienza energetica. Esperienza, qualità e garanzia per il riscaldamento della tua casa a Ravenna.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/contatti" className="btn-secondary bg-white text-red-600 hover:bg-gray-50">
+                <Link href="/contatti" className="btn-secondary bg-white text-primary-600 hover:bg-gray-50 border border-primary-600">
                   Richiedi Preventivo Gratuito
                 </Link>
                 <a 
                   href={`tel:${phone}`} 
-                  className="btn-primary bg-red-500 hover:bg-red-400 border-2 border-red-500"
+                  className="btn-primary bg-primary-600 hover:bg-primary-700 border-2 border-primary-600 text-white"
                 >
                   📞 Chiama Subito
                 </a>
@@ -165,7 +165,7 @@ export default function MontaggioCaldeieImmergas() {
                   {benefit.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-secondary-900">{benefit.title}</h3>
-                <p className="text-secondary-600">{benefit.description}</p>
+                <p className="text-secondary-700">{benefit.description}</p>
               </div>
             ))}
           </div>
@@ -387,23 +387,23 @@ export default function MontaggioCaldeieImmergas() {
       </section>
 
       {/* CTA */}
-      <section className="bg-red-700 text-white section-padding">
+      <section className="bg-primary-50 text-secondary-900 section-padding">
         <div className="container-custom text-center">
-          <h2 className="heading-lg text-white mb-6">
+          <h2 className="heading-lg text-secondary-900 mb-6">
             Pronto per una Nuova Caldaia IMMERGAS?
           </h2>
-          <p className="text-xl text-red-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-secondary-700 mb-8 max-w-2xl mx-auto">
             Contatta EFFEMME SRL per un sopralluogo gratuito e scopri quale caldaia IMMERGAS 
             è perfetta per la tua casa a Ravenna. Installazione professionale garantita!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href={`tel:${phone}`}
-              className="btn-secondary bg-white text-red-600 hover:bg-gray-50"
+              className="btn-secondary bg-white text-primary-600 hover:bg-gray-50 border border-primary-600"
             >
               📞 Chiama Ora
             </a>
-            <Link href="/contatti" className="btn-primary bg-red-500 hover:bg-red-400">
+            <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700 text-white">
               💬 Richiedi Preventivo
             </Link>
           </div>

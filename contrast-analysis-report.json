@@ -1,0 +1,413 @@
+{
+  "timestamp": "2025-09-25T15:09:05.191Z",
+  "summary": {
+    "total": 36,
+    "passed": 32,
+    "warnings": 4,
+    "critical": 0
+  },
+  "results": [
+    {
+      "context": "Footer background",
+      "bg": "secondary-900",
+      "text": "white",
+      "bgHex": "#0f172a",
+      "textHex": "#ffffff",
+      "ratio": "17.85",
+      "status": "ECCELLENTE (AAA)",
+      "wcagAA": true,
+      "wcagAAA": true
+    },
+    {
+      "context": "Header top bar",
+      "bg": "primary-700",
+      "text": "white",
+      "bgHex": "#1d4ed8",
+      "textHex": "#ffffff",
+      "ratio": "6.70",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "WhatsApp button (Header)",
+      "bg": "green-700",
+      "text": "white",
+      "bgHex": "#166534",
+      "textHex": "#ffffff",
+      "ratio": "7.13",
+      "status": "ECCELLENTE (AAA)",
+      "wcagAA": true,
+      "wcagAAA": true
+    },
+    {
+      "context": "WhatsApp button hover (Header)",
+      "bg": "green-800",
+      "text": "white",
+      "bgHex": "#14532d",
+      "textHex": "#ffffff",
+      "ratio": "9.11",
+      "status": "ECCELLENTE (AAA)",
+      "wcagAA": true,
+      "wcagAAA": true
+    },
+    {
+      "context": "Secondary button",
+      "bg": "white",
+      "text": "primary-600",
+      "bgHex": "#ffffff",
+      "textHex": "#2563eb",
+      "ratio": "5.17",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Primary button",
+      "bg": "primary-600",
+      "text": "white",
+      "bgHex": "#2563eb",
+      "textHex": "#ffffff",
+      "ratio": "5.17",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Section background",
+      "bg": "gray-50",
+      "text": "secondary-900",
+      "bgHex": "#f9fafb",
+      "textHex": "#0f172a",
+      "ratio": "17.08",
+      "status": "ECCELLENTE (AAA)",
+      "wcagAA": true,
+      "wcagAAA": true
+    },
+    {
+      "context": "Info box",
+      "bg": "primary-50",
+      "text": "primary-700",
+      "bgHex": "#eff6ff",
+      "textHex": "#1d4ed8",
+      "ratio": "6.16",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Icon background",
+      "bg": "primary-600",
+      "text": "white",
+      "bgHex": "#2563eb",
+      "textHex": "#ffffff",
+      "ratio": "5.17",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "CTA section",
+      "bg": "primary-700",
+      "text": "white",
+      "bgHex": "#1d4ed8",
+      "textHex": "#ffffff",
+      "ratio": "6.70",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Climatizzatori - Secondary button",
+      "bg": "white",
+      "text": "cyan-600",
+      "bgHex": "#ffffff",
+      "textHex": "#0e7490",
+      "ratio": "5.36",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Climatizzatori - Primary button",
+      "bg": "cyan-500",
+      "text": "white",
+      "bgHex": "#0891b2",
+      "textHex": "#ffffff",
+      "ratio": "3.68",
+      "status": "INSUFFICIENTE",
+      "wcagAA": false,
+      "wcagAAA": false
+    },
+    {
+      "context": "Climatizzatori - Icon background",
+      "bg": "cyan-600",
+      "text": "white",
+      "bgHex": "#0e7490",
+      "textHex": "#ffffff",
+      "ratio": "5.36",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Climatizzatori - Footer CTA",
+      "bg": "secondary-900",
+      "text": "white",
+      "bgHex": "#0f172a",
+      "textHex": "#ffffff",
+      "ratio": "17.85",
+      "status": "ECCELLENTE (AAA)",
+      "wcagAA": true,
+      "wcagAAA": true
+    },
+    {
+      "context": "Pompe di calore - Secondary button",
+      "bg": "white",
+      "text": "green-600",
+      "bgHex": "#ffffff",
+      "textHex": "#15803d",
+      "ratio": "5.02",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Pompe di calore - Primary button",
+      "bg": "green-500",
+      "text": "white",
+      "bgHex": "#16a34a",
+      "textHex": "#ffffff",
+      "ratio": "3.30",
+      "status": "INSUFFICIENTE",
+      "wcagAA": false,
+      "wcagAAA": false
+    },
+    {
+      "context": "Pompe di calore - Icon background",
+      "bg": "green-600",
+      "text": "white",
+      "bgHex": "#15803d",
+      "textHex": "#ffffff",
+      "ratio": "5.02",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Pompe di calore - CTA section",
+      "bg": "green-700",
+      "text": "white",
+      "bgHex": "#166534",
+      "textHex": "#ffffff",
+      "ratio": "7.13",
+      "status": "ECCELLENTE (AAA)",
+      "wcagAA": true,
+      "wcagAAA": true
+    },
+    {
+      "context": "Riscaldamento - Secondary button",
+      "bg": "white",
+      "text": "blue-600",
+      "bgHex": "#ffffff",
+      "textHex": "#2563eb",
+      "ratio": "5.17",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Riscaldamento - Primary button",
+      "bg": "blue-500",
+      "text": "white",
+      "bgHex": "#3b82f6",
+      "textHex": "#ffffff",
+      "ratio": "3.68",
+      "status": "INSUFFICIENTE",
+      "wcagAA": false,
+      "wcagAAA": false
+    },
+    {
+      "context": "Riscaldamento - Icon background",
+      "bg": "blue-600",
+      "text": "white",
+      "bgHex": "#2563eb",
+      "textHex": "#ffffff",
+      "ratio": "5.17",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Riscaldamento - CTA section",
+      "bg": "blue-700",
+      "text": "white",
+      "bgHex": "#1d4ed8",
+      "textHex": "#ffffff",
+      "ratio": "6.70",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Caldaie - Secondary button",
+      "bg": "white",
+      "text": "red-600",
+      "bgHex": "#ffffff",
+      "textHex": "#dc2626",
+      "ratio": "4.83",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Caldaie - Text on background",
+      "bg": "red-600",
+      "text": "white",
+      "bgHex": "#dc2626",
+      "textHex": "#ffffff",
+      "ratio": "4.83",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Riparazioni - Secondary button",
+      "bg": "white",
+      "text": "purple-600",
+      "bgHex": "#ffffff",
+      "textHex": "#9333ea",
+      "ratio": "5.38",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Riparazioni - Text elements",
+      "bg": "purple-600",
+      "text": "white",
+      "bgHex": "#9333ea",
+      "textHex": "#ffffff",
+      "ratio": "5.38",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Contact icons",
+      "bg": "primary-100",
+      "text": "primary-600",
+      "bgHex": "#dbeafe",
+      "textHex": "#2563eb",
+      "ratio": "4.24",
+      "status": "INSUFFICIENTE",
+      "wcagAA": false,
+      "wcagAAA": false
+    },
+    {
+      "context": "Contact buttons",
+      "bg": "green-600",
+      "text": "white",
+      "bgHex": "#15803d",
+      "textHex": "#ffffff",
+      "ratio": "5.02",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Email button",
+      "bg": "blue-600",
+      "text": "white",
+      "bgHex": "#2563eb",
+      "textHex": "#ffffff",
+      "ratio": "5.17",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Success message",
+      "bg": "green-50",
+      "text": "green-700",
+      "bgHex": "#f0fdf4",
+      "textHex": "#166534",
+      "ratio": "6.81",
+      "status": "BUONO (AA)",
+      "wcagAA": true,
+      "wcagAAA": false
+    },
+    {
+      "context": "Main headings",
+      "bg": "white",
+      "text": "secondary-900",
+      "bgHex": "#ffffff",
+      "textHex": "#0f172a",
+      "ratio": "17.85",
+      "status": "ECCELLENTE (AAA)",
+      "wcagAA": true,
+      "wcagAAA": true
+    },
+    {
+      "context": "Sub headings",
+      "bg": "white",
+      "text": "secondary-800",
+      "bgHex": "#ffffff",
+      "textHex": "#111827",
+      "ratio": "17.74",
+      "status": "ECCELLENTE (AAA)",
+      "wcagAA": true,
+      "wcagAAA": true
+    },
+    {
+      "context": "Body text",
+      "bg": "white",
+      "text": "secondary-700",
+      "bgHex": "#ffffff",
+      "textHex": "#1f2937",
+      "ratio": "14.68",
+      "status": "ECCELLENTE (AAA)",
+      "wcagAA": true,
+      "wcagAAA": true
+    },
+    {
+      "context": "Secondary text",
+      "bg": "white",
+      "text": "secondary-600",
+      "bgHex": "#ffffff",
+      "textHex": "#374151",
+      "ratio": "10.31",
+      "status": "ECCELLENTE (AAA)",
+      "wcagAA": true,
+      "wcagAAA": true
+    },
+    {
+      "context": "Headings on light background",
+      "bg": "gray-50",
+      "text": "secondary-900",
+      "bgHex": "#f9fafb",
+      "textHex": "#0f172a",
+      "ratio": "17.08",
+      "status": "ECCELLENTE (AAA)",
+      "wcagAA": true,
+      "wcagAAA": true
+    },
+    {
+      "context": "Text on light background",
+      "bg": "gray-50",
+      "text": "secondary-700",
+      "bgHex": "#f9fafb",
+      "textHex": "#1f2937",
+      "ratio": "14.05",
+      "status": "ECCELLENTE (AAA)",
+      "wcagAA": true,
+      "wcagAAA": true
+    }
+  ],
+  "recommendations": [
+    "Utilizzare sempre un rapporto di contrasto minimo di 4.5:1 per testo normale",
+    "Puntare a 7:1 per testo importante o di piccole dimensioni",
+    "Testare i colori con simulatori di daltonismo",
+    "Verificare la leggibilità in diverse condizioni di illuminazione"
+  ]
+}

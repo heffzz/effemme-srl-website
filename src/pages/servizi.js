@@ -64,13 +64,13 @@ export default function Servizi() {
       canonical="/servizi"
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white section-padding">
+      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-900 section-padding">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="heading-xl text-white mb-6">
+            <h1 className="heading-xl text-secondary-900 mb-6">
               I Nostri Servizi Termoidraulici
             </h1>
-            <p className="text-xl text-primary-100 leading-relaxed">
+            <p className="text-xl text-secondary-700 leading-relaxed">
               Soluzioni complete per riscaldamento, climatizzazione e termoidraulica a Ravenna. 
               Qualità professionale e tecnologie all'avanguardia per il comfort della tua casa.
             </p>
@@ -184,7 +184,7 @@ export default function Servizi() {
                 1
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Consulenza</h3>
-              <p className="text-secondary-600">
+              <p className="text-secondary-700">
                 Sopralluogo gratuito e analisi delle tue esigenze per trovare la soluzione ottimale.
               </p>
             </div>
@@ -194,7 +194,7 @@ export default function Servizi() {
                 2
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Preventivo</h3>
-              <p className="text-secondary-600">
+              <p className="text-secondary-700">
                 Preventivo dettagliato e trasparente, senza costi nascosti o sorprese.
               </p>
             </div>
@@ -204,7 +204,7 @@ export default function Servizi() {
                 3
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Installazione</h3>
-              <p className="text-secondary-600">
+              <p className="text-secondary-700">
                 Installazione professionale con materiali di qualità e nel rispetto dei tempi concordati.
               </p>
             </div>
@@ -214,7 +214,7 @@ export default function Servizi() {
                 4
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Assistenza</h3>
-              <p className="text-secondary-600">
+              <p className="text-secondary-700">
                 Garanzia su tutti i lavori e assistenza post-vendita per la massima tranquillità.
               </p>
             </div>
@@ -248,7 +248,7 @@ export default function Servizi() {
               </div>
               <div className="bg-white rounded-lg p-6 shadow-md">
                 <h3 className="font-semibold text-secondary-900 mb-2">Tempi di Intervento</h3>
-                <div className="space-y-2 text-sm text-secondary-600">
+                <div className="space-y-2 text-sm text-secondary-700">
                   <div>• Emergenze: entro 2 ore</div>
                   <div>• Interventi programmati: entro 24-48 ore</div>
                   <div>• Installazioni: su appuntamento</div>
@@ -257,7 +257,7 @@ export default function Servizi() {
             </div>
             <div className="bg-white rounded-2xl p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-primary-700 mb-6">Richiedi un Preventivo</h3>
-              <p className="text-secondary-600 mb-6">
+              <p className="text-secondary-700 mb-6">
                 Contattaci per una consulenza gratuita e un preventivo personalizzato 
                 per le tue esigenze termoidrauliche.
               </p>
@@ -298,23 +298,23 @@ export default function Servizi() {
       </section>
 
       {/* CTA */}
-      <section className="bg-primary-700 text-white section-padding">
+      <section className="bg-primary-50 text-secondary-900 section-padding">
         <div className="container-custom text-center">
-          <h2 className="heading-lg text-white mb-6">
+          <h2 className="heading-lg text-secondary-900 mb-6">
             Hai Bisogno di Uno dei Nostri Servizi?
           </h2>
-          <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-secondary-700 mb-8 max-w-2xl mx-auto">
             Non esitare a contattarci! Il nostro team è pronto a fornirti la soluzione 
             perfetta per ogni tua esigenza termoidraulica.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href={`tel:${phone}`}
-              className="btn-secondary bg-white text-primary-600 hover:bg-gray-50"
+              className="btn-secondary bg-white text-primary-600 hover:bg-gray-50 border border-primary-600"
             >
               📞 Chiama Ora
             </a>
-            <Link href="/contatti" className="btn-primary bg-primary-500 hover:bg-primary-400">
+            <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700 text-white">
               💬 Richiedi Preventivo
             </Link>
           </div>

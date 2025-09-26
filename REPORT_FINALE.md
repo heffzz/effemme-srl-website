@@ -81,7 +81,23 @@ Per raggiungere Performance > 80:
 
 ---
 
-## 🌐 Istruzioni Deploy Netlify
+## 🌐 Repository GitHub
+
+**URL**: https://github.com/heffzz/effemme-srl-website
+
+### Clonare il Repository
+```bash
+git clone https://github.com/heffzz/effemme-srl-website.git
+cd effemme-srl-website
+npm install
+npm run dev
+```
+
+### Branch Disponibili
+- **`main`**: Branch principale (default)
+- **`feat/site-initial`**: Branch con implementazione iniziale
+
+## 🚀 Istruzioni Deploy Netlify
 
 ### Opzione 1: Deploy Manuale (Raccomandato)
 1. Accedi a [netlify.com](https://netlify.com)
@@ -107,15 +123,16 @@ CNAME: www → effemmesrl.netlify.app
 ## 📦 Deliverable
 
 ### File Forniti
-- ✅ **effemme-srl-website.zip**: Progetto completo
+- ✅ **🌐 Repository GitHub**: https://github.com/heffzz/effemme-srl-website
+- ✅ **effemme-srl-website-github.zip**: Progetto completo
 - ✅ **README.md**: Istruzioni tecniche dettagliate
 - ✅ **TODO_POPULATE_CONTACTS.md**: Lista contatti da aggiornare
 - ✅ **Report test**: lighthouse-report.json, accessibility-report.json
 
 ### Repository Git
-- ✅ Branch `feat/site-initial` creato
+- ✅ Branch `feat/site-initial` creato (main come default)
 - ✅ Commit iniziale completato
-- ✅ Pronto per push su repository remoto
+- ✅ Repository GitHub pubblico configurato
 
 ---
 

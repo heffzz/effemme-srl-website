@@ -76,7 +76,7 @@ export default function PompeDiCaloreDaikin() {
                 </Link>
                 <a 
                   href={`tel:${phone}`} 
-                  className="btn-primary bg-green-500 hover:bg-green-400 border-2 border-green-500"
+                  className="btn-primary bg-primary-600 hover:bg-primary-700 border-2 border-primary-600 text-white"
                 >
                   📞 Chiama Subito
                 </a>
@@ -146,7 +146,7 @@ export default function PompeDiCaloreDaikin() {
                 </ul>
                 <a 
                   href={`tel:${phone}`}
-                  className="w-full btn-primary text-center bg-green-600 hover:bg-green-700"
+                  className="w-full btn-primary text-center bg-primary-600 hover:bg-primary-700 text-white"
                 >
                   Richiedi Info
                 </a>
@@ -170,11 +170,11 @@ export default function PompeDiCaloreDaikin() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((benefit, index) => (
               <div key={index} className="text-center">
-                <div className="bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
                   {benefit.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-secondary-900">{benefit.title}</h3>
-                <p className="text-secondary-600">{benefit.description}</p>
+                <p className="text-secondary-700">{benefit.description}</p>
               </div>
             ))}
           </div>
@@ -257,7 +257,7 @@ export default function PompeDiCaloreDaikin() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 1
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Progettazione</h3>
@@ -267,7 +267,7 @@ export default function PompeDiCaloreDaikin() {
             </div>
             
             <div className="text-center">
-              <div className="bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 2
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Installazione</h3>
@@ -277,7 +277,7 @@ export default function PompeDiCaloreDaikin() {
             </div>
             
             <div className="text-center">
-              <div className="bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 3
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Configurazione</h3>
@@ -287,7 +287,7 @@ export default function PompeDiCaloreDaikin() {
             </div>
             
             <div className="text-center">
-              <div className="bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 4
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Formazione</h3>
@@ -370,7 +370,7 @@ export default function PompeDiCaloreDaikin() {
                 <div className="mt-6 text-center">
                   <a 
                     href={`tel:${phone}`}
-                    className="btn-primary bg-green-600 hover:bg-green-700"
+                    className="btn-primary bg-primary-600 hover:bg-primary-700 text-white"
                   >
                     Calcola il Tuo Preventivo
                   </a>
@@ -435,23 +435,23 @@ export default function PompeDiCaloreDaikin() {
       </section>
 
       {/* CTA */}
-      <section className="bg-green-700 text-white section-padding">
+      <section className="bg-primary-50 text-secondary-900 section-padding">
         <div className="container-custom text-center">
-          <h2 className="heading-lg text-white mb-6">
+          <h2 className="heading-lg text-secondary-900 mb-6">
             Pronto per il Futuro del Riscaldamento?
           </h2>
-          <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-secondary-700 mb-8 max-w-2xl mx-auto">
             Contatta EFFEMME SRL per una consulenza gratuita sulle pompe di calore DAIKIN. 
             Scopri quanto puoi risparmiare con la tecnologia più avanzata del settore!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href={`tel:${phone}`}
-              className="btn-secondary bg-white text-green-600 hover:bg-gray-50"
+              className="btn-secondary bg-white text-primary-600 hover:bg-gray-50 border border-primary-600"
             >
               📞 Chiama Ora
             </a>
-            <Link href="/contatti" className="btn-primary bg-green-500 hover:bg-green-400">
+            <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700 text-white">
               💬 Richiedi Preventivo
             </Link>
           </div>

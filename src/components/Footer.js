@@ -6,17 +6,17 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="bg-secondary-900 text-white">
+    <footer className="bg-gray-50 text-secondary-900">
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Informazioni Azienda */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-primary-400">EFFEMME SRL</h3>
-            <p className="text-gray-300 mb-4">
+            <h3 className="text-xl font-bold mb-4 text-primary-600">EFFEMME SRL</h3>
+            <p className="text-secondary-700 mb-4">
               Esperti in termoidraulica, climatizzazione e riscaldamento a Ravenna. 
               Qualità e professionalità dal 1995.
             </p>
-            <div className="space-y-2 text-sm text-gray-400">
+            <div className="space-y-2 text-sm text-secondary-600">
               <p>P.IVA: 02170530394</p>
               <p>VIA DEL FABBRO, 44</p>
               <p>FRAZ. GAMBELLARA</p>
@@ -26,8 +26,8 @@ export default function Footer() {
 
           {/* Servizi */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">I Nostri Servizi</h3>
-            <ul className="space-y-2 text-gray-300">
+            <h3 className="text-lg font-semibold mb-4 text-secondary-900">I Nostri Servizi</h3>
+            <ul className="space-y-2 text-secondary-700">
               <li>
                 <Link href="/montaggio-caldaie-immergas-ravenna" className="hover:text-primary-400 transition-colors">
                   Caldaie IMMERGAS
@@ -58,8 +58,8 @@ export default function Footer() {
 
           {/* Link Utili */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Link Utili</h3>
-            <ul className="space-y-2 text-gray-300">
+            <h3 className="text-lg font-semibold mb-4 text-secondary-900">Link Utili</h3>
+            <ul className="space-y-2 text-secondary-700">
               <li>
                 <Link href="/" className="hover:text-primary-400 transition-colors">
                   Home
@@ -95,11 +95,11 @@ export default function Footer() {
 
           {/* Contatti */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contatti</h3>
+            <h3 className="text-lg font-semibold mb-4 text-secondary-900">Contatti</h3>
             <div className="space-y-3">
               <a 
                 href={`tel:${phone}`} 
-                className="flex items-center text-gray-300 hover:text-primary-400 transition-colors"
+                className="flex items-center text-secondary-700 hover:text-primary-600 transition-colors"
                 aria-label="Chiama EFFEMME SRL"
               >
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -109,7 +109,7 @@ export default function Footer() {
               </a>
               <a 
                 href={`mailto:${email}`} 
-                className="flex items-center text-gray-300 hover:text-primary-400 transition-colors"
+                className="flex items-center text-secondary-700 hover:text-primary-600 transition-colors"
                 aria-label="Invia email a EFFEMME SRL"
               >
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -118,7 +118,7 @@ export default function Footer() {
                 </svg>
                 {email}
               </a>
-              <div className="flex items-center text-gray-300">
+              <div className="flex items-center text-secondary-700">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
@@ -129,7 +129,7 @@ export default function Footer() {
                   href={`https://wa.me/${phone?.replace(/[^0-9]/g, '')}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center bg-green-600 hover:bg-green-700 px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+                  className="inline-flex items-center bg-primary-600 hover:bg-primary-700 px-4 py-2 rounded-lg text-sm font-medium transition-colors text-white"
                   aria-label="Contattaci su WhatsApp"
                 >
                   <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
@@ -143,11 +143,11 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">
+        <div className="border-t border-gray-300 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-secondary-600 text-sm">
             © {currentYear} EFFEMME SRL. Tutti i diritti riservati.
           </p>
-          <div className="flex space-x-4 mt-4 md:mt-0 text-sm text-gray-400">
+          <div className="flex space-x-4 mt-4 md:mt-0 text-sm text-secondary-600">
             <span>P.IVA: 02170530394</span>
             <span>•</span>
             <span>Ravenna, Italia</span>

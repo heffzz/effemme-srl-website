@@ -98,31 +98,31 @@ export default function PiccoleRiparazioniManutenzione() {
       canonical="/piccole-riparazioni-manutenzione-ravenna"
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-purple-600 to-pink-600 text-white section-padding">
+      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-900 section-padding">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="heading-xl text-white mb-6">
+              <h1 className="heading-xl text-secondary-900 mb-6">
                 Riparazioni e Manutenzione a Ravenna
               </h1>
-              <p className="text-xl text-purple-100 mb-8 leading-relaxed">
+              <p className="text-xl text-secondary-700 mb-8 leading-relaxed">
                 EFFEMME SRL offre servizi di pronto intervento, riparazioni e manutenzione per tutti gli impianti termoidraulici a Ravenna. 
                 Assistenza 24/7 per emergenze e interventi programmati per la massima efficienza.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
                   href={`tel:${phone}`} 
-                  className="btn-secondary bg-white text-purple-600 hover:bg-gray-50"
+                  className="btn-secondary bg-white text-primary-600 hover:bg-gray-50 border border-primary-600"
                 >
                   🚨 Pronto Intervento
                 </a>
-                <Link href="/contatti" className="btn-primary bg-purple-500 hover:bg-purple-400 border-2 border-purple-500">
+                <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700 border-2 border-primary-600 text-white">
                   📅 Prenota Manutenzione
                 </Link>
               </div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-              <h2 className="text-2xl font-bold mb-6">Servizio di Emergenza</h2>
+            <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 border border-primary-200 shadow-lg">
+              <h2 className="text-2xl font-bold mb-6 text-secondary-900">Servizio di Emergenza</h2>
               <div className="space-y-4">
                 <div className="flex items-center">
                   <span className="text-2xl mr-3">⏰</span>
@@ -192,7 +192,7 @@ export default function PiccoleRiparazioniManutenzione() {
                 
                 <a 
                   href={`tel:${phone}`}
-                  className="w-full btn-primary text-center bg-purple-600 hover:bg-purple-700"
+                  className="w-full btn-primary text-center bg-primary-600 hover:bg-primary-700 text-white"
                 >
                   Richiedi Intervento
                 </a>
@@ -246,7 +246,7 @@ export default function PiccoleRiparazioniManutenzione() {
                 
                 <a 
                   href={`tel:${phone}`}
-                  className="w-full btn-primary text-center bg-purple-600 hover:bg-purple-700"
+                  className="w-full btn-primary text-center bg-primary-600 hover:bg-primary-700 text-white"
                 >
                   Chiama per Questo Problema
                 </a>
@@ -297,7 +297,7 @@ export default function PiccoleRiparazioniManutenzione() {
                   Assistenza telefonica
                 </li>
               </ul>
-              <a href={`tel:${phone}`} className="w-full btn-primary bg-purple-600 hover:bg-purple-700">
+              <a href={`tel:${phone}`} className="w-full btn-primary bg-primary-600 hover:bg-primary-700 text-white">
                 Attiva Contratto
               </a>
             </div>
@@ -334,7 +334,7 @@ export default function PiccoleRiparazioniManutenzione() {
                   Garanzia estesa
                 </li>
               </ul>
-              <a href={`tel:${phone}`} className="w-full btn-primary bg-purple-600 hover:bg-purple-700">
+              <a href={`tel:${phone}`} className="w-full btn-primary bg-primary-600 hover:bg-primary-700 text-white">
                 Attiva Contratto
               </a>
             </div>
@@ -368,7 +368,7 @@ export default function PiccoleRiparazioniManutenzione() {
                   Tecnico dedicato
                 </li>
               </ul>
-              <a href={`tel:${phone}`} className="w-full btn-primary bg-purple-600 hover:bg-purple-700">
+              <a href={`tel:${phone}`} className="w-full btn-primary bg-primary-600 hover:bg-primary-700 text-white">
                 Attiva Contratto
               </a>
             </div>
@@ -483,23 +483,23 @@ export default function PiccoleRiparazioniManutenzione() {
       </section>
 
       {/* CTA */}
-      <section className="bg-purple-700 text-white section-padding">
+      <section className="bg-primary-50 text-secondary-900 section-padding">
         <div className="container-custom text-center">
-          <h2 className="heading-lg text-white mb-6">
+          <h2 className="heading-lg text-secondary-900 mb-6">
             Hai Bisogno di Assistenza Immediata?
           </h2>
-          <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-secondary-700 mb-8 max-w-2xl mx-auto">
             Non aspettare che il problema peggiori! Contatta EFFEMME SRL per un intervento rapido e professionale. 
             Siamo sempre pronti ad aiutarti a Ravenna e provincia.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href={`tel:${phone}`}
-              className="btn-secondary bg-white text-purple-600 hover:bg-gray-50"
+              className="btn-secondary bg-white text-primary-600 hover:bg-gray-50 border border-primary-600"
             >
               🚨 Pronto Intervento
             </a>
-            <Link href="/contatti" className="btn-primary bg-purple-500 hover:bg-purple-400">
+            <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700 text-white">
               📅 Prenota Manutenzione
             </Link>
           </div>
@@ -508,3 +508,20 @@ export default function PiccoleRiparazioniManutenzione() {
     </Layout>
   )
 }
+
+<p className="text-secondary-700">
+  Sopralluogo gratuito per valutare il problema e fornirti la soluzione migliore.
+</p>
+<p className="text-secondary-700">
+  Preventivo dettagliato e trasparente, senza costi nascosti o sorprese.
+</p>
+<p className="text-secondary-700">
+  Intervento rapido con materiali di qualità e garanzia sui lavori eseguiti.
+</p>
+<p className="text-secondary-700">
+  Assistenza post-intervento e consigli per la manutenzione preventiva.
+</p>
+<p className="text-secondary-700 mb-6">
+  Contattaci per qualsiasi problema idraulico o termoidraulico. 
+  EFFEMME SRL è sempre pronta ad aiutarti a Ravenna!
+</p>

@@ -52,7 +52,7 @@ export default function Header() {
                 href={`https://wa.me/${phone?.replace(/[^0-9]/g, '')}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-green-600 hover:bg-green-700 px-3 py-1 rounded text-xs font-medium transition-colors"
+                className="bg-primary-600 hover:bg-primary-700 px-3 py-1 rounded text-xs font-medium transition-colors text-white"
                 aria-label="Contattaci su WhatsApp"
               >
                 WhatsApp
@@ -68,7 +68,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <div className="text-2xl font-bold text-primary-700">
-              EFFEMME <span className="text-secondary-600">SRL</span>
+              EFFEMME <span className="text-secondary-700">SRL</span>
             </div>
           </Link>
 
@@ -81,7 +81,7 @@ export default function Header() {
                 className={`font-medium transition-colors ${
                   isActive(item.href)
                     ? 'text-primary-600 border-b-2 border-primary-600'
-                    : 'text-secondary-700 hover:text-primary-600'
+                    : 'text-secondary-800 hover:text-primary-600'
                 }`}
               >
                 {item.name}
@@ -98,7 +98,7 @@ export default function Header() {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden p-2 rounded-md text-secondary-700 hover:text-primary-600 hover:bg-gray-100"
+            className="md:hidden p-2 rounded-md text-secondary-800 hover:text-primary-600 hover:bg-gray-100"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Apri menu di navigazione"
           >
@@ -123,7 +123,7 @@ export default function Header() {
                   className={`font-medium py-2 transition-colors ${
                     isActive(item.href)
                       ? 'text-primary-600'
-                      : 'text-secondary-700 hover:text-primary-600'
+                      : 'text-secondary-800 hover:text-primary-600'
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >

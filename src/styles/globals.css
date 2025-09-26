@@ -40,10 +40,18 @@
   }
   
   .heading-md {
-    @apply text-2xl lg:text-3xl font-semibold text-secondary-900 leading-tight;
+    @apply text-2xl lg:text-3xl font-semibold text-secondary-800 leading-tight;
   }
   
   .text-body {
-    @apply text-lg text-secondary-600 leading-relaxed;
+    @apply text-lg text-secondary-700 leading-relaxed;
+  }
+  
+  .text-muted {
+    @apply text-base text-secondary-600 leading-relaxed;
+  }
+  
+  .text-small {
+    @apply text-sm text-secondary-700 leading-normal;
   }
 }

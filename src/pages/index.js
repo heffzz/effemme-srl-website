@@ -69,29 +69,29 @@ export default function Home() {
       canonical="/"
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white section-padding">
+      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-900 section-padding">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="heading-xl text-white mb-6">
+              <h1 className="heading-xl text-secondary-900 mb-6">
                 {currentHero.title}
               </h1>
-              <p className="text-xl text-primary-100 mb-8 leading-relaxed">
+              <p className="text-xl text-secondary-700 mb-8 leading-relaxed">
                 {currentHero.subtitle}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/contatti" className="btn-secondary bg-white text-primary-600 hover:bg-gray-50">
+                <Link href="/contatti" className="btn-secondary bg-primary-600 text-white hover:bg-primary-700">
                   {currentCta}
                 </Link>
                 <a 
                   href={`tel:${phone}`} 
-                  className="btn-primary bg-primary-500 hover:bg-primary-400 border-2 border-primary-500"
+                  className="btn-primary bg-primary-600 hover:bg-primary-700 border-2 border-primary-600 text-white"
                   aria-label="Chiama subito EFFEMME SRL"
                 >
                   📞 Chiama Subito
                 </a>
               </div>
-              <div className="mt-8 flex items-center space-x-6 text-primary-200">
+              <div className="mt-8 flex items-center space-x-6 text-secondary-700">
                 <div className="flex items-center">
                   <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -113,9 +113,9 @@ export default function Home() {
               </div>
             </div>
             <div className="relative">
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-                <h2 className="text-2xl font-bold mb-6">Perché Scegliere EFFEMME SRL?</h2>
-                <ul className="space-y-4">
+              <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 border border-primary-200 shadow-lg">
+                <h2 className="text-2xl font-bold mb-6 text-secondary-900">Perché Scegliere EFFEMME SRL?</h2>
+                <ul className="space-y-4 text-secondary-700">
                   <li className="flex items-start">
                     <span className="text-2xl mr-3">✅</span>
                     <span>Oltre 25 anni di esperienza nel settore termoidraulico</span>
@@ -157,7 +157,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-4 text-secondary-900 group-hover:text-primary-600 transition-colors">
                   {service.title}
                 </h3>
-                <p className="text-secondary-600 mb-6 leading-relaxed">
+                <p className="text-secondary-700 mb-6 leading-relaxed">
                   {service.description}
                 </p>
                 <Link 
@@ -185,7 +185,7 @@ export default function Home() {
                 EFFEMME SRL opera principalmente a Ravenna e in tutta la provincia, garantendo 
                 interventi rapidi e assistenza professionale per tutti i tuoi impianti termoidraulici.
               </p>
-              <div className="grid grid-cols-2 gap-4 text-secondary-700">
+              <div className="grid grid-cols-2 gap-4 text-secondary-800">
                 <div>• Ravenna Centro</div>
                 <div>• Marina di Ravenna</div>
                 <div>• Cervia</div>
@@ -235,23 +235,23 @@ export default function Home() {
       </section>
 
       {/* CTA Finale */}
-      <section className="bg-primary-700 text-white section-padding">
+      <section className="bg-primary-50 text-secondary-900 section-padding">
         <div className="container-custom text-center">
-          <h2 className="heading-lg text-white mb-6">
+          <h2 className="heading-lg text-secondary-900 mb-6">
             Hai Bisogno di un Intervento Termoidraulico?
           </h2>
-          <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-secondary-700 mb-8 max-w-2xl mx-auto">
             Non aspettare! Contatta EFFEMME SRL per un preventivo gratuito e scopri 
             le nostre soluzioni per il comfort della tua casa.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href={`tel:${phone}`}
-              className="btn-secondary bg-white text-primary-600 hover:bg-gray-50"
+              className="btn-secondary bg-white text-primary-600 hover:bg-gray-50 border border-primary-600"
             >
               📞 Chiama Ora
             </a>
-            <Link href="/contatti" className="btn-primary bg-primary-500 hover:bg-primary-400">
+            <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700 text-white">
               💬 Richiedi Preventivo
             </Link>
           </div>

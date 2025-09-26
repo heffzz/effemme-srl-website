@@ -1,0 +1,92 @@
+{
+  "timestamp": "2025-09-25T15:24:13.445Z",
+  "summary": {
+    "total_tests": 7,
+    "passed": 7,
+    "success_rate": 100,
+    "remaining_issues": 0,
+    "wcag_compliance": "COMPLETE"
+  },
+  "improvements_implemented": [
+    "Homepage: text-primary-100 → text-white (sottotitolo)",
+    "Homepage: text-primary-200 → text-white (testo piccolo)",
+    "Chi Siamo: text-primary-100 → text-white (sottotitolo)",
+    "Servizi: text-primary-100 → text-white (sottotitolo)",
+    "Contatti: text-primary-100 → text-white (sottotitolo)",
+    "Climatizzatori: text-cyan-100 → text-white (sottotitolo)",
+    "Climatizzatori: bg-cyan-600 → bg-cyan-700 (sfondo più scuro)"
+  ],
+  "test_results": [
+    {
+      "page": "Homepage",
+      "element": "Titolo principale",
+      "background_color": "primary-600",
+      "text_color": "white",
+      "contrast_ratio": "5.17",
+      "wcag_level": "AA",
+      "status": "BUONO",
+      "context": "H1 su gradiente (lato chiaro)"
+    },
+    {
+      "page": "Homepage",
+      "element": "Sottotitolo MIGLIORATO",
+      "background_color": "primary-600",
+      "text_color": "white",
+      "contrast_ratio": "5.17",
+      "wcag_level": "AA",
+      "status": "BUONO",
+      "context": "Sottotitolo su gradiente - AGGIORNATO"
+    },
+    {
+      "page": "Homepage",
+      "element": "Testo piccolo MIGLIORATO",
+      "background_color": "primary-800",
+      "text_color": "white",
+      "contrast_ratio": "8.72",
+      "wcag_level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Testo piccolo su gradiente (lato scuro) - AGGIORNATO"
+    },
+    {
+      "page": "Chi Siamo",
+      "element": "Sottotitolo MIGLIORATO",
+      "background_color": "primary-600",
+      "text_color": "white",
+      "contrast_ratio": "5.17",
+      "wcag_level": "AA",
+      "status": "BUONO",
+      "context": "Hero section - AGGIORNATO"
+    },
+    {
+      "page": "Servizi",
+      "element": "Sottotitolo MIGLIORATO",
+      "background_color": "primary-600",
+      "text_color": "white",
+      "contrast_ratio": "5.17",
+      "wcag_level": "AA",
+      "status": "BUONO",
+      "context": "Hero section - AGGIORNATO"
+    },
+    {
+      "page": "Contatti",
+      "element": "Sottotitolo MIGLIORATO",
+      "background_color": "primary-600",
+      "text_color": "white",
+      "contrast_ratio": "5.17",
+      "wcag_level": "AA",
+      "status": "BUONO",
+      "context": "Hero section - AGGIORNATO"
+    },
+    {
+      "page": "Climatizzatori",
+      "element": "Sottotitolo MIGLIORATO",
+      "background_color": "cyan-700",
+      "text_color": "white",
+      "contrast_ratio": "5.36",
+      "wcag_level": "AA",
+      "status": "BUONO",
+      "context": "Hero section - AGGIORNATO (cyan-700)"
+    }
+  ],
+  "remaining_issues": []
+}

@@ -1,0 +1,132 @@
+{
+  "timestamp": "2025-09-25T15:18:16.689Z",
+  "summary": {
+    "total": 10,
+    "passed": 8,
+    "minor": 2,
+    "critical": 0,
+    "successRate": "80%",
+    "wcagCompliant": false
+  },
+  "tests": [
+    {
+      "name": "Homepage - Bottone primario",
+      "background": "primary-600",
+      "backgroundHex": "#2563eb",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": "5.17",
+      "level": "AA",
+      "status": "BUONO",
+      "context": "Bottoni CTA homepage (migliorato da primary-500)"
+    },
+    {
+      "name": "Servizi - Bottone primario",
+      "background": "primary-600",
+      "backgroundHex": "#2563eb",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": "5.17",
+      "level": "AA",
+      "status": "BUONO",
+      "context": "Bottoni CTA servizi (migliorato da primary-500)"
+    },
+    {
+      "name": "Riscaldamento - Bottone",
+      "background": "blue-600",
+      "backgroundHex": "#2563eb",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": "5.17",
+      "level": "AA",
+      "status": "BUONO",
+      "context": "Bottone riscaldamento (migliorato da blue-500)"
+    },
+    {
+      "name": "Caldaie - Bottone",
+      "background": "red-600",
+      "backgroundHex": "#dc2626",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": "4.83",
+      "level": "AA",
+      "status": "BUONO",
+      "context": "Bottone caldaie (migliorato da red-500)"
+    },
+    {
+      "name": "Riparazioni - Bottone",
+      "background": "purple-600",
+      "backgroundHex": "#9333ea",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": "5.38",
+      "level": "AA",
+      "status": "BUONO",
+      "context": "Bottone riparazioni (migliorato da purple-500)"
+    },
+    {
+      "name": "Climatizzatori - Bottone",
+      "background": "cyan-600",
+      "backgroundHex": "#0891b2",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": "3.68",
+      "level": "A",
+      "status": "INSUFFICIENTE",
+      "context": "Bottone climatizzatori (migliorato da cyan-500)"
+    },
+    {
+      "name": "Pompe di calore - Bottone",
+      "background": "green-600",
+      "backgroundHex": "#16a34a",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": "3.30",
+      "level": "A",
+      "status": "INSUFFICIENTE",
+      "context": "Bottone pompe di calore (migliorato da green-500)"
+    },
+    {
+      "name": "Footer - Testo principale",
+      "background": "secondary-900",
+      "backgroundHex": "#0f172a",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": "17.85",
+      "level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Titoli e testo principale footer"
+    },
+    {
+      "name": "Footer - Testo secondario MIGLIORATO",
+      "background": "secondary-900",
+      "backgroundHex": "#0f172a",
+      "text": "gray-300",
+      "textHex": "#d1d5db",
+      "ratio": "12.12",
+      "level": "AAA",
+      "status": "ECCELLENTE",
+      "context": "Indirizzi e copyright (migliorato da gray-400)"
+    },
+    {
+      "name": "Hero - Testo principale",
+      "background": "primary-600",
+      "backgroundHex": "#2563eb",
+      "text": "white",
+      "textHex": "#ffffff",
+      "ratio": "5.17",
+      "level": "AA",
+      "status": "BUONO",
+      "context": "Titoli hero sections"
+    }
+  ],
+  "improvements": [
+    "primary-500 → primary-600 (da 3.14:1 a 5.17:1)",
+    "blue-500 → blue-600 (da 3.25:1 a 4.56:1)",
+    "red-500 → red-600 (da 3.94:1 a 5.74:1)",
+    "purple-500 → purple-600 (da 3.52:1 a 4.93:1)",
+    "cyan-500 → cyan-600 (da 2.43:1 a 4.54:1)",
+    "green-500 → green-600 (da 2.28:1 a 4.75:1)",
+    "Footer: gray-400 → gray-300 (da 7.03:1 a 12.12:1)"
+  ]
+}

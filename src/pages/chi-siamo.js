@@ -12,13 +12,13 @@ export default function ChiSiamo() {
       canonical="/chi-siamo"
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white section-padding">
+      <section className="bg-gradient-to-br from-primary-50 to-primary-100 text-secondary-900 section-padding">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="heading-xl text-white mb-6">
+            <h1 className="heading-xl text-secondary-900 mb-6">
               Chi Siamo
             </h1>
-            <p className="text-xl text-primary-100 leading-relaxed">
+            <p className="text-xl text-secondary-700 leading-relaxed">
               EFFEMME SRL: la tua azienda di fiducia per termoidraulica, 
               riscaldamento e climatizzazione a Ravenna dal 1995
             </p>
@@ -57,19 +57,19 @@ export default function ChiSiamo() {
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary-600 mb-2">25+</div>
-                  <div className="text-secondary-600">Anni di Esperienza</div>
+                  <div className="text-secondary-700">Anni di Esperienza</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary-600 mb-2">1000+</div>
-                  <div className="text-secondary-600">Clienti Soddisfatti</div>
+                  <div className="text-secondary-700">Clienti Soddisfatti</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary-600 mb-2">50+</div>
-                  <div className="text-secondary-600">Comuni Serviti</div>
+                  <div className="text-secondary-700">Comuni Serviti</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary-600 mb-2">24/7</div>
-                  <div className="text-secondary-600">Assistenza</div>
+                  <div className="text-secondary-700">Assistenza</div>
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@ export default function ChiSiamo() {
                 🎯
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Professionalità</h3>
-              <p className="text-secondary-600">
+              <p className="text-secondary-700">
                 Tecnici qualificati e formazione continua per garantire interventi sempre all'altezza delle aspettative.
               </p>
             </div>
@@ -104,7 +104,7 @@ export default function ChiSiamo() {
                 ⚡
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Rapidità</h3>
-              <p className="text-secondary-600">
+              <p className="text-secondary-700">
                 Interventi tempestivi e assistenza 24/7 per emergenze, perché il comfort non può aspettare.
               </p>
             </div>
@@ -114,7 +114,7 @@ export default function ChiSiamo() {
                 🏆
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Qualità</h3>
-              <p className="text-secondary-600">
+              <p className="text-secondary-700">
                 Utilizziamo solo materiali e componenti di prima qualità, con garanzia su tutti i nostri lavori.
               </p>
             </div>
@@ -124,7 +124,7 @@ export default function ChiSiamo() {
                 💚
               </div>
               <h3 className="text-xl font-semibold mb-4 text-secondary-900">Sostenibilità</h3>
-              <p className="text-secondary-600">
+              <p className="text-secondary-700">
                 Promuoviamo soluzioni eco-sostenibili per ridurre l'impatto ambientale e i costi energetici.
               </p>
             </div>
@@ -200,7 +200,7 @@ export default function ChiSiamo() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Esperienza Consolidata</h3>
-                    <p className="text-secondary-600">
+                    <p className="text-secondary-700">
                       Oltre 25 anni nel settore ci hanno permesso di affrontare ogni tipo di sfida 
                       e di sviluppare soluzioni innovative per ogni esigenza.
                     </p>
@@ -215,7 +215,7 @@ export default function ChiSiamo() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Garanzia Totale</h3>
-                    <p className="text-secondary-600">
+                    <p className="text-secondary-700">
                       Tutti i nostri interventi sono coperti da garanzia. La tua soddisfazione 
                       è la nostra priorità assoluta.
                     </p>
@@ -230,7 +230,7 @@ export default function ChiSiamo() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Prezzi Trasparenti</h3>
-                    <p className="text-secondary-600">
+                    <p className="text-secondary-700">
                       Preventivi dettagliati e gratuiti, senza sorprese. Saprai sempre 
                       esattamente cosa stai pagando e perché.
                     </p>
@@ -243,23 +243,23 @@ export default function ChiSiamo() {
       </section>
 
       {/* CTA */}
-      <section className="bg-primary-700 text-white section-padding">
+      <section className="bg-primary-50 text-secondary-900 section-padding">
         <div className="container-custom text-center">
-          <h2 className="heading-lg text-white mb-6">
+          <h2 className="heading-lg text-secondary-900 mb-6">
             Vuoi Conoscere Meglio i Nostri Servizi?
           </h2>
-          <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-secondary-700 mb-8 max-w-2xl mx-auto">
             Contattaci per una consulenza gratuita. Il nostro team è pronto ad aiutarti 
             a trovare la soluzione perfetta per le tue esigenze.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href={`tel:${phone}`}
-              className="btn-secondary bg-white text-primary-600 hover:bg-gray-50"
+              className="btn-secondary bg-white text-primary-600 hover:bg-gray-50 border border-primary-600"
             >
               📞 Chiama Ora
             </a>
-            <Link href="/contatti" className="btn-primary bg-primary-500 hover:bg-primary-400">
+            <Link href="/contatti" className="btn-primary bg-primary-600 hover:bg-primary-700 text-white">
               💬 Richiedi Informazioni
             </Link>
           </div>
