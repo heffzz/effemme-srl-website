@@ -60,7 +60,7 @@
   force = true
 
 # Contact form function
-[[functions]]
+[functions]
   directory = "src/pages/api"
 
 # Build optimization
