@@ -6,13 +6,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
     "start": "next start",
     "lint": "next lint",
     "lighthouse": "node scripts/lighthouse-test.js",
     "accessibility": "node scripts/accessibility-test.js",
     "validate-jsonld": "node scripts/validate-jsonld.js",
-    "test:all": "npm run build && npm run export && npm run lighthouse && npm run accessibility && npm run validate-jsonld"
+    "test:all": "npm run build && npm run lighthouse && npm run accessibility && npm run validate-jsonld"
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^5.2.0",

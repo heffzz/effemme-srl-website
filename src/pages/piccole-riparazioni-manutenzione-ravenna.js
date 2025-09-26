@@ -508,20 +508,3 @@ export default function PiccoleRiparazioniManutenzione() {
     </Layout>
   )
 }
-
-<p className="text-secondary-700">
-  Sopralluogo gratuito per valutare il problema e fornirti la soluzione migliore.
-</p>
-<p className="text-secondary-700">
-  Preventivo dettagliato e trasparente, senza costi nascosti o sorprese.
-</p>
-<p className="text-secondary-700">
-  Intervento rapido con materiali di qualità e garanzia sui lavori eseguiti.
-</p>
-<p className="text-secondary-700">
-  Assistenza post-intervento e consigli per la manutenzione preventiva.
-</p>
-<p className="text-secondary-700 mb-6">
-  Contattaci per qualsiasi problema idraulico o termoidraulico. 
-  EFFEMME SRL è sempre pronta ad aiutarti a Ravenna!
-</p>

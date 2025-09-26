@@ -1,42 +1,42 @@
 [
   {
     "url": "http://localhost:3000",
-    "performance": 54,
+    "performance": 95,
     "accessibility": 100,
     "bestPractices": 96,
     "seo": 100,
-    "timestamp": "2025-09-26T11:16:13.174Z"
+    "timestamp": "2025-09-26T11:59:42.644Z"
   },
   {
     "url": "http://localhost:3000/chi-siamo",
-    "performance": 54,
-    "accessibility": 100,
-    "bestPractices": 96,
-    "seo": 100,
-    "timestamp": "2025-09-26T11:16:22.519Z"
+    "performance": 0,
+    "accessibility": 0,
+    "bestPractices": 0,
+    "seo": 0,
+    "timestamp": "2025-09-26T12:00:14.765Z"
   },
   {
     "url": "http://localhost:3000/servizi",
-    "performance": 54,
-    "accessibility": 100,
-    "bestPractices": 96,
-    "seo": 100,
-    "timestamp": "2025-09-26T11:16:31.708Z"
+    "performance": 0,
+    "accessibility": 0,
+    "bestPractices": 0,
+    "seo": 0,
+    "timestamp": "2025-09-26T12:00:46.936Z"
   },
   {
     "url": "http://localhost:3000/montaggio-caldaie-immergas-ravenna",
-    "performance": 54,
-    "accessibility": 100,
-    "bestPractices": 96,
-    "seo": 100,
-    "timestamp": "2025-09-26T11:16:40.348Z"
+    "performance": 0,
+    "accessibility": 0,
+    "bestPractices": 0,
+    "seo": 0,
+    "timestamp": "2025-09-26T12:01:19.194Z"
   },
   {
     "url": "http://localhost:3000/contatti",
-    "performance": 63,
-    "accessibility": 100,
-    "bestPractices": 96,
-    "seo": 100,
-    "timestamp": "2025-09-26T11:16:49.254Z"
+    "performance": 0,
+    "accessibility": 0,
+    "bestPractices": 0,
+    "seo": 0,
+    "timestamp": "2025-09-26T12:01:51.467Z"
   }
 ]
