@@ -68,7 +68,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center bg-gradient-to-r from-blue-50 via-white to-red-50 px-6 py-3 rounded-xl shadow-sm hover:shadow-md transition-all duration-300">
             <img 
-              src="/logo-effemme.svg" 
+              src="/logo-effemme-original.png" 
               alt="EFFEMME SRL - Impianti termoidraulici Ravenna" 
               className="h-36 w-auto"
             />
