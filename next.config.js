@@ -15,7 +15,6 @@ const nextConfig = {
     GA_MEASUREMENT_ID: process.env.GA_MEASUREMENT_ID || '{{GA_MEASUREMENT_ID}}'
   },
   experimental: {
-    optimizeCss: true,
     scrollRestoration: true
   }
 }
