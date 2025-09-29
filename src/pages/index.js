@@ -11,11 +11,11 @@ export default function Home() {
   const services = [
     {
       title: "Caldaie IMMERGAS",
-      description: "Risparmia fino al 30% sui consumi con le nostre caldaie a condensazione. Installazione in 24h!",
+      description: "Risparmia fino al 30% sui consumi con le nostre caldaie a condensazione. Installazione in 24/48h!",
       href: "/montaggio-caldaie-immergas-ravenna",
       icon: "🔥",
       savings: "Risparmio fino al 30%",
-      urgency: "Installazione in 24h"
+      urgency: "Installazione in 24/48h"
     },
     {
       title: "Climatizzazione e Pompe di Calore",
@@ -85,7 +85,7 @@ export default function Home() {
               </h1>
               <p className="text-xl text-secondary-700 mb-6 leading-relaxed">
                 <strong>Caldaie IMMERGAS</strong> e <strong>Pompe di Calore DAIKIN</strong> con <span className="text-green-600 font-bold">incentivi statali fino a €15.000</span>. 
-                Installazione in 24h e <strong>preventivo gratuito</strong> in 5 minuti!
+                Installazione in 24/48h e <strong>preventivo gratuito</strong> in 5 minuti!
               </p>
               
               {/* Pulsanti CTA principali */}
@@ -117,7 +117,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center bg-white/50 rounded-lg p-3">
                   <span className="text-blue-500 text-xl mr-2">⚡</span>
-                  <span className="font-semibold">Intervento in 24h</span>
+                  <span className="font-semibold">Installazione in 24/48h</span>
                 </div>
                 <div className="flex items-center bg-white/50 rounded-lg p-3">
                   <span className="text-purple-500 text-xl mr-2">🛡️</span>
