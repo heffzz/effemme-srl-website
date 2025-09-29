@@ -3,8 +3,8 @@ import Link from 'next/link'
 import CalcolatoreIncentivi from '../components/CalcolatoreIncentivi'
 
 export default function Home() {
-  const phone = process.env.PHONE || '{{PHONE}}'
-  const whatsappNumber = phone.replace(/\s+/g, '').replace(/[^\d+]/g, '')
+  const phone = '3520030795'
+  const whatsappNumber = '393520030795'
   const whatsappMessage = encodeURIComponent("Ciao! Ho visto il vostro sito e vorrei ricevere un preventivo gratuito per i vostri servizi termoidraulici. Potete aiutarmi?")
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
 

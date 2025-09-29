@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 import Link from 'next/link'
 
 export default function MontaggioCaldeieImmergas() {
-  const phone = process.env.PHONE || '{{PHONE}}'
+  const phone = '3520030795'
 
   const caldaieModels = [
     {

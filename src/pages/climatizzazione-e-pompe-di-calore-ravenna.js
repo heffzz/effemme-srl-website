@@ -3,8 +3,10 @@ import Link from 'next/link'
 import CalcolatoreIncentivi from '../components/CalcolatoreIncentivi'
 
 export default function ClimatizzazioneEPompeDiCalore() {
-  const phone = process.env.PHONE || '{{PHONE}}'
-  const whatsappUrl = `https://wa.me/39${phone?.replace(/\s+/g, '')}?text=Ciao! Vorrei informazioni sui sistemi di climatizzazione e pompe di calore.`
+  const phone = '3520030795'
+  const whatsappNumber = '393520030795'
+  const whatsappMessage = encodeURIComponent("Ciao! Vorrei informazioni sui sistemi di climatizzazione e pompe di calore.")
+  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
 
   const climatizzatoriTypes = [
     {

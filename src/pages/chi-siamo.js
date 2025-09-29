@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 import Link from 'next/link'
 
 export default function ChiSiamo() {
-  const phone = process.env.PHONE || '{{PHONE}}'
+  const phone = '3520030795'
 
   return (
     <Layout

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import CalcolatoreIncentivi from '../components/CalcolatoreIncentivi'
 
 export default function Servizi() {
-  const phone = process.env.PHONE || '{{PHONE}}'
+  const phone = '3520030795'
 
   const services = [
     {
