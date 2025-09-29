@@ -1,6 +1,8 @@
 import Layout from '../components/Layout'
 import Link from 'next/link'
 import CalcolatoreIncentivi from '../components/CalcolatoreIncentivi'
+import LeadMagnet from '../components/LeadMagnet'
+import FAQSection from '../components/FAQSection'
 
 export default function Home() {
   const phone = '3520030795'
@@ -222,6 +224,13 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Lead Magnet - Guida Incentivi */}
+      <section className="section-padding bg-gradient-to-br from-gray-50 to-blue-50">
+        <div className="container-custom">
+          <LeadMagnet />
+        </div>
+      </section>
+
       {/* Servizi Principali */}
       <section className="section-padding bg-primary-50">
         <div className="container-custom">
@@ -359,6 +368,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection />
 
       {/* Sezione Calcolatore Incentivi */}
       <section id="calcolatore-incentivi" className="bg-gray-50 section-padding">

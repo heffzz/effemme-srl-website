@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Header from './Header'
 import Footer from './Footer'
+import ChatWidget from './ChatWidget'
+import UrgencyBanner from './UrgencyBanner'
+import MobileQuickActions from './MobileQuickActions'
 
 export default function Layout({ 
   children, 
@@ -155,11 +158,14 @@ export default function Layout({
       </Head>
       
       <div className="min-h-screen flex flex-col">
+        <UrgencyBanner />
         <Header />
         <main className="flex-grow">
           {children}
         </main>
         <Footer />
+        <ChatWidget />
+        <MobileQuickActions />
       </div>
     </>
   )
