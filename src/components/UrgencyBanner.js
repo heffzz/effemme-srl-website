@@ -73,34 +73,34 @@ const UrgencyBanner = () => {
           {/* Messaggio principale */}
           <div className="flex items-center gap-3 text-center md:text-left">
             <span className="text-2xl animate-bounce">🔥</span>
-            <div>
+            <div className="flex flex-col sm:flex-row sm:items-center">
               <span className="font-bold text-lg">OFFERTA LIMITATA:</span>
-              <span className="ml-2">Sconto 15% + Sopralluogo GRATUITO</span>
+              <span className="sm:ml-2 text-sm sm:text-base">Sconto 15% + Sopralluogo GRATUITO</span>
             </div>
           </div>
 
           {/* Countdown */}
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col md:flex-row items-center gap-4">
             <div className="text-center">
               <span className="text-xs uppercase tracking-wide opacity-90">Scade tra:</span>
-              <div className="flex items-center gap-2 mt-1">
-                <div className="bg-white text-red-600 rounded px-2 py-1 min-w-[40px] font-bold">
+              <div className="flex items-center gap-1 sm:gap-2 mt-1">
+                <div className="bg-white text-red-600 rounded px-1 sm:px-2 py-1 min-w-[30px] sm:min-w-[40px] font-bold text-sm">
                   {timeLeft.days.toString().padStart(2, '0')}
                 </div>
                 <span className="text-sm">:</span>
-                <div className="bg-white text-red-600 rounded px-2 py-1 min-w-[40px] font-bold">
+                <div className="bg-white text-red-600 rounded px-1 sm:px-2 py-1 min-w-[30px] sm:min-w-[40px] font-bold text-sm">
                   {timeLeft.hours.toString().padStart(2, '0')}
                 </div>
                 <span className="text-sm">:</span>
-                <div className="bg-white text-red-600 rounded px-2 py-1 min-w-[40px] font-bold">
+                <div className="bg-white text-red-600 rounded px-1 sm:px-2 py-1 min-w-[30px] sm:min-w-[40px] font-bold text-sm">
                   {timeLeft.minutes.toString().padStart(2, '0')}
                 </div>
                 <span className="text-sm">:</span>
-                <div className="bg-white text-red-600 rounded px-2 py-1 min-w-[40px] font-bold">
+                <div className="bg-white text-red-600 rounded px-1 sm:px-2 py-1 min-w-[30px] sm:min-w-[40px] font-bold text-sm">
                   {timeLeft.seconds.toString().padStart(2, '0')}
                 </div>
               </div>
-              <div className="flex text-xs mt-1 gap-2 opacity-90">
+              <div className="flex text-xs mt-1 gap-1 sm:gap-2 opacity-90">
                 <span>GG</span>
                 <span>:</span>
                 <span>HH</span>
@@ -112,18 +112,18 @@ const UrgencyBanner = () => {
             </div>
 
             {/* CTA */}
-            <div className="flex gap-2">
+            <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
               <a
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-bold text-sm transition-all transform hover:scale-105 flex items-center gap-2"
+                className="bg-green-500 hover:bg-green-600 text-white px-3 sm:px-4 py-2 rounded-lg font-bold text-xs sm:text-sm transition-all transform hover:scale-105 flex items-center justify-center gap-2"
               >
                 💬 RICHIEDI SCONTO
               </a>
               <a
                 href={`tel:${phone}`}
-                className="bg-white text-red-600 hover:bg-gray-100 px-4 py-2 rounded-lg font-bold text-sm transition-all transform hover:scale-105 flex items-center gap-2"
+                className="bg-white text-red-600 hover:bg-gray-100 px-3 sm:px-4 py-2 rounded-lg font-bold text-xs sm:text-sm transition-all transform hover:scale-105 flex items-center justify-center gap-2"
               >
                 📞 CHIAMA
               </a>

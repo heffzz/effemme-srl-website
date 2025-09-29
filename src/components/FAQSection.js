@@ -150,29 +150,33 @@ const FAQSection = () => {
 
           {/* CTA finale */}
           <div className="text-center mt-12">
-            <div className="bg-gradient-to-r from-primary-50 to-blue-50 rounded-xl p-8 border border-primary-200">
-              <h3 className="text-2xl font-bold text-secondary-700 mb-4">
+            <div className="bg-gradient-to-r from-primary-50 to-blue-50 rounded-xl p-4 sm:p-6 lg:p-8 border border-primary-200">
+              <h3 className="text-xl sm:text-2xl font-bold text-secondary-700 mb-4">
                 Non hai trovato la risposta che cercavi?
               </h3>
-              <p className="text-lg text-secondary-600 mb-6">
+              <p className="text-base sm:text-lg text-secondary-600 mb-6">
                 I nostri esperti sono pronti a rispondere a tutte le tue domande
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
                 <a
                   href={`https://wa.me/393520030795?text=${encodeURIComponent("Ciao! Ho alcune domande sui vostri servizi termoidraulici. Potete aiutarmi?")}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-bold text-lg inline-flex items-center justify-center transition-all transform hover:scale-105 shadow-lg"
+                  className="bg-green-500 hover:bg-green-600 text-white px-4 sm:px-6 lg:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base lg:text-lg inline-flex items-center justify-center transition-all transform hover:scale-105 shadow-lg"
                 >
-                  💬 SCRIVICI SU WHATSAPP
-                  <span className="ml-2 bg-white text-green-500 px-2 py-1 rounded text-sm">RISPOSTA IN 5 MIN</span>
+                  <span className="flex flex-col sm:flex-row items-center">
+                    <span>💬 SCRIVICI SU WHATSAPP</span>
+                    <span className="mt-1 sm:mt-0 sm:ml-2 bg-white text-green-500 px-2 py-1 rounded text-xs sm:text-sm">RISPOSTA IN 5 MIN</span>
+                  </span>
                 </a>
                 <a
                   href="tel:3520030795"
-                  className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg inline-flex items-center justify-center transition-all transform hover:scale-105 shadow-lg"
+                  className="bg-blue-500 hover:bg-blue-600 text-white px-4 sm:px-6 lg:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base lg:text-lg inline-flex items-center justify-center transition-all transform hover:scale-105 shadow-lg"
                 >
-                  📞 CHIAMA ORA
-                  <span className="ml-2 bg-white text-blue-500 px-2 py-1 rounded text-sm">PREVENTIVO GRATUITO</span>
+                  <span className="flex flex-col sm:flex-row items-center">
+                    <span>📞 CHIAMA ORA</span>
+                    <span className="mt-1 sm:mt-0 sm:ml-2 bg-white text-blue-500 px-2 py-1 rounded text-xs sm:text-sm">PREVENTIVO GRATUITO</span>
+                  </span>
                 </a>
               </div>
             </div>

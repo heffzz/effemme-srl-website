@@ -80,13 +80,13 @@ const LeadMagnet = () => {
   }
 
   return (
-    <div className="bg-gradient-to-br from-blue-50 to-indigo-100 border-2 border-blue-200 rounded-2xl p-8 relative overflow-hidden">
+    <div className="bg-gradient-to-br from-blue-50 to-indigo-100 border-2 border-blue-200 rounded-2xl p-4 sm:p-6 lg:p-8 relative overflow-hidden">
       {/* Badge gratuito */}
-      <div className="absolute -top-3 -right-3 bg-red-500 text-white px-4 py-2 rounded-full text-sm font-bold transform rotate-12">
+      <div className="absolute -top-2 -right-2 sm:-top-3 sm:-right-3 bg-red-500 text-white px-2 sm:px-4 py-1 sm:py-2 rounded-full text-xs sm:text-sm font-bold transform rotate-12">
         GRATIS
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-center">
         {/* Contenuto */}
         <div>
           <div className="flex items-center mb-4">
@@ -128,9 +128,9 @@ const LeadMagnet = () => {
         </div>
 
         {/* Form */}
-        <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+        <div className="bg-white rounded-xl p-4 sm:p-6 shadow-lg border border-gray-200">
           <div className="text-center mb-6">
-            <h4 className="text-xl font-bold text-gray-800 mb-2">
+            <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2">
               Scarica GRATIS la Guida
             </h4>
             <p className="text-gray-600 text-sm">
@@ -148,7 +148,7 @@ const LeadMagnet = () => {
                 id="nome"
                 value={nome}
                 onChange={(e) => setNome(e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                className="w-full px-3 sm:px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm sm:text-base"
                 placeholder="Il tuo nome"
                 required
               />
@@ -163,7 +163,7 @@ const LeadMagnet = () => {
                 id="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                className="w-full px-3 sm:px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm sm:text-base"
                 placeholder="la-tua-email@esempio.com"
                 required
               />
@@ -178,7 +178,7 @@ const LeadMagnet = () => {
             <button
               type="submit"
               disabled={isSubmitting}
-              className={`w-full py-4 px-6 rounded-lg font-bold text-lg transition-all transform hover:scale-105 ${
+              className={`w-full py-3 sm:py-4 px-4 sm:px-6 rounded-lg font-bold text-base sm:text-lg transition-all transform hover:scale-105 ${
                 isSubmitting
                   ? 'bg-gray-400 cursor-not-allowed'
                   : 'bg-blue-600 hover:bg-blue-700 text-white shadow-lg'
