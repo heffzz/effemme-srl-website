@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Layout from '../components/Layout'
 
 export default function Contatti() {
-  const phone = process.env.PHONE || '3520030795'
+  const phone = '3520030795'
   const email = process.env.CONTACT_EMAIL || '{{EMAIL}}'
   const whatsappNumber = '393520030795' // Formato internazionale per WhatsApp
   
