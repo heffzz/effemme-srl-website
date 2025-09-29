@@ -19,7 +19,7 @@ export default function Layout({
     "name": "EFFEMME SRL",
     "description": "Termoidraulica, montaggio caldaie, climatizzatori e pompe di calore",
     "url": siteUrl,
-    "telephone": process.env.PHONE || "{{PHONE}}",
+    "telephone": process.env.PHONE || "3520030795",
     "email": process.env.CONTACT_EMAIL || "info@effemmesrl.com",
     "vatID": "IT02170530394",
     "address": {
