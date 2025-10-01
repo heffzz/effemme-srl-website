@@ -185,7 +185,7 @@ export default function ClimatizzazioneEPompeDiCalore() {
                     <div className="bg-green-100 p-2 rounded-lg">
                       <span className="text-green-600">✓</span>
                     </div>
-                    <span className="text-secondary-700">Risparmio fino al 60% in bolletta</span>
+                    <span className="text-secondary-700">Risparmio energetico del 30-50% con pompe di calore*</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="bg-green-100 p-2 rounded-lg">
@@ -402,6 +402,19 @@ export default function ClimatizzazioneEPompeDiCalore() {
           
           <div className="text-sm opacity-90">
             ✅ Sopralluogo gratuito • ✅ Preventivo senza impegno • ✅ Garanzia 5 anni • ✅ Incentivi fiscali inclusi
+          </div>
+        </div>
+      </section>
+
+      {/* Disclaimer */}
+      <section className="bg-gray-100 py-6">
+        <div className="container-custom">
+          <div className="text-center text-sm text-gray-600">
+            <p>
+              <strong>*Disclaimer:</strong> I dati di risparmio energetico sono indicativi e basati su fonti ufficiali. 
+              I risultati effettivi dipendono da fattori specifici dell'abitazione e dell'impianto esistente. 
+              Per una valutazione accurata, richiedi un sopralluogo tecnico gratuito.
+            </p>
           </div>
         </div>
       </section>

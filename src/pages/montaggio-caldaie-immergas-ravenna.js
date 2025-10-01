@@ -28,7 +28,7 @@ export default function MontaggioCaldeieImmergas() {
   const benefits = [
     {
       title: "Risparmio Energetico",
-      description: "Le caldaie IMMERGAS a condensazione garantiscono fino al 30% di risparmio sui consumi",
+      description: "Le caldaie IMMERGAS a condensazione offrono un risparmio energetico del 10-20% rispetto alle caldaie tradizionali (fonte: ENEA)",
       icon: "💰"
     },
     {
@@ -407,6 +407,19 @@ export default function MontaggioCaldeieImmergas() {
             <Link href="/contatti" className="btn-primary">
               💬 Richiedi Preventivo
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Disclaimer */}
+      <section className="bg-gray-100 py-6">
+        <div className="container-custom">
+          <div className="text-center text-sm text-gray-600">
+            <p>
+              <strong>Disclaimer:</strong> I dati di risparmio energetico sono indicativi e basati su fonti ufficiali (ENEA). 
+              I risultati effettivi possono variare in base alle caratteristiche specifiche dell'abitazione e dell'impianto esistente. 
+              Per una valutazione personalizzata, richiedi un sopralluogo tecnico gratuito.
+            </p>
           </div>
         </div>
       </section>

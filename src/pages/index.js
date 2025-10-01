@@ -12,10 +12,10 @@ export default function Home() {
   const services = [
     {
       title: "Caldaie IMMERGAS",
-      description: "Risparmia fino al 30% sui consumi con le nostre caldaie a condensazione. Installazione in 24/48h!",
+      description: "Risparmio energetico del 10-20% con le nostre caldaie a condensazione (fonte: ENEA). Installazione in 24/48h!",
       href: "/montaggio-caldaie-immergas-ravenna",
       icon: "🔥",
-      savings: "Risparmio fino al 30%",
+      savings: "Risparmio 10-20%*",
       urgency: "Installazione in 24/48h"
     },
     {
@@ -28,10 +28,10 @@ export default function Home() {
     },
     {
       title: "Riscaldamento a Pavimento",
-      description: "Comfort uniforme in tutta casa e bollette ridotte del 25%. Progettazione gratuita!",
+      description: "Comfort uniforme in tutta casa e risparmio energetico del 10-15% (fonte: ENEA). Progettazione gratuita!",
       href: "/riscaldamento-a-pavimento-ravenna",
       icon: "🏠",
-      savings: "Bollette -25%",
+      savings: "Risparmio 10-15%*",
       urgency: "Progetto gratuito"
     }
   ]
@@ -81,8 +81,8 @@ export default function Home() {
                 ⚡ Risposta in 5 minuti su WhatsApp
               </div>
               <h1 className="heading-xl text-secondary-700 mb-6">
-                <span className="text-red-600 font-bold">RISPARMIA FINO AL 30%</span><br />
-                sulla Bolletta del Gas!
+                <span className="text-red-600 font-bold">RISPARMIO ENERGETICO</span><br />
+                fino al 20% sulla Bolletta!*
               </h1>
               <p className="text-xl text-secondary-700 mb-6 leading-relaxed">
                 <strong>Caldaie IMMERGAS</strong> e <strong>Pompe di Calore DAIKIN</strong> con <span className="text-green-600 font-bold">incentivi statali fino a €15.000</span>. 
@@ -148,7 +148,7 @@ export default function Home() {
                 <ul className="space-y-3 text-secondary-700">
                   <li className="flex items-start">
                     <span className="text-xl mr-3">💰</span>
-                    <span><strong>Risparmio garantito</strong> fino al 30% in bolletta</span>
+                    <span><strong>Risparmio energetico</strong> del 10-20% in bolletta*</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-xl mr-3">🚀</span>
@@ -233,7 +233,7 @@ export default function Home() {
               🔥 Servizi più Richiesti
             </h2>
             <p className="text-xl text-secondary-700 max-w-3xl mx-auto">
-              <strong>Risparmia fino al 30%</strong> con le nostre soluzioni innovative
+              <strong>Risparmio energetico verificato</strong> con le nostre soluzioni innovative*
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -370,6 +370,23 @@ export default function Home() {
       <section id="calcolatore-incentivi" className="bg-gray-50 section-padding">
         <div className="container-custom">
           <CalcolatoreIncentivi />
+        </div>
+      </section>
+
+      {/* Disclaimer */}
+      <section className="bg-gray-100 py-8">
+        <div className="container-custom">
+          <div className="text-center text-sm text-gray-600">
+            <p className="mb-2">
+              <strong>*Disclaimer:</strong> I dati di risparmio energetico sono indicativi e basati su fonti ufficiali (ENEA, studi settoriali). 
+              I risultati effettivi possono variare in base a fattori specifici come: tipologia di abitazione, isolamento termico, 
+              abitudini di utilizzo, condizioni climatiche e stato dell'impianto esistente.
+            </p>
+            <p>
+              Per una valutazione personalizzata e accurata del risparmio energetico, 
+              richiedi un sopralluogo tecnico gratuito.
+            </p>
+          </div>
         </div>
       </section>
     </Layout>
