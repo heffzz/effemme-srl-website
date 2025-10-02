@@ -14,9 +14,9 @@ Aggiungi una per una queste variabili:
 ```
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
-SMTP_USER=luca6854@gmail.com
-SMTP_PASS=jccmjnjsnfztdfuv
-SMTP_FROM=luca6854@gmail.com
+SMTP_USER=your-email@gmail.com
+SMTP_PASS=your-app-password-here
+SMTP_FROM=your-email@gmail.com
 CONTACT_EMAIL=info@effemmesrl.com
 ```
 
