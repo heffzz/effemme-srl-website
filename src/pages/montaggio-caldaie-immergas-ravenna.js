@@ -311,7 +311,7 @@ export default function MontaggioCaldeieImmergas() {
               <h3 className="text-xl font-semibold mb-4 text-secondary-700">Contratto Manutenzione</h3>
               <ul className="space-y-2 text-secondary-600 mb-6">
                 <li>• 2 controlli annuali</li>
-                <li>• Pronto intervento prioritario</li>
+                <li>• Assistenza tecnica prioritaria</li>
                 <li>• Sconto 20% su riparazioni</li>
                 <li>• Garanzia estesa</li>
               </ul>
@@ -320,7 +320,7 @@ export default function MontaggioCaldeieImmergas() {
             </div>
             
             <div className="bg-white rounded-xl p-6 shadow-lg">
-              <h3 className="text-xl font-semibold mb-4 text-secondary-700">Pronto Intervento</h3>
+              <h3 className="text-xl font-semibold mb-4 text-secondary-700">Assistenza Tecnica</h3>
               <ul className="space-y-2 text-secondary-600 mb-6">
                 <li>• Interventi rapidi</li>
                 <li>• Intervento entro 2 ore</li>
@@ -358,8 +358,8 @@ export default function MontaggioCaldeieImmergas() {
                 Quanto tempo richiede l'installazione?
               </h3>
               <p className="text-secondary-600">
-                L'installazione di una caldaia IMMERGAS richiede generalmente 4-6 ore per una sostituzione standard. 
-                In caso di adeguamenti dell'impianto, i tempi possono estendersi a 1-2 giorni lavorativi.
+                L'installazione di una caldaia IMMERGAS richiede generalmente una giornata lavorativa (entro 8 ore). 
+                Per sostituzioni semplici: 5-6 ore. Installazioni più complesse possono richiedere 2-3 giorni lavorativi.
               </p>
             </div>
             
@@ -368,8 +368,8 @@ export default function MontaggioCaldeieImmergas() {
                 Che garanzia offre IMMERGAS?
               </h3>
               <p className="text-secondary-600">
-                IMMERGAS offre 2 anni di garanzia standard, estendibile fino a 10 anni con il servizio di manutenzione programmata. 
-                Come partner ufficiale, EFFEMME SRL gestisce direttamente tutte le pratiche di garanzia.
+                IMMERGAS offre 2 anni di garanzia standard su tutti i componenti, estendibile fino a 10 anni con contratti di manutenzione programmata. 
+                Come partner ufficiale, EFFEMME SRL gestisce direttamente tutte le pratiche di garanzia e registrazione prodotto.
               </p>
             </div>
             
@@ -378,9 +378,9 @@ export default function MontaggioCaldeieImmergas() {
                 Posso usufruire degli incentivi fiscali 2025?
               </h3>
               <p className="text-secondary-600">
-                Sì, la sostituzione con caldaia a condensazione IMMERGAS permette di accedere al <strong>Bonus Casa 50% per prima casa</strong> 
-                o <strong>36% per seconde case</strong>. Per sistemi ibridi con pompa di calore è disponibile anche l'<strong>Ecobonus</strong>. 
-                Ti assistiamo in tutte le pratiche burocratiche necessarie.
+                <strong>IMPORTANTE:</strong> Dal 2025 le caldaie a combustibili fossili non sono più incentivabili singolarmente. 
+                Sono ancora incentivabili i <strong>sistemi ibridi</strong> (caldaia + pompa di calore) con Ecobonus 50% per prima casa, 36% per altre. 
+                Il Bonus Ristrutturazioni 50% rimane valido per interventi di manutenzione straordinaria.
               </p>
             </div>
           </div>

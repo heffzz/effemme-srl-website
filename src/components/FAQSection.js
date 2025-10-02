@@ -7,37 +7,37 @@ const FAQSection = () => {
   const faqs = [
     {
       question: "Quanto costa sostituire una caldaia a Ravenna?",
-      answer: "Il costo per sostituire una caldaia varia da €1.500 a €4.000, a seconda del modello e della potenza. Con gli incentivi statali 2025 (Ecobonus, Bonus Casa) puoi risparmiare fino al 65% del costo totale. Offriamo preventivi gratuiti e finanziamenti a tasso zero.",
+      answer: "Il costo per sostituire una caldaia varia da €1.500 a €4.000, a seconda del modello e della potenza. I prezzi includono caldaia e installazione. Con gli incentivi statali 2025 puoi risparmiare significativamente. Offriamo preventivi gratuiti e finanziamenti a tasso zero.",
       category: "Prezzi"
     },
     {
       question: "Quali incentivi statali sono disponibili nel 2025?",
-      answer: "Nel 2025 sono attivi: Ecobonus (65% per pompe di calore), Bonus Ristrutturazioni (50%), Conto Termico 3.0 (fino a €15.000 per pompe di calore). Gestiamo noi tutte le pratiche burocratiche per ottenere gli incentivi.",
+      answer: "Nel 2025 sono attivi: Ecobonus (50% per abitazioni principali, 36% per altre), Bonus Ristrutturazioni (50%), Conto Termico 3.0 (fino al 65% per pompe di calore). IMPORTANTE: dal 2025 le caldaie a combustibili fossili non sono più incentivabili singolarmente. Gestiamo noi tutte le pratiche burocratiche.",
       category: "Incentivi"
     },
     {
       question: "In quanto tempo installate una caldaia?",
-      answer: "L'installazione di una caldaia richiede generalmente 4-6 ore. Offriamo servizio di installazione in 24/48h dalla conferma dell'ordine. Per sostituzioni urgenti, garantiamo intervento in giornata (servizio disponibile a Ravenna e provincia).",
+      answer: "L'installazione di una caldaia a condensazione richiede generalmente una giornata lavorativa (entro 8 ore). Per sostituzioni semplici: 5-6 ore. Installazioni più complesse possono richiedere 2-3 giorni. Offriamo servizio di installazione programmata con preavviso.",
       category: "Tempi"
     },
     {
       question: "Che garanzia offrite sui vostri lavori?",
-      answer: "Offriamo 2 anni di garanzia su tutti i nostri lavori di installazione, oltre alla garanzia del produttore (fino a 10 anni per caldaie IMMERGAS). Include assistenza tecnica gratuita e manutenzione programmata nel primo anno.",
+      answer: "Offriamo 2 anni di garanzia su tutti i nostri lavori di installazione, oltre alla garanzia del produttore IMMERGAS (2 anni standard, estendibile fino a 10 anni con contratti di manutenzione). Include assistenza tecnica e supporto per registrazione garanzia.",
       category: "Garanzie"
     },
     {
       question: "Lavorate anche nei weekend e festivi?",
-      answer: "Sì, offriamo servizio di emergenza 24/7 per guasti urgenti. Per installazioni programmate, lavoriamo anche il sabato mattina. Il servizio di pronto intervento è disponibile in tutta la provincia di Ravenna.",
+      answer: "Per installazioni programmate, lavoriamo anche il sabato mattina. Offriamo assistenza tecnica per guasti urgenti durante gli orari di lavoro. I nostri tecnici autorizzati sono disponibili 7 giorni su 7 per emergenze. Servizio disponibile in tutta la provincia di Ravenna.",
       category: "Orari"
     },
     {
       question: "Quanto si risparmia con una pompa di calore?",
-      answer: "Una pompa di calore può ridurre i costi di riscaldamento del 50-70% rispetto a una caldaia tradizionale. Con gli incentivi statali, l'investimento si ammortizza in 3-5 anni. Offriamo calcolo personalizzato del risparmio.",
+      answer: "Una pompa di calore può ridurre i costi di riscaldamento del 50-70% rispetto a una caldaia tradizionale. Con gli incentivi statali 2025 (Conto Termico 3.0 fino al 65%), l'investimento si ammortizza in 3-5 anni. Offriamo calcolo personalizzato del risparmio.",
       category: "Risparmio"
     },
     {
       question: "Fate anche la manutenzione delle caldaie?",
-      answer: "Sì, offriamo servizio di manutenzione ordinaria e straordinaria per tutte le marche di caldaie. Controllo fumi obbligatorio, pulizia, controllo efficienza. Pacchetti manutenzione annuale da €80 con controlli programmati.",
+      answer: "Sì, offriamo servizio di manutenzione ordinaria e straordinaria per tutte le marche di caldaie. Controllo fumi obbligatorio, pulizia, controllo efficienza. Pacchetti manutenzione annuale da €80 con controlli programmati e assistenza prioritaria.",
       category: "Manutenzione"
     },
     {

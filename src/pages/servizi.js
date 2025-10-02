@@ -234,7 +234,7 @@ export default function Servizi() {
               <div className="bg-white rounded-lg p-6 shadow-md">
                 <h3 className="font-semibold text-secondary-700 mb-2">Tempi di Intervento</h3>
                 <div className="space-y-2 text-sm text-secondary-700">
-                  <div>• Emergenze: entro 2 ore</div>
+                  <div>• Assistenza tecnica: entro 24 ore</div>
                   <div>• Interventi programmati: entro 24-48 ore</div>
                   <div>• Installazioni: su appuntamento</div>
                 </div>

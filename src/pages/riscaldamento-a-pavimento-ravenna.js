@@ -33,7 +33,7 @@ export default function RiscaldamentoAPavimento() {
     },
     {
       title: "Risparmio Energetico",
-      description: "Risparmio energetico dal 10% al 15% rispetto ai sistemi tradizionali (fonte: ENEA)",
+      description: "Risparmio energetico dal 8% al 12% rispetto ai sistemi tradizionali (fonte: ENEA)",
       icon: "💰"
     },
     {
@@ -88,7 +88,7 @@ export default function RiscaldamentoAPavimento() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-2xl mr-3">💰</span>
-                  <span>Risparmio fino al 15% sui consumi</span>
+                  <span>Risparmio fino al 10% sui consumi</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-2xl mr-3">🏠</span>
@@ -322,7 +322,7 @@ export default function RiscaldamentoAPavimento() {
               </div>
               
               <div className="text-center mb-6">
-                <div className="text-3xl font-bold text-primary-600 mb-2">10-15%</div>
+                <div className="text-3xl font-bold text-primary-600 mb-2">8-12%</div>
                 <p className="text-secondary-700 mb-4">Risparmio energetico (fonte: ENEA)</p>
               </div>
               
@@ -406,7 +406,7 @@ export default function RiscaldamentoAPavimento() {
                     </td>
                     <td className="px-6 py-4 text-center">
                       <div className="font-semibold text-primary-600">€1.530/anno</div>
-                      <div className="text-sm text-primary-600">Risparmio 15%</div>
+                      <div className="text-sm text-primary-600">Risparmio 10%</div>
                     </td>
                     <td className="px-6 py-4 text-center">
                       <div className="font-semibold text-primary-600">90-95%</div>
@@ -524,7 +524,7 @@ export default function RiscaldamentoAPavimento() {
               <ul className="text-sm text-secondary-700 space-y-2">
                 <li>✅ Comfort termico superiore</li>
                 <li>✅ Distribuzione uniforme del calore</li>
-                <li>✅ Risparmio energetico 10-15%</li>
+                <li>✅ Risparmio energetico 8-12%</li>
                 <li>✅ Compatibile con energie rinnovabili</li>
                 <li>✅ Nessun ingombro visivo</li>
               </ul>
@@ -559,7 +559,7 @@ export default function RiscaldamentoAPavimento() {
             <div className="text-sm text-blue-700 space-y-2">
               <p><strong>Dati basati su:</strong> ENEA (Agenzia Nazionale Efficienza Energetica), GSE (Gestore Servizi Energetici), Normative UNI EN 14825</p>
               <p><strong>Parametri di calcolo:</strong> Casa 120 mq, zona climatica E (Ravenna), isolamento medio, temperatura comfort 20°C</p>
-              <p><strong>Costi energetici:</strong> Gas metano €1.38/mc, Energia elettrica €0.30/kWh (prezzi medi 2024)</p>
+              <p><strong>Costi energetici:</strong> Gas metano €1.38/mc, Energia elettrica €0.30/kWh (prezzi medi 2025)</p>
               <p><strong>Disclaimer:</strong> I valori sono indicativi e possono variare in base alle specifiche condizioni dell'edificio e dell'impianto. Per una valutazione precisa è necessario un sopralluogo tecnico gratuito.</p>
             </div>
           </div>
@@ -594,8 +594,9 @@ export default function RiscaldamentoAPavimento() {
                 Quanto costa installare il riscaldamento a pavimento a Ravenna?
               </h3>
               <p className="text-secondary-700">
-                Il costo varia da €40 a €80 al mq in base al tipo di sistema e alla complessità dell'installazione. 
-                Per una casa di 100 mq, il costo medio è di €5.000-7.000. Contattaci per un preventivo dettagliato gratuito.
+                Il costo varia da €40 a €110 al mq in base al tipo di sistema e alla complessità dell'installazione. 
+                Per una casa di 120 mq, il costo medio è di €7.000-14.000 (escluso generatore di calore). 
+                Contattaci per un preventivo dettagliato gratuito.
               </p>
             </div>
             

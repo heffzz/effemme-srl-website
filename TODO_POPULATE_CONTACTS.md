@@ -20,7 +20,7 @@ Prima del go-live, è necessario sostituire i placeholder con i dati reali di EF
 - `public/og-image.svg` (linea ~35)
 
 ### 2. Email di Contatto
-**Placeholder:** `{{EMAIL}}`  
+**Email configurata:** `info@effemmesrl.com`  
 **Sostituire con:** L'email aziendale di EFFEMME SRL
 
 **File da modificare:**
@@ -51,7 +51,7 @@ Prima del go-live, è necessario sostituire i placeholder con i dati reali di EF
 find . -name "*.js" -o -name "*.svg" | xargs sed -i 's/{{PHONE}}/+39 0544 123456/g'
 
 # Sostituisci email (esempio)
-find . -name "*.js" | xargs sed -i 's/{{EMAIL}}/info@effemmesrl.com/g'
+find . -name "*.js" | xargs sed -i 's/{{EMAIL}}/info@effemmesrl.com/g' # ✅ COMPLETATO
 
 # Sostituisci Google Analytics ID (esempio)
 find . -name "*.js" | xargs sed -i 's/{{GA_MEASUREMENT_ID}}/G-XXXXXXXXXX/g'

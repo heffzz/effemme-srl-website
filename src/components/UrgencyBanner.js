@@ -60,7 +60,7 @@ const UrgencyBanner = () => {
 
   const phone = '3520030795';
   const whatsappNumber = '393520030795';
-  const whatsappMessage = encodeURIComponent("🔥 OFFERTA SPECIALE: Vorrei approfittare dello sconto del 15% + sopralluogo gratuito!");
+  const whatsappMessage = encodeURIComponent("🔥 OFFERTA SPECIALE: Vorrei approfittare dello sconto del 10% + sopralluogo gratuito!");
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   return (
@@ -75,7 +75,7 @@ const UrgencyBanner = () => {
             <span className="text-2xl animate-bounce">🔥</span>
             <div className="flex flex-col sm:flex-row sm:items-center">
               <span className="font-bold text-lg">OFFERTA LIMITATA:</span>
-              <span className="sm:ml-2 text-sm sm:text-base">Sconto 15% + Sopralluogo GRATUITO</span>
+              <span className="sm:ml-2 text-sm sm:text-base">Sconto 10% + Sopralluogo GRATUITO</span>
             </div>
           </div>
 

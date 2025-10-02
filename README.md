@@ -89,9 +89,10 @@ npm run validate-jsonld # Validazione JSON-LD
    - Connetti il tuo repository GitHub/GitLab
 
 2. **Configurazione Build**
-   - Build command: `npm run build && npm run export`
-   - Publish directory: `out`
+   - Build command: `npm run build`
+   - Publish directory: `.next`
    - Node version: `18`
+   - Framework preset: `Next.js`
 
 3. **Variabili d'Ambiente**
    Aggiungi in Netlify Dashboard > Site Settings > Environment Variables:
@@ -100,6 +101,13 @@ npm run validate-jsonld # Validazione JSON-LD
    CONTACT_EMAIL=info@effemmesrl.com
    PHONE=+39 0544 123456
    GA_MEASUREMENT_ID=G-XXXXXXXXXX
+   
+   # Configurazione SMTP per invio email (opzionale)
+   SMTP_HOST=smtp.gmail.com
+   SMTP_PORT=587
+   SMTP_USER=your-email@gmail.com
+   SMTP_PASS=your-app-password
+   SMTP_FROM=info@effemmesrl.com
    ```
 
 ### Opzione 2: Deploy Manuale
@@ -107,12 +115,12 @@ npm run validate-jsonld # Validazione JSON-LD
 1. **Build Locale**
    ```bash
    npm run build
-   npm run export
    ```
 
 2. **Upload su Netlify**
    - Vai su [netlify.com](https://netlify.com)
-   - Trascina la cartella `out` nell'area di deploy
+   - Trascina la cartella `.next` nell'area di deploy
+   - **Nota**: Per il deploy manuale è consigliato usare Netlify CLI
 
 ### Configurazione Dominio
 
@@ -127,16 +135,29 @@ npm run validate-jsonld # Validazione JSON-LD
 
 ## 📧 Configurazione Form Contatti
 
-Il form contatti utilizza una API route serverless. Per ricevere le email:
+Il form contatti utilizza **Nodemailer** per l'invio email reale tramite SMTP.
 
-### Opzione 1: Netlify Forms (Semplice)
+### Configurazione SMTP (Consigliata)
+1. **Configura le variabili d'ambiente SMTP** in Netlify:
+   ```
+   SMTP_HOST=smtp.gmail.com
+   SMTP_PORT=587
+   SMTP_USER=your-email@gmail.com
+   SMTP_PASS=your-app-password
+   SMTP_FROM=info@effemmesrl.com
+   ```
+
+2. **Per Gmail**: 
+   - Abilita autenticazione a 2 fattori
+   - Genera una "App Password" specifica
+   - Usa quella password in `SMTP_PASS`
+
+3. **Test**: Il form funziona anche senza SMTP (logga i dati)
+
+### Opzione Alternativa: Netlify Forms
 1. Aggiungi `netlify` attribute al form in `contatti.js`
 2. Le submission saranno visibili nel Netlify Dashboard
-
-### Opzione 2: Email Service (Avanzato)
-1. Configura un servizio email (SendGrid, Mailgun, etc.)
-2. Aggiorna `src/pages/api/contact.js` con le credenziali
-3. Aggiungi le variabili d'ambiente necessarie
+3. Rimuovi la logica Nodemailer da `contact.js`
 
 ## 🔍 SEO e Performance
 
@@ -181,7 +202,7 @@ Valida schema LocalBusiness
 
 ### Contenuti
 - [ ] Sostituire placeholder {{PHONE}} con numero reale
-- [ ] Sostituire placeholder {{EMAIL}} con email reale
+- [x] Sostituire placeholder {{EMAIL}} con email reale (info@effemmesrl.com)
 - [ ] Aggiungere Google Analytics ID
 - [ ] Verificare tutti i testi e informazioni aziendali
 - [ ] Aggiungere immagini reali (sostituire SVG placeholder)

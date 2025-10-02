@@ -81,7 +81,7 @@
 
 ---
 
-## 🎁 Incentivi Disponibili 2024
+## 🎁 Incentivi Disponibili 2025
 
 - **Ecobonus 65%**: Caldaie condensazione e pompe di calore
 - **Bonus Ristrutturazioni 50%**: Riscaldamento a pavimento

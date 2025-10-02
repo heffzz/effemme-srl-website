@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80">
+  <defs>
+    <linearGradient id="immergasGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E31E24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B71C1C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="80" fill="white"/>
+  
+  <!-- IMMERGAS Text -->
+  <text x="150" y="45" font-family="Arial, sans-serif" font-size="28" font-weight="bold" 
+        text-anchor="middle" fill="url(#immergasGradient)">IMMERGAS</text>
+  
+  <!-- Flame icon -->
+  <g transform="translate(20, 20)">
+    <path d="M20 40 C20 25, 10 15, 10 10 C10 5, 15 0, 20 5 C25 0, 30 5, 30 10 C30 15, 20 25, 20 40 Z" 
+          fill="url(#immergasGradient)" opacity="0.8"/>
+    <circle cx="20" cy="35" r="3" fill="#FF5722"/>
+  </g>
+  
+  <!-- Tagline -->
+  <text x="150" y="65" font-family="Arial, sans-serif" font-size="10" 
+        text-anchor="middle" fill="#666">Caldaie a Condensazione</text>
+</svg>

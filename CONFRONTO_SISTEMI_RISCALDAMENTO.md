@@ -192,7 +192,7 @@
 
 ---
 
-## INCENTIVI FISCALI 2024
+## INCENTIVI FISCALI 2025
 
 - **Caldaia a condensazione**: Detrazione 65% (Ecobonus)
 - **Pompa di calore**: Detrazione 65% (Ecobonus) + Conto Termico
@@ -200,5 +200,5 @@
 
 ---
 
-*Documento tecnico redatto per Effemme SRL - Dati aggiornati al 2024*
+*Documento tecnico redatto per Effemme SRL - Dati aggiornati al 2025*
 *Fonti: ENEA, GSE, UNI EN 14825, Direttiva ErP*

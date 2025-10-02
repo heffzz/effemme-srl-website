@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 
 export default function Contatti() {
   const phone = '3520030795'
-  const email = process.env.CONTACT_EMAIL || '{{EMAIL}}'
+  const email = process.env.CONTACT_EMAIL || 'info@effemmesrl.com'
   const whatsappNumber = '393520030795' // Formato internazionale per WhatsApp
   
   const [formData, setFormData] = useState({
@@ -70,7 +70,7 @@ export default function Contatti() {
     'Climatizzazione e Pompe di Calore',
     'Riscaldamento a Pavimento',
     'Riparazioni e Manutenzione',
-    'Pronto Intervento',
+    'Assistenza Tecnica',
     'Altro'
   ]
 

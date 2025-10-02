@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80">
+  <defs>
+    <linearGradient id="daikinGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0066CC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003D7A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="80" fill="white"/>
+  
+  <!-- DAIKIN Text -->
+  <text x="150" y="45" font-family="Arial, sans-serif" font-size="32" font-weight="bold" 
+        text-anchor="middle" fill="url(#daikinGradient)">DAIKIN</text>
+  
+  <!-- Air conditioning symbol -->
+  <g transform="translate(20, 25)">
+    <!-- Fan blades -->
+    <circle cx="15" cy="15" r="12" fill="none" stroke="url(#daikinGradient)" stroke-width="2"/>
+    <path d="M15 3 L15 27 M3 15 L27 15 M8 8 L22 22 M22 8 L8 22" 
+          stroke="url(#daikinGradient)" stroke-width="1.5"/>
+    <circle cx="15" cy="15" r="2" fill="url(#daikinGradient)"/>
+  </g>
+  
+  <!-- Tagline -->
+  <text x="150" y="65" font-family="Arial, sans-serif" font-size="10" 
+        text-anchor="middle" fill="#666">Air Conditioning & Heat Pumps</text>
+</svg>
